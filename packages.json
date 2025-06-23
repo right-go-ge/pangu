@@ -290,6 +290,12 @@
           "last_updated": "2025-06-06"
         }
       ]
+    },
+    {
+      "id": "测试",
+      "name": "测试",
+      "description": "测试",
+      "packages": []
     }
   ]
 }

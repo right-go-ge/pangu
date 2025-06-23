@@ -50,9 +50,5 @@
   {
     "url": "https://modelscope.cn/models/leisongde/ComfyUI/resolve/master/dependency_fix.json",
     "save_path": "json/dependency_fix.json"
-  },
-  {
-    "url": "https://modelscope.cn/models/leisongde/ComfyUI/resolve/master/ai_web123.json",
-    "save_path": "ai_web.json"
   }
 ]

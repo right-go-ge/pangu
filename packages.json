@@ -1,0 +1,295 @@
+{
+  "categories": [
+    {
+      "id": "flux",
+      "name": "Flux套件",
+      "description": "强大的图像生成和处理套件，包括文生图，图生图等官方模型及套件。",
+      "packages": [
+        {
+          "id": "flux-core",
+          "name": "文生图，图生图",
+          "version": "1.0",
+          "description": "文生图的基础包和模型，我们提供的节点需要下载对应的套件。",
+          "author": "FluxTeam",
+          "size": "23GB",
+          "last_updated": "2025-10-15",
+          "nodes": [
+            {
+              "id": "ComfyUI-Custom-Scripts",
+              "name": "ComfyUI-Custom-Scripts",
+              "description": "关于\nEnhancements & experiments for ComfyUI, mostly focusing on UI features\nComfyUI 的增强与实验，主要关注 UI 功能",
+              "github_url": "https://github.com/pythongosssss/ComfyUI-Custom-Scripts.git",
+              "branch": "main",
+              "install_path": "ai/ComfyUI/custom_nodes"
+            },
+            {
+              "id": "rgthree-comfy",
+              "name": "rgthree-comfy",
+              "description": "Making ComfyUI more comfortable.",
+              "github_url": "https://github.com/rgthree/rgthree-comfy.git",
+              "branch": "main",
+              "install_path": "ai/ComfyUI/custom_nodes"
+            },
+            {
+              "id": "ComfyUI-Easy-Use",
+              "name": "ComfyUI-Easy-Use",
+              "description": "To enhance the usability of ComfyUI, optimizations and integrations have been implemented for several commonly used nodes.",
+              "github_url": "https://github.com/yolain/ComfyUI-Easy-Use.git",
+              "branch": "main",
+              "install_path": "ai/ComfyUI/custom_nodes"
+            },
+            {
+              "id": "comfyui-get-meta",
+              "name": "comfyui-get-meta",
+              "description": "Get metadata from image.",
+              "github_url": "https://github.com/shinich39/comfyui-get-meta.git",
+              "branch": "main",
+              "install_path": "ai/ComfyUI/custom_nodes"
+            },
+            {
+              "id": "ComfyUI-LogicUtils",
+              "name": "ComfyUI-LogicUtils",
+              "description": "Logical Utils (compare, string, boolean operations) for ComfyUI",
+              "github_url": "https://github.com/aria1th/ComfyUI-LogicUtils.git",
+              "branch": "main",
+              "install_path": "ai/ComfyUI/custom_nodes"
+            },
+            {
+              "id": "comfyui-mixlab-nodes",
+              "name": "comfyui-mixlab-nodes",
+              "description": "3D, ScreenShareNode & FloatingVideoNode, SpeechRecognition & SpeechSynthesis, GPT, LoadImagesFromLocal, Layers, Other Nodes, ...",
+              "github_url": "https://github.com/shadowcz007/comfyui-mixlab-nodes.git",
+              "branch": "main",
+              "install_path": "ai/ComfyUI/custom_nodes"
+            },
+            {
+              "id": "ComfyUI-KJNodes",
+              "name": "ComfyUI-KJNodes",
+              "description": "为ComfyUI设计的各类提升用户体验的节点，主要是用于改善可用性的视觉相关内容。",
+              "github_url": "https://github.com/kijai/ComfyUI-KJNodes.git"
+            },
+            {
+              "id": "comfyui-art-venture",
+              "name": "comfyui-art-venture",
+              "description": "ArtVenture Custom Nodes",
+              "github_url": "https://github.com/sipherxyz/comfyui-art-venture.git"
+            }
+          ],
+          "models": [
+            {
+              "id": "flux-dev-1.0",
+              "name": "flux-dev.safetensors",
+              "description": "Flux.1 Dev的核心UNet模型",
+              "file_url": "https://modelscope.cn/models/MusePublic/489_ckpt_FLUX_1/resolve/2172/2172.safetensors",
+              "save_path": "ai/ComfyUI/models/unet/FLUX/",
+              "size": "24.14GB",
+              "file_urls": [
+                {
+                  "url": "https://modelscope.cn/models/MusePublic/489_ckpt_FLUX_1/resolve/2172/2172.safetensors",
+                  "name": "flux-dev.safetensors"
+                },
+                {
+                  "url": "https://modelscope.cn/models/black-forest-labs/FLUX.1-schnell/resolve/master/flux1-schnell.safetensors",
+                  "name": "flux1-schnell.safetensors"
+                },
+                {
+                  "url": "https://modelscope.cn/models/livehouse/flux1-dev-fp8/resolve/master/flux1-dev-fp8.safetensors",
+                  "name": "flux1-dev-fp8.safetensors"
+                }
+              ]
+            },
+            {
+              "id": "flux-vae",
+              "name": "ae.safetensors",
+              "description": "用于编码和解码潜在空间的VAE模型",
+              "file_url": "https://modelscope.cn/models/muse/flux_vae/resolve/master/ae.safetensors",
+              "save_path": "ai/ComfyUI/models/vae/flux/",
+              "size": "335MB",
+              "file_urls": [
+                {
+                  "url": "https://modelscope.cn/models/muse/flux_vae/resolve/master/ae.safetensors",
+                  "name": "ae.safetensors"
+                }
+              ]
+            },
+            {
+              "id": "flux_text_encoders",
+              "name": "T5XXL文本编码器",
+              "description": "从ModelScope自动采集",
+              "file_urls": [
+                {
+                  "url": "https://modelscope.cn/api/v1/models/comfyanonymous/flux_text_encoders/repo?Revision=master&FilePath=clip_l.safetensors",
+                  "name": "clip_l.safetensors"
+                },
+                {
+                  "url": "https://modelscope.cn/api/v1/models/comfyanonymous/flux_text_encoders/repo?Revision=master&FilePath=t5xxl_fp16.safetensors",
+                  "name": "t5xxl_fp16.safetensors"
+                },
+                {
+                  "url": "https://modelscope.cn/api/v1/models/comfyanonymous/flux_text_encoders/repo?Revision=master&FilePath=t5xxl_fp8_e4m3fn.safetensors",
+                  "name": "t5xxl_fp8_e4m3fn.safetensors"
+                },
+                {
+                  "url": "https://modelscope.cn/api/v1/models/comfyanonymous/flux_text_encoders/repo?Revision=master&FilePath=t5xxl_fp8_e4m3fn_scaled.safetensors",
+                  "name": "t5xxl_fp8_e4m3fn_scaled.safetensors"
+                }
+              ],
+              "save_path": "ai/ComfyUI/models/clip/flux/",
+              "size": "共4个文件",
+              "file_url": "https://modelscope.cn/api/v1/models/comfyanonymous/flux_text_encoders/repo?Revision=master&FilePath=clip_l.safetensors"
+            }
+          ]
+        },
+        {
+          "id": "loraxunlian",
+          "name": "lora训练基础一致性图片出图",
+          "description": "使用前需要先按照文生图和图生图依赖及节点\nlora训练基础一致性出图。\n姿势图下载地址\nhttps://modelscope.cn/models/leisongde/ComfyUI/resolve/master/manpose.png\nhttps://modelscope.cn/models/leisongde/ComfyUI/resolve/master/Pose_sheet.png\nhttps://modelscope.cn/models/leisongde/ComfyUI/resolve/master/Pose_sheet_v02%20(2).png\nhttps://modelscope.cn/models/leisongde/ComfyUI/resolve/master/womanpose.png",
+          "version": "1.0",
+          "nodes": [
+            {
+              "id": "ComfyUI-AdvancedLivePortrait",
+              "name": "ComfyUI-AdvancedLivePortrait",
+              "description": "ComfyUI-AdvancedLivePortrait",
+              "github_url": "https://github.com/PowerHouseMan/ComfyUI-AdvancedLivePortrait.git"
+            },
+            {
+              "id": "cg-use-everywhere",
+              "name": "cg-use-everywhere",
+              "description": "cg-use-everywhere",
+              "github_url": "https://github.com/chrisgoringe/cg-use-everywhere.git"
+            },
+            {
+              "id": "ComfyUI_UltimateSDUpscale",
+              "name": "ComfyUI_UltimateSDUpscale",
+              "description": "ComfyUI_UltimateSDUpscale",
+              "github_url": "https://github.com/ssitu/ComfyUI_UltimateSDUpscale.git"
+            },
+            {
+              "id": "ComfyUI-Impact-Subpack",
+              "name": "ComfyUI-Impact-Subpack",
+              "description": "ComfyUI-Impact-Subpack",
+              "github_url": "https://github.com/ltdrdata/ComfyUI-Impact-Subpack.git"
+            }
+          ],
+          "models": [
+            {
+              "id": "FLUX.1-dev-ControlNet-Union-Pro",
+              "name": "FLUX.1-dev-ControlNet-Union-Pro",
+              "description": "FLUX.1-dev-ControlNet-Union-Pro",
+              "file_urls": [
+                {
+                  "url": "https://modelscope.cn/models/AI-ModelScope/FLUX.1-dev-ControlNet-Union-Pro/resolve/master/diffusion_pytorch_model.safetensors",
+                  "name": "diffusion_pytorch_model.safetensors"
+                }
+              ],
+              "save_path": "ai/ComfyUI/models/controlnet/flux/Shakker-Labs/",
+              "size": "6.6GB",
+              "file_url": "https://modelscope.cn/models/AI-ModelScope/FLUX.1-dev-ControlNet-Union-Pro/resolve/master/diffusion_pytorch_model.safetensors"
+            },
+            {
+              "id": "4x-UltraSharp.pth",
+              "name": "4x-UltraSharp.pth",
+              "description": "4x-UltraSharp.pth",
+              "file_urls": [
+                {
+                  "url": "https://modelscope.cn/models/leisongde/comfyui_models/resolve/master/4x-UltraSharp.pth",
+                  "name": "4x-UltraSharp.pth"
+                }
+              ],
+              "save_path": "ai/ComfyUI/models/upscale_models/",
+              "size": "67M",
+              "file_url": "https://modelscope.cn/models/leisongde/comfyui_models/resolve/master/4x-UltraSharp.pth"
+            },
+            {
+              "id": "face_yolov8m.pt",
+              "name": "face_yolov8m.pt",
+              "description": "face_yolov8m.pt",
+              "file_urls": [
+                {
+                  "url": "https://modelscope.cn/models/leisongde/comfyui_models/resolve/master/face_yolov8m.pt",
+                  "name": "face_yolov8m.pt"
+                }
+              ],
+              "save_path": "ai/ComfyUI/models/ultralytics/bbox/",
+              "size": "60M",
+              "file_url": "https://modelscope.cn/models/leisongde/comfyui_models/resolve/master/face_yolov8m.pt"
+            }
+          ],
+          "author": "一人团队",
+          "size": "1GB",
+          "last_updated": "2025-06-06"
+        }
+      ]
+    },
+    {
+      "id": "jichu",
+      "name": "基础安装包",
+      "description": "comfyui基础包",
+      "packages": [
+        {
+          "id": "1",
+          "name": "基础功能包",
+          "description": "必选安装",
+          "version": "1.0",
+          "nodes": [
+            {
+              "id": "ImpactPack",
+              "name": "ImpactPack",
+              "description": "ImpactPack",
+              "github_url": "https://github.com/ltdrdata/ComfyUI-Impact-Pack.git"
+            },
+            {
+              "id": "AnimateDiff",
+              "name": "AnimateDiff",
+              "description": "AnimateDiff",
+              "github_url": "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved.git"
+            },
+            {
+              "id": "IPAdapter",
+              "name": "IPAdapter",
+              "description": "IPAdapter",
+              "github_url": "https://github.com/cubiq/ComfyUI_IPAdapter_plus.git"
+            },
+            {
+              "id": "VideoHelperSuite",
+              "name": "VideoHelperSuite",
+              "description": "VideoHelperSuite",
+              "github_url": "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite.git"
+            }
+          ],
+          "models": [
+            {
+              "id": "animatediff",
+              "name": "animatediff",
+              "description": "基础模型，必须安装",
+              "file_urls": [
+                {
+                  "url": "https://modelscope.cn/models/Shanghai_AI_Laboratory/animatediff/resolve/master/mm_sd_v14.ckpt",
+                  "name": "mm_sd_v14.ckpt"
+                },
+                {
+                  "url": "https://modelscope.cn/models/Shanghai_AI_Laboratory/animatediff/resolve/master/mm_sd_v15.ckpt",
+                  "name": "mm_sd_v15.ckpt"
+                },
+                {
+                  "url": "https://modelscope.cn/models/Shanghai_AI_Laboratory/animatediff/resolve/master/mm_sd_v15_v2.ckpt",
+                  "name": "mm_sd_v15_v2.ckpt"
+                },
+                {
+                  "url": "https://modelscope.cn/models/Shanghai_AI_Laboratory/animatediff/resolve/master/v3_sd15_adapter.ckpt",
+                  "name": "v3_sd15_adapter.ckpt"
+                }
+              ],
+              "save_path": "ai/ComfyUI/models/animatediff_models/",
+              "size": "6GB",
+              "file_url": "https://modelscope.cn/models/Shanghai_AI_Laboratory/animatediff/resolve/master/mm_sd_v14.ckpt"
+            }
+          ],
+          "author": "一人团队",
+          "size": "1.5GB",
+          "last_updated": "2025-06-06"
+        }
+      ]
+    }
+  ]
+}

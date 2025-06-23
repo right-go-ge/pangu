@@ -1,0 +1,64 @@
+{
+  "workflows": [
+    {
+      "name": "文生图",
+      "type": "AI绘图",
+      "description": "从文本提示生成图像，可以使用详细的文本描述创建自定义图像",
+      "category": "图像生成",
+      "icon": "text_to_image",
+      "url": "http://127.0.0.1:5555",
+      "workflow": {
+        "id": "text_to_image_workflow",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "图生图",
+      "type": "A绘图",
+      "description": "上传参考图像，生成基于该图像的变体或修改版本",
+      "category": "图像生成",
+      "icon": "image_to_image",
+      "url": "http://127.0.0.1:5556",
+      "workflow": {
+        "id": "image_to_image_workflow",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "随机三视图",
+      "type": "AI绘图",
+      "description": "训练lora所需要的人物一致性",
+      "category": "图像生成",
+      "icon": "text_to_image",
+      "url": "http://127.0.0.1:5557",
+      "workflow": {
+        "id": "Random_three_views",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "图片放大",
+      "type": "\tAI绘图",
+      "description": "图片放大",
+      "category": "图像生成",
+      "icon": "image_to_image",
+      "url": "http://127.0.0.1:5558",
+      "workflow": {
+        "id": "Magnified_facial_restoration",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "面部修复",
+      "type": "AI绘图",
+      "description": "面部修复",
+      "category": "图像生成",
+      "icon": "image_to_image",
+      "url": "http://127.0.0.1:5559",
+      "workflow": {
+        "id": "Facial_restoration",
+        "version": "1.0.0"
+      }
+    }
+  ]
+}

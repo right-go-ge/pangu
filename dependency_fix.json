@@ -1,0 +1,175 @@
+{
+  "description": "Dependency Fix Commands Configuration",
+  "version": "1.0",
+  "format": "powershell",
+  "commands": [
+    {
+      "id": "install_diffusers",
+      "name": "Install Diffusers",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI",
+      "command": ".\\comfyui\\python.exe -m pip install diffusers --user",
+      "description": "Install Diffusers library"
+    },
+    {
+      "id": "diffusers",
+      "name": "up diffusers",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI",
+      "command": ".\\comfyui\\python.exe -m pip install --upgrade diffusers ",
+      "description": "up diffusers"
+    },
+    {
+      "id": "ControlNetPreprocessors",
+      "name": "Install ControlNetPreprocessors",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI",
+      "command": ".\\comfyui\\python.exe -m pip install opencv-python",
+      "description": "Install ControlNetPreprocessors"
+    },
+    {
+      "id": "dghs-imgutils",
+      "name": "Install dghs-imgutils",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI",
+      "command": ".\\comfyui\\python.exe -m pip install dghs-imgutils[gpu] --user",
+      "description": "Install dghs-imgutils"
+    },
+    {
+      "id": "ultralytics",
+      "name": "Install ultralytics",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI",
+      "command": ".\\comfyui\\python.exe -m pip install ultralytics",
+      "description": "Install ultralytics"
+    },
+    {
+      "id": "sentencepiece",
+      "name": "Install sentencepiece",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI",
+      "command": ".\\comfyui\\python.exe -m pip install sentencepiece",
+      "description": "Install sentencepiece"
+    },
+    {
+      "id": "pandas",
+      "name": "Install pandas",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI",
+      "command": ".\\comfyui\\python.exe -m pip install pandas",
+      "description": "Install pandas"
+    },
+    {
+      "id": "setuptools",
+      "name": "install setuptools",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI",
+      "command": ".\\comfyui\\python.exe -m pip install setuptools",
+      "description": "install setuptools"
+    },
+    {
+      "id": "ImpactPack",
+      "name": "Install ImpactPack",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\ComfyUI-Impact-Pack",
+      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "description": "Install ImpactPack"
+    },
+    {
+      "id": "AnimateDiff",
+      "name": "install AnimateDiff",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\ComfyUI-AnimateDiff-Evolved",
+      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "description": "install AnimateDiff"
+    },
+    {
+      "id": "VideoHelperSuite",
+      "name": "install VideoHelperSuite",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\ComfyUI-VideoHelperSuite",
+      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "description": "install VideoHelperSuite"
+    },
+    {
+      "id": "comfyui-advancedliveportrait",
+      "name": "Install comfyui-advancedliveportrait",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\comfyui-advancedliveportrait",
+      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "description": "Install comfyui-advancedliveportrait"
+    },
+    {
+      "id": "comfyui-art-venture",
+      "name": "comfyui-art-venture",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\comfyui-art-venture",
+      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "description": "comfyui-art-venture"
+    },
+    {
+      "id": "comfyui-easy-use",
+      "name": "comfyui-easy-use",
+      "enabled": true,
+      "working_directory": "ai\\ComfyUI\\custom_nodes\\comfyui-easy-use",
+      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "description": "comfyui-easy-use"
+    },
+    {
+      "id": "comfyui-impact-subpack",
+      "name": "comfyui-impact-subpack",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\comfyui-impact-subpack",
+      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "description": "comfyui-impact-subpack"
+    },
+    {
+      "id": "comfyui-kjnodes",
+      "name": "comfyui-kjnodes",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\comfyui-kjnodes",
+      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "description": "comfyui-kjnodes"
+    },
+    {
+      "id": "ComfyUI-Manager",
+      "name": "ComfyUI-Manager",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\ComfyUI-Manager",
+      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "description": "ComfyUI-Manager"
+    },
+    {
+      "id": "comfyui-mixlab-nodes",
+      "name": "comfyui-mixlab-nodes",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\comfyui-mixlab-nodes",
+      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "description": "comfyui-mixlab-nodes"
+    },
+    {
+      "id": "rgthree-comfy",
+      "name": "rgthree-comfy",
+      "enabled": true,
+      "working_directory": "ai\\ComfyUI\\custom_nodes\\rgthree-comfy",
+      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "description": "rgthree-comfy"
+    },
+    {
+      "id": "sacremoses",
+      "name": "sacremoses",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI",
+      "command": ".\\comfyui\\python.exe -m pip install sacremoses",
+      "description": "sacremoses"
+    }
+  ],
+  "settings": {
+    "wait_command": "Read-Host -Prompt \"Press Enter to continue...\"",
+    "environment_variables": {
+      "PYTHONIOENCODING": "utf-8"
+    },
+    "show_console": true,
+    "error_action": "Stop"
+  }
+}

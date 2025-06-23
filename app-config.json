@@ -1,0 +1,53 @@
+{
+  "应用信息": {
+    "name": "一人团队 (AI全能助手)",
+    "version": "1.1.1",
+    "downloadUrl": "https://github.com/right-go-ge/oneperson/releases/download/v1.1.1/OnePersonTeam-1.1.1-x64-setup.exe",
+    "tagline": "导演椅上的独角戏，『一人团队』把脑内剧场变成4K现场",
+    "summary": "专业级AI工具集合，让创作者一人即可完成团队工作流程",
+    "description": "一人团队是专为独立创作者、自由职业者和小型工作室设计的AI全能助手平台。通过整合多种前沿AI技术，帮助您高效处理文本、图像、音频和视频内容，实现一人操作、团队级输出——无论您是内容创作者、设计师、营销人员还是项目管理者，都能显著提升工作效率。"
+  },
+  "功能特性": {
+    "aiContent": {
+      "title": "AI内容创作",
+      "description": "智能文案生成，自动适配多种场景（营销文案/社交媒体/产品描述）",
+      "example": "输入简单提示词，一键生成完整营销方案"
+    },
+    "aiImage": {
+      "title": "AI图像处理",
+      "description": "一键图像优化、风格转换、智能抠图和图像生成",
+      "example": "支持批量处理，节省90%图片编辑时间"
+    },
+    "aiAudioVideo": {
+      "title": "AI音视频制作",
+      "description": "语音转文字/文字转语音，自动字幕生成",
+      "example": "视频智能剪辑，一键生成精彩集锦"
+    },
+    "aiProjectManagement": {
+      "title": "AI项目管理",
+      "description": "智能任务规划与进度跟踪",
+      "example": "自动资源整合与工作流优化"
+    }
+  },
+  "系统需求": {
+    "os": [
+      "Windows 11"
+    ],
+    "memory": "32GB 内存及以上设备获得最佳体验",
+    "gpu": "16G独立显卡可加速AI处理，推荐4070ti以上"
+  },
+  "更新历史": {
+    "date": "2025-6-19",
+    "version": "1.1.1",
+    "newFeatures": [
+      "待续"
+    ],
+    "performance": [
+      "待续"
+    ],
+    "bugfixes": [
+      "修复部分模板兼容性问题",
+      "优化用户界面响应速度"
+    ]
+  }
+}

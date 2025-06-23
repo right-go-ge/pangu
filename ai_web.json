@@ -1,0 +1,350 @@
+[
+  {
+    "id": "deepseek",
+    "name": "deepseek",
+    "url": "https://chat.deepseek.com/",
+    "logo": "https://chat.deepseek.com/favicon.svg"
+  },
+  {
+    "id": "doubao",
+    "name": "豆包",
+    "url": "https://www.doubao.com/chat/",
+    "logo": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/web/logo-icon.png"
+  },
+  {
+    "id": "zhipu",
+    "name": "智谱清言",
+    "logo": "https://chatglm.cn/img/icons/favicon.svg",
+    "url": "https://chatglm.cn/main/alltoolsdetail"
+  },
+  {
+    "id": "wanzhi",
+    "name": "万知",
+    "url": "https://www.wanzhi.com/",
+    "logo": "https://www.wanzhi.com/favicon.svg"
+  },
+  {
+    "id": "gpt",
+    "name": "ChatGPT",
+    "url": "https://chatgpt.com/",
+    "logo": "https://openai.com/favicon.svg"
+  },
+  {
+    "id": "runway",
+    "name": "runway",
+    "url": "https://runwayml.com/",
+    "logo": "https://runwayml.com/icon.png"
+  },
+  {
+    "id": "midjourney",
+    "name": "midjourney",
+    "url": "https://www.midjourney.com/",
+    "logo": "https://midjourney.zendesk.com/hc/theming_assets/01JKCD6MRT350RFX8YKYJ3JMJN"
+  },
+  {
+    "id": "gemini",
+    "name": "gemini",
+    "url": "https://gemini.google.com/",
+    "logo": "https://www.gstatic.com/marketing-cms/assets/images/d5/dc/cfe9ce8b4425b410b49b7f2dd3f3/g.webp=s96-fcrop64=1,00000000ffffffff-rw"
+  },
+  {
+    "id": "siliconflow",
+    "name": "硅基流动",
+    "url": "https://cloud.siliconflow.cn/playground/chat",
+    "logo": "https://account.siliconflow.cn/favicon.ico"
+  },
+  {
+    "id": "moonshot",
+    "name": "kimi",
+    "url": "https://kimi.moonshot.cn/",
+    "logo": "https://statics.moonshot.cn/kimi-web-seo/assets/kimi-logo-BCnxCuPX.png"
+  },
+  {
+    "id": "baichuan-ai.com",
+    "name": "百小应",
+    "url": "https://ying.baichuan-ai.com/chat",
+    "logo": "https://cdn.baichuan-ai.com/build/_next/static/media/logo.ce66885d.png"
+  },
+  {
+    "id": "tongyi",
+    "name": "通义千问",
+    "url": "https://tongyi.aliyun.com/qianwen/",
+    "logo": "https://qianwen.alicdn.com/upload/20250227/08806d6fa1414bc5c032c0e1b289be78/be69cb7e710d42a69c3534a5bb5f8443/cropped-1740638844624.png"
+  },
+  {
+    "id": "yuewen",
+    "name": "阶跃",
+    "url": "https://yuewen.cn/chats/new",
+    "logo": "https://yuewen.cn/img/apple-icon.png"
+  },
+  {
+    "id": "cici",
+    "name": "cici",
+    "url": "https://www.cici.com/chat/",
+    "logo": "https://sf-flow-web-cdn.ciciaicdn.com/obj/ocean-flow-web-sg/cici_web/static/image/avatar-head-cici.c756e191.png"
+  },
+  {
+    "id": "hailuoai",
+    "name": "海螺",
+    "url": "https://hailuoai.com/",
+    "logo": " https://cdn.hailuoai.com/hailuo-video-web/public_assets/favicon.png"
+  },
+  {
+    "id": "groq",
+    "name": "Groq",
+    "url": "https://chat.groq.com/",
+    "logo": " https://chat.groq.com/favicon.ico"
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "url": "https://claude.ai/",
+    "logo": " https://claude.ai/images/icon-512x512.png"
+  },
+  {
+    "id": "yiyan",
+    "name": "文心一言",
+    "url": "https://yiyan.baidu.com/",
+    "logo": "https://ebui-cdn.cdn.bcebos.com/yiyan-logo.png"
+  },
+  {
+    "id": "chat.baidu",
+    "name": "百度AI搜索",
+    "url": "https://chat.baidu.com/",
+    "logo": "https://www.baidu.com/img/flexible/logo/pc/result@2.png"
+  },
+  {
+    "id": "yuanbao",
+    "name": "元宝",
+    "url": "https://yuanbao.tencent.com/chat",
+    "logo": "https://cdn-bot.hunyuan.tencent.com/logo-v2.png"
+  },
+  {
+    "id": "sensetime",
+    "name": "商量",
+    "url": "https://chat.sensetime.com/wb/chat",
+    "logo": " https://sensechat-ml.aoss.cn-sh-01.sensecoreapi-oss.cn/chat/prod/wb/favicon_ml.png"
+  },
+  {
+    "id": "xinghuo",
+    "name": "讯飞星火",
+    "url": "https://xinghuo.xfyun.cn/desk",
+    "logo": "https://xinghuo.xfyun.cn/spark-icon.ico"
+  },
+  {
+    "id": "metaso",
+    "name": "秘塔",
+    "url": "https://metaso.cn/",
+    "logo": "https://metaso.cn/android-chrome-192x192.png"
+  },
+  {
+    "id": "poe",
+    "name": "Poe",
+    "url": "https://poe.com",
+    "logo": "https://psc2.cf2.poecdn.net/assets/favicon.svg"
+  },
+  {
+    "id": "perplexity",
+    "name": "perplexity",
+    "url": "https://www.perplexity.ai/",
+    "logo": "https://www.perplexity.ai/favicon.ico"
+  },
+  {
+    "id": "devv",
+    "name": "devv",
+    "url": "https://devv.ai/",
+    "logo": "https://devv.ai/icon-192x192.png"
+  },
+  {
+    "id": "tiangong",
+    "name": "天工AI",
+    "url": "https://www.tiangong.cn/",
+    "logo": " https://static.tiangong.cn/prod-skywork-web-bundle/favicon.ico"
+  },
+  {
+    "id": "huggingface_chat",
+    "name": "huggingface_chat",
+    "url": "https://huggingface.co/chat/",
+    "logo": "https://huggingface.co/chat/huggingchat/icon-144x144.png"
+  },
+  {
+    "id": "felo",
+    "name": "felo",
+    "url": "https://felo.ai/",
+    "logo": " https://felo.ai/icon.svg"
+  },
+  {
+    "id": "duck",
+    "name": "duck",
+    "url": "https://duck.ai",
+    "logo": "https://duckduckgo.com/assets/logo_header.v109.svg"
+  },
+  {
+    "id": "bolt",
+    "name": "bolt",
+    "url": "https://bolt.new/",
+    "logo": "https://bolt.new/static/favicon.svg"
+  },
+  {
+    "id": "bot",
+    "name": "纳米",
+    "url": "https://bot.n.cn/",
+    "logo": "https://p0.ssl.qhimg.com/t110b9a930128e017dbf7c0112d.png"
+  },
+  {
+    "id": "thinkany",
+    "name": "thinkany",
+    "url": "https://thinkany.ai/",
+    "logo": " https://thinkany.ai/favicon.ico"
+  },
+  {
+    "id": "hika",
+    "name": "hika",
+    "url": "https://hika.fyi/",
+    "logo": " https://hika.fyi/icon.png"
+  },
+  {
+    "id": "genspark",
+    "name": "genspark",
+    "url": "https://www.genspark.ai/",
+    "logo": "https://www.genspark.ai/favicon.ico"
+  },
+  {
+    "id": "grok",
+    "name": "grok",
+    "url": "https://grok.com",
+    "logo": " https://grok.com/images/favicon-dark.png"
+  },
+  {
+    "id": "qwenlm",
+    "name": "千问",
+    "url": "https://qwenlm.ai/",
+    "logo": " https://assets.alicdn.com/g/qwenweb/qwen-webui-fe/0.0.101/static/favicon.png"
+  },
+  {
+    "id": "flowith",
+    "name": "flowith",
+    "url": "https://www.flowith.io/",
+    "logo": "https://flowith.io/favicon.ico"
+  },
+  {
+    "id": "xiaoyi",
+    "name": "小艺",
+    "url": "https://xiaoyi.huawei.com/chat/",
+    "logo": "https://search-render-drcn.dbankcdn.com/celia/v1/favicon-transparent.ico"
+  },
+  {
+    "id": "notebooklm",
+    "name": "notebooklm",
+    "url": "https://notebooklm.google.com/",
+    "logo": "https://notebooklm.google.com/_/static/branding/v5/light_mode/icon.svg"
+  },
+  {
+    "id": "coze",
+    "name": "Coze",
+    "url": "https://www.coze.com/space",
+    "logo": " https://sf-coze-web-cdn.coze.com/obj/coze-web-sg/obric/coze/favicon.1970.png"
+  },
+  {
+    "id": "dify",
+    "name": "dify",
+    "url": "https://cloud.dify.ai/apps",
+    "logo": "https://cloud.dify.ai/favicon.ico"
+  },
+  {
+    "id": "copilot.wps",
+    "name": "WPS灵犀",
+    "url": "https://copilot.wps.cn/",
+    "logo": " https://account.wps.cn/favicon.ico"
+  },
+  {
+    "id": "mistral",
+    "name": "LeChat",
+    "url": "https://chat.mistral.ai/chat",
+    "logo": " https://chat.mistral.ai/pwa-icon-192x192.png"
+  },
+  {
+    "id": "abacus",
+    "name": "abacus",
+    "url": "https://apps.abacus.ai/chatllm",
+    "logo": "https://abacus.ai/static/imgs/hp_chat_llm.webp"
+  },
+  {
+    "id": "lambda",
+    "name": "Lambda Chat",
+    "url": "https://lambda.chat/",
+    "logo": " https://lambda.chat/lambda/logo.svg"
+  },
+  {
+    "id": "monica",
+    "name": "monica",
+    "url": "https://monica.im/home",
+    "logo": " https://monica.im/logo.png"
+  },
+  {
+    "id": "you",
+    "name": "you",
+    "url": "https://you.com/",
+    "logo": "https://you.com/favicon_ydc/favicon-32x32.png"
+  },
+  {
+    "id": "zhida",
+    "name": "知乎直答",
+    "url": "https://zhida.zhihu.com/",
+    "logo": "https://pica.zhimg.com/v2-793ea13f76a2bd45599c1849cad804b5.png"
+  },
+  {
+    "id": "dangbei",
+    "name": "当贝AI",
+    "url": "https://ai.dangbei.com/",
+    "logo": " https://ai.dangbei.com/logo.svg"
+  },
+  {
+    "id": "zai",
+    "name": "z.ai",
+    "url": "https://chat.z.ai/",
+    "logo": "https://z-cdn.chatglm.cn/z-ai/frontend/static/logo.png"
+  },
+  {
+    "id": "claude",
+    "name": "claude",
+    "url": "https://claude.ai/new",
+    "logo": "https://claude.ai/favicon.ico"
+  },
+  {
+    "id": "modelscope",
+    "name": "魔塔图片生成",
+    "url": "https://modelscope.cn/aigc/imageGeneration",
+    "logo": "data:image/jpeg;base64,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"
+  },
+  {
+    "id": "modelscope_videoGeneration",
+    "name": "魔塔视频生成",
+    "url": "https://modelscope.cn/aigc/videoGeneration",
+    "logo": "data:image/jpeg;base64,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"
+  },
+  {
+    "id": "jimeng",
+    "name": "即梦",
+    "url": "https://jimeng.jianying.com/",
+    "logo": "https://lf3-lv-buz.vlabstatic.com/obj/image-lvweb-buz/growth/jimeng/landing_page/static/image/dreamina-mini-2x.fc4e908d.png"
+  },
+  {
+    "id": "dreamina",
+    "name": "即梦国际版",
+    "url": "https://dreamina.capcut.com/ai-tool/home/",
+    "logo": "https://sf16-web-tos-buz.capcutstatic.com/obj/capcut-web-buz-sg/common/images/dreamina-v3.ico"
+  },
+  {
+    "id": "youtube",
+    "name": "油管视频拉取",
+    "url": "https://youtube.iiilab.com/",
+    "logo": "https://youtube.iiilab.com/_next/image?url=%2Fimages%2Flogo.png&w=128&q=75"
+  },
+  {
+    "id": "keling",
+    "name": "可灵",
+    "url": "https://app.klingai.com/cn/",
+    "logo": " https://p2-kling.klingai.com/kcdn/cdn-kcdn112452/kling-web-aio-prod_aio/favicon.ico?v=1"
+  }
+]

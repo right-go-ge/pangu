@@ -1,0 +1,17 @@
+{
+  "description": "ComfyUI启动命令配置",
+  "version": "1.0",
+  "commands": [
+    {
+      "id": "main_app",
+      "name": "图像类",
+      "enabled": true,
+      "command": ".\\gzl\\python.exe app.py",
+      "description": "flux图像类相关工作流"
+    }
+  ],
+  "settings": {
+    "wait_command": "pause",
+    "show_console": true
+  }
+}

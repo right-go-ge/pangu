@@ -1,0 +1,1893 @@
+[
+  {
+    "name": "戰國_二次元风（一丹一世界）",
+    "coverImage": "https://www.modelscope.cn/models/smallririri/SMalL_rIRiri-jadetablet_majicFlus/resolve/master/_cover_images_/bd178b8d-c1ed-42fd-8e3a-114c4e8679c1.png",
+    "downloadUrl": "https://modelscope.cn/models/smallririri/SMalL_rIRiri-jadetablet_majicFlus/resolve/v1.0/flux-zg-GJ .safetensors",
+    "pageUrl": "https://modelscope.cn/models/smallririri/SMalL_rIRiri-jadetablet_majicFlus/files",
+    "description": "简介：\n低权重使用 主要效果为脸部特化和滤镜增强\n权重越高 整体画面的风格会越往二次元转变\n过渡效果较平滑 可根据个人喜好增减权重值",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\flux-zg-GJ.safetensors",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://www.modelscope.cn/models/smallririri/SMalL_rIRiri-jadetablet_majicFlus/resolve/master/_cover_images_/4c6dc3b1-81dc-483a-acbe-af21bf0ff5a9.png",
+      "https://www.modelscope.cn/models/smallririri/SMalL_rIRiri-jadetablet_majicFlus/resolve/master/_cover_images_/a4feed6b-a02a-4b76-a240-628ffb127ef8.png",
+      "https://www.modelscope.cn/models/smallririri/SMalL_rIRiri-jadetablet_majicFlus/resolve/master/_cover_images_/5b1cc449-e93f-4da7-b5d0-e8837f016714.png"
+    ],
+    "createdAt": "2025-06-06T03:37:55.095Z"
+  },
+  {
+    "name": "MAJICFLUS_麦橘超缸",
+    "coverImage": "https://www.modelscope.cn/models/ASHUOA/Stellardream/resolve/master/_cover_images_/34ec2db7-9908-4496-a706-44012cad0370.png",
+    "downloadUrl": "https://modelscope.cn/models/ASHUOA/Stellardream/resolve/v1.0/MAJICFLUS_麦橘超缸.safetensors",
+    "pageUrl": "https://modelscope.cn/models/ASHUOA/Stellardream/files",
+    "description": "简介：\n低权重使用 主要效果为脸部特化和滤镜增强\n权重越高 整体画面的风格会越往二次元转变\n过渡效果较平滑 可根据个人喜好增减权重值",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\MAJICFLUS_麦橘超缸.safetensors",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://www.modelscope.cn/models/ASHUOA/Stellardream/resolve/master/_cover_images_/50a858c0-ac67-40bd-a0d8-c381edf753d6.png",
+      "https://www.modelscope.cn/models/ASHUOA/Stellardream/resolve/master/_cover_images_/512e0f0b-d559-4afb-a97c-cfd1b4816fbd.png",
+      "https://www.modelscope.cn/models/ASHUOA/Stellardream/resolve/master/_cover_images_/3c74a8ae-9379-4872-8d24-d6d70c522565.png",
+      "https://www.modelscope.cn/models/ASHUOA/Stellardream/resolve/master/_cover_images_/52b28b30-aafd-41af-ab2e-f7acc59d6d74.png"
+    ],
+    "createdAt": "2025-06-06T03:39:22.051Z"
+  },
+  {
+    "name": "麦橘超然",
+    "fullName": "MAILAND/majicflus_v1",
+    "coverImage": "https://www.modelscope.cn/models/MAILAND/majicflus_v1/resolve/master/_cover_images_/cover.png",
+    "downloadUrl": "https://modelscope.cn/models/MAILAND/majicflus_v1/resolve/master/majicflus_v134.safetensors",
+    "pageUrl": "https://modelscope.cn/models/MAILAND/majicflus_v1",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://www.modelscope.cn/models/MAILAND/majicflus_v1/resolve/master/_cover_images_/cover.png",
+      "https://resouces.modelscope.cn/cover-images/71a35bd4-b64c-4be7-b101-a8645ac86718.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/28bc1375-ba90-44e0-b1bd-80b2fe0af60c.webp?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/a2692778-b6c1-44eb-838b-3973e9ba8987.webp?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/e174df4d-0d2b-48b0-91a5-d8571e8ccda7.webp?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 麦橘超然",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\majicflus_v134.safetensors",
+    "createdAt": "2025-06-10T09:16:52.022Z"
+  },
+  {
+    "name": "LOCOmuchen/Majicflus_jingji",
+    "fullName": "MAILAND/Majicflus_jingji",
+    "coverImage": "https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/MTczODI3Mzc4MTc4OGRkZjlmMjRj.jpg?Expires=2671393782&OSSAccessKeyId=LTAI5tFUGCdfUhHbnHuDasWd&Signature=egYw7ScNRs694S8sv78BXUWsS5M%3D",
+    "downloadUrl": "https://modelscope.cn/models/MAILAND/Majicflus_jingji/resolve/master/12.safetensors",
+    "pageUrl": "https://modelscope.cn/models/MAILAND/Majicflus_jingji",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/MTczODI3Mzc4MTc4OGRkZjlmMjRj.jpg?Expires=2671393782&OSSAccessKeyId=LTAI5tFUGCdfUhHbnHuDasWd&Signature=egYw7ScNRs694S8sv78BXUWsS5M%3D"
+    ],
+    "description": " LOCOmuchen/Majicflus_jingji",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\12.safetensors",
+    "createdAt": "2025-06-10T09:16:52.023Z"
+  },
+  {
+    "name": "LOCO-FLUX-质感人像",
+    "fullName": "MAILAND/loco-flux-2.5",
+    "coverImage": "https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/MTczODgxMTcyMzY2MGU1ZDg4Nzhl.jpg?Expires=2671931724&OSSAccessKeyId=LTAI5tFUGCdfUhHbnHuDasWd&Signature=1r%2BFcZW6pUFTfd1RrS375dQIHkg%3D",
+    "downloadUrl": "https://modelscope.cn/models/MAILAND/loco-flux-2.5/resolve/master/LOCO-Flux-3.0.safetensors",
+    "pageUrl": "https://modelscope.cn/models/MAILAND/loco-flux-2.5",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/MTczODgxMTcyMzY2MGU1ZDg4Nzhl.jpg?Expires=2671931724&OSSAccessKeyId=LTAI5tFUGCdfUhHbnHuDasWd&Signature=1r%2BFcZW6pUFTfd1RrS375dQIHkg%3D"
+    ],
+    "description": " LOCO-FLUX-质感人像",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\LOCO-Flux-3.0.safetensors",
+    "createdAt": "2025-06-10T09:16:52.023Z"
+  },
+  {
+    "name": "LOCOmuchen/《麦橘Maria》Majicflus",
+    "fullName": "MAILAND/Merjic-Maria",
+    "coverImage": "https://www.modelscope.cn/models/MAILAND/Merjic-Maria/resolve/master/_cover_images_/20250105033030_12.png",
+    "downloadUrl": "https://modelscope.cn/models/MAILAND/Merjic-Maria/resolve/master/12.safetensors",
+    "pageUrl": "https://modelscope.cn/models/MAILAND/Merjic-Maria",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://www.modelscope.cn/models/MAILAND/Merjic-Maria/resolve/master/_cover_images_/20250105033030_12.png"
+    ],
+    "description": " LOCOmuchen/《麦橘Maria》Majicflus",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\12.safetensors",
+    "createdAt": "2025-06-10T09:16:52.023Z"
+  },
+  {
+    "name": "LOCOmuchen/Magicflus_huafeihua",
+    "fullName": "MAILAND/Magicflus_huafeihua",
+    "coverImage": "https://www.modelscope.cn/models/MAILAND/Magicflus_huafeihua/resolve/master/_cover_images_/20250111130857_12.png",
+    "downloadUrl": "https://modelscope.cn/models/MAILAND/Magicflus_huafeihua/resolve/master/12.safetensors",
+    "pageUrl": "https://modelscope.cn/models/MAILAND/Magicflus_huafeihua",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://www.modelscope.cn/models/MAILAND/Magicflus_huafeihua/resolve/master/_cover_images_/20250111130857_12.png"
+    ],
+    "description": " LOCOmuchen/Magicflus_huafeihua",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\12.safetensors",
+    "createdAt": "2025-06-10T09:16:52.023Z"
+  },
+  {
+    "name": "LOCOmuchen/《麦橘人鱼》Majicflus",
+    "fullName": "MAILAND/MergicMermaid",
+    "coverImage": "https://www.modelscope.cn/models/MAILAND/MergicMermaid/resolve/master/_cover_images_/20250104212948_12.png",
+    "downloadUrl": "https://modelscope.cn/models/MAILAND/MergicMermaid/resolve/master/12.safetensors",
+    "pageUrl": "https://modelscope.cn/models/MAILAND/MergicMermaid",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://www.modelscope.cn/models/MAILAND/MergicMermaid/resolve/master/_cover_images_/20250104212948_12.png"
+    ],
+    "description": " LOCOmuchen/《麦橘人鱼》Majicflus",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\12.safetensors",
+    "createdAt": "2025-06-10T09:16:52.023Z"
+  },
+  {
+    "name": "LOCOmuchen/Majicflus_phone",
+    "fullName": "MAILAND/Majicflus_phone",
+    "coverImage": "https://www.modelscope.cn/models/MAILAND/Majicflus_phone/resolve/master/_cover_images_/20250111190501_12.png",
+    "downloadUrl": "https://modelscope.cn/models/MAILAND/Majicflus_phone/resolve/master/12.safetensors",
+    "pageUrl": "https://modelscope.cn/models/MAILAND/Majicflus_phone",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://www.modelscope.cn/models/MAILAND/Majicflus_phone/resolve/master/_cover_images_/20250111190501_12.png"
+    ],
+    "description": " LOCOmuchen/Majicflus_phone",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\12.safetensors",
+    "createdAt": "2025-06-10T09:16:52.023Z"
+  },
+  {
+    "name": "LOCOmuchen/《麦橘复古少女Irene》Majicflus",
+    "fullName": "MAILAND/MagicIrene",
+    "coverImage": "https://www.modelscope.cn/models/MAILAND/MagicIrene/resolve/master/_cover_images_/20250106042121_12.png",
+    "downloadUrl": "https://modelscope.cn/models/MAILAND/MagicIrene/resolve/master/12.safetensors",
+    "pageUrl": "https://modelscope.cn/models/MAILAND/MagicIrene",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://www.modelscope.cn/models/MAILAND/MagicIrene/resolve/master/_cover_images_/20250106042121_12.png"
+    ],
+    "description": " LOCOmuchen/《麦橘复古少女Irene》Majicflus",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\12.safetensors",
+    "createdAt": "2025-06-10T09:16:52.023Z"
+  },
+  {
+    "name": "LOCOmuchen/《麦橘超Bling》Majicflus",
+    "fullName": "MAILAND/MergicSuperBling",
+    "coverImage": "https://www.modelscope.cn/models/MAILAND/MergicSuperBling/resolve/master/_cover_images_/20250104203800_12.png",
+    "downloadUrl": "https://modelscope.cn/models/MAILAND/MergicSuperBling/resolve/master/12.safetensors",
+    "pageUrl": "https://modelscope.cn/models/MAILAND/MergicSuperBling",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://www.modelscope.cn/models/MAILAND/MergicSuperBling/resolve/master/_cover_images_/20250104203800_12.png"
+    ],
+    "description": " LOCOmuchen/《麦橘超Bling》Majicflus",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\12.safetensors",
+    "createdAt": "2025-06-10T09:16:52.023Z"
+  },
+  {
+    "name": "LOCOmuchen/《麦橘Digitalfashion》Majicflus",
+    "fullName": "MAILAND/Mergic_Digitalfashion",
+    "coverImage": "https://www.modelscope.cn/models/MAILAND/Mergic_Digitalfashion/resolve/master/_cover_images_/20250105085423_12.png",
+    "downloadUrl": "https://modelscope.cn/models/MAILAND/Mergic_Digitalfashion/resolve/master/12.safetensors",
+    "pageUrl": "https://modelscope.cn/models/MAILAND/Mergic_Digitalfashion",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://www.modelscope.cn/models/MAILAND/Mergic_Digitalfashion/resolve/master/_cover_images_/20250105085423_12.png"
+    ],
+    "description": " LOCOmuchen/《麦橘Digitalfashion》Majicflus",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\12.safetensors",
+    "createdAt": "2025-06-10T09:16:52.023Z"
+  },
+  {
+    "name": "LOCOmuchen/《麦橘超boy》Majicflus",
+    "fullName": "MAILAND/Merjic-boy2",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/2010ec46-10da-49f0-b3e2-982393faa9dd.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/MAILAND/Merjic-boy2/resolve/master/10.safetensors",
+    "pageUrl": "https://modelscope.cn/models/MAILAND/Merjic-boy2",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/2010ec46-10da-49f0-b3e2-982393faa9dd.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " LOCOmuchen/《麦橘超boy》Majicflus",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\10.safetensors",
+    "createdAt": "2025-06-10T09:16:52.023Z"
+  },
+  {
+    "name": "LOCOmuchen/《麦橘青衣》Majicflus",
+    "fullName": "MAILAND/Merjicqingyi",
+    "coverImage": "https://www.modelscope.cn/models/MAILAND/Merjicqingyi/resolve/master/_cover_images_/20250106171052_10.png",
+    "downloadUrl": "https://modelscope.cn/models/MAILAND/Merjicqingyi/resolve/master/10.safetensors",
+    "pageUrl": "https://modelscope.cn/models/MAILAND/Merjicqingyi",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://www.modelscope.cn/models/MAILAND/Merjicqingyi/resolve/master/_cover_images_/20250106171052_10.png"
+    ],
+    "description": " LOCOmuchen/《麦橘青衣》Majicflus",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\10.safetensors",
+    "createdAt": "2025-06-10T09:16:52.023Z"
+  },
+  {
+    "name": "麦橘超复古 MajicFlus 适配",
+    "fullName": "MAILAND/Retro_70s_MajicFlus",
+    "coverImage": "https://www.modelscope.cn/models/MAILAND/Retro_70s_MajicFlus/resolve/master/_cover_images_/c2a0f619-7397-434c-b1c2-3b191701787e.jpg",
+    "downloadUrl": "https://modelscope.cn/models/MAILAND/Retro_70s_MajicFlus/resolve/master/Retro_70s_MajicFlux.safetensors",
+    "pageUrl": "https://modelscope.cn/models/MAILAND/Retro_70s_MajicFlus",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://www.modelscope.cn/models/MAILAND/Retro_70s_MajicFlus/resolve/master/_cover_images_/c2a0f619-7397-434c-b1c2-3b191701787e.jpg",
+      "https://www.modelscope.cn/models/MAILAND/Retro_70s_MajicFlus/resolve/master/_cover_images_/d07bfd5e-3fa2-4992-b8dc-a757f9dc2966.png",
+      "https://www.modelscope.cn/models/MAILAND/Retro_70s_MajicFlus/resolve/master/_cover_images_/1c382b4e-bc69-48cc-83a9-13463970e803.png",
+      "https://www.modelscope.cn/models/MAILAND/Retro_70s_MajicFlus/resolve/master/_cover_images_/9524b63e-a019-43a0-a85a-d0688f43c0c1.png",
+      "https://www.modelscope.cn/models/MAILAND/Retro_70s_MajicFlus/resolve/master/_cover_images_/818b7d56-cf63-44f0-8390-0b38e1601df6.png"
+    ],
+    "description": " 麦橘超复古 MajicFlus 适配",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\Retro_70s_MajicFlux.safetensors",
+    "createdAt": "2025-06-10T09:16:52.023Z"
+  },
+  {
+    "name": "merjic/Billy_Dinh",
+    "fullName": "MAILAND/Billy_Dinh",
+    "coverImage": "https://www.modelscope.cn/models/MAILAND/Billy_Dinh/resolve/master/_cover_images_/20250102092109_20.png",
+    "downloadUrl": "https://modelscope.cn/models/MAILAND/Billy_Dinh/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/MAILAND/Billy_Dinh",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://www.modelscope.cn/models/MAILAND/Billy_Dinh/resolve/master/_cover_images_/20250102092109_20.png"
+    ],
+    "description": " merjic/Billy_Dinh",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:16:52.023Z"
+  },
+  {
+    "name": "LOCOmuchen/《麦橘梦璃》Majicflus",
+    "fullName": "MAILAND/Merjicmengli",
+    "coverImage": "https://www.modelscope.cn/models/MAILAND/Merjicmengli/resolve/master/_cover_images_/20250104134542_12.png",
+    "downloadUrl": "https://modelscope.cn/models/MAILAND/Merjicmengli/resolve/master/12.safetensors",
+    "pageUrl": "https://modelscope.cn/models/MAILAND/Merjicmengli",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://www.modelscope.cn/models/MAILAND/Merjicmengli/resolve/master/_cover_images_/20250104134542_12.png"
+    ],
+    "description": " LOCOmuchen/《麦橘梦璃》Majicflus",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\12.safetensors",
+    "createdAt": "2025-06-10T09:16:52.023Z"
+  },
+  {
+    "name": "LOCOmuchen/Merjic-snake",
+    "fullName": "MAILAND/Merjic-snake",
+    "coverImage": "https://www.modelscope.cn/models/MAILAND/Merjic-snake/resolve/master/_cover_images_/20250104135140_12.png",
+    "downloadUrl": "https://modelscope.cn/models/MAILAND/Merjic-snake/resolve/master/12.safetensors",
+    "pageUrl": "https://modelscope.cn/models/MAILAND/Merjic-snake",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://www.modelscope.cn/models/MAILAND/Merjic-snake/resolve/master/_cover_images_/20250104135140_12.png"
+    ],
+    "description": " LOCOmuchen/Merjic-snake",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\12.safetensors",
+    "createdAt": "2025-06-10T09:16:52.023Z"
+  },
+  {
+    "name": "merjic/cyberwallblue",
+    "fullName": "MAILAND/cyberwallblue",
+    "coverImage": "https://www.modelscope.cn/models/MAILAND/cyberwallblue/resolve/master/_cover_images_/20250103072348_20.png",
+    "downloadUrl": "https://modelscope.cn/models/MAILAND/cyberwallblue/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/MAILAND/cyberwallblue",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://www.modelscope.cn/models/MAILAND/cyberwallblue/resolve/master/_cover_images_/20250103072348_20.png"
+    ],
+    "description": " merjic/cyberwallblue",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:16:52.023Z"
+  },
+  {
+    "name": "沐辰人像皮肤质感提升",
+    "fullName": "MAILAND/portrait-skin-texture",
+    "coverImage": "https://www.modelscope.cn/models/MAILAND/portrait-skin-texture/resolve/master/_cover_images_/50df5a36-a14e-4847-9974-c87bed89e59f.png",
+    "downloadUrl": "https://modelscope.cn/models/MAILAND/portrait-skin-texture/resolve/master/flux-loco-v1-000008.safetensors",
+    "pageUrl": "https://modelscope.cn/models/MAILAND/portrait-skin-texture",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://www.modelscope.cn/models/MAILAND/portrait-skin-texture/resolve/master/_cover_images_/50df5a36-a14e-4847-9974-c87bed89e59f.png"
+    ],
+    "description": " 沐辰人像皮肤质感提升",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\flux-loco-v1-000008.safetensors",
+    "createdAt": "2025-06-10T09:16:52.023Z"
+  },
+  {
+    "name": "礼服（一丹一世界）",
+    "fullName": "OKFin333/girl_TX",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/2befb85f-f24e-4f06-8947-7029e23f3ae9.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/OKFin333/girl_TX/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/OKFin333/girl_TX",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/2befb85f-f24e-4f06-8947-7029e23f3ae9.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/f0bb1119-a836-426d-93a1-ab0c93fb3af6.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/a0ac5ab2-7de0-4804-a70e-4f36220e14dd.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/bbb02ebc-3671-4920-9340-8075e35b571c.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/aab708ae-2ace-4faa-bd5c-28b5b441886a.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 礼服（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:22:45.650Z"
+  },
+  {
+    "name": "生鲜果蔬水花 | 写实摄影 Flux1.d Lora",
+    "fullName": "VoidOc/fresh_fruits_flux_lora",
+    "coverImage": "https://www.modelscope.cn/models/VoidOc/fresh_fruits_flux_lora/resolve/master/_cover_images_/374c790d-c9e7-4443-9279-904f1102c893.png",
+    "downloadUrl": "https://modelscope.cn/models/VoidOc/fresh_fruits_flux_lora/resolve/master/%E7%94%9F%E9%B2%9C%E6%9E%9C%E8%94%AC%E6%B0%B4%E8%8A%B1%20_%20%E5%86%99%E5%AE%9E%E6%91%84%E5%BD%B1%20Flux1.d%20Lora_v1.0.safetensors",
+    "pageUrl": "https://modelscope.cn/models/VoidOc/fresh_fruits_flux_lora",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://www.modelscope.cn/models/VoidOc/fresh_fruits_flux_lora/resolve/master/_cover_images_/374c790d-c9e7-4443-9279-904f1102c893.png",
+      "https://www.modelscope.cn/models/VoidOc/fresh_fruits_flux_lora/resolve/master/_cover_images_/cb62c548-c6cd-4de1-9bb7-f85f1a881de2.png"
+    ],
+    "description": " 生鲜果蔬水花 | 写实摄影 Flux1.d Lora",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\生鲜果蔬水花 _ 写实摄影 Flux1.d Lora_v1.0.safetensors",
+    "createdAt": "2025-06-10T09:22:45.650Z"
+  },
+  {
+    "name": "《MAJICFLUS_闪光情绪》",
+    "fullName": "Neolongx/Flash_emotion",
+    "coverImage": "https://www.modelscope.cn/models/Neolongx/Flash_emotion/resolve/master/_cover_images_/05fe54f9-a10d-4e3b-bdf2-182ea81f9fc9.png",
+    "downloadUrl": "https://modelscope.cn/models/Neolongx/Flash_emotion/resolve/master/neomj%E9%97%AA%E5%85%89%E7%81%AFv3_15.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Neolongx/Flash_emotion",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://www.modelscope.cn/models/Neolongx/Flash_emotion/resolve/master/_cover_images_/05fe54f9-a10d-4e3b-bdf2-182ea81f9fc9.png",
+      "https://www.modelscope.cn/models/Neolongx/Flash_emotion/resolve/master/_cover_images_/a904514d-b2a0-4d52-b663-791cb453cf93.png"
+    ],
+    "description": " 《MAJICFLUS_闪光情绪》",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\neomj闪光灯v3_15.safetensors",
+    "createdAt": "2025-06-10T09:22:45.650Z"
+  },
+  {
+    "name": "MAJICFLUS_麦橘丁达尔",
+    "fullName": "DonRat/MAJICFLUS_Tyndall",
+    "coverImage": "https://www.modelscope.cn/models/DonRat/MAJICFLUS_Tyndall/resolve/master/_cover_images_/06a35706-2224-4223-bb16-fd8a5273a2b1.png",
+    "downloadUrl": "https://modelscope.cn/models/DonRat/MAJICFLUS_Tyndall/resolve/master/%E9%BA%A6%E6%A9%98%E4%B8%81%E8%BE%BE%E5%B0%94.safetensors",
+    "pageUrl": "https://modelscope.cn/models/DonRat/MAJICFLUS_Tyndall",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://www.modelscope.cn/models/DonRat/MAJICFLUS_Tyndall/resolve/master/_cover_images_/06a35706-2224-4223-bb16-fd8a5273a2b1.png",
+      "https://www.modelscope.cn/models/DonRat/MAJICFLUS_Tyndall/resolve/master/_cover_images_/5f7d3be0-bef0-4a1b-9eb7-9c5a9f9a1aca.png",
+      "https://www.modelscope.cn/models/DonRat/MAJICFLUS_Tyndall/resolve/master/_cover_images_/1532c2bf-dc12-40b9-90d6-c1d3f0aaf10e.png",
+      "https://www.modelscope.cn/models/DonRat/MAJICFLUS_Tyndall/resolve/master/_cover_images_/41bda592-c652-4f09-897d-4fc8ceab0950.png",
+      "https://www.modelscope.cn/models/DonRat/MAJICFLUS_Tyndall/resolve/master/_cover_images_/d2abe9b5-a238-4fa5-9b18-6362c5ec5e84.png"
+    ],
+    "description": " MAJICFLUS_麦橘丁达尔",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\麦橘丁达尔.safetensors",
+    "createdAt": "2025-06-10T09:22:45.650Z"
+  },
+  {
+    "name": "merjic/cyberwallblue",
+    "fullName": "MAILAND/cyberwallblue",
+    "coverImage": "https://www.modelscope.cn/models/MAILAND/cyberwallblue/resolve/master/_cover_images_/20250103072348_20.png",
+    "downloadUrl": "https://modelscope.cn/models/MAILAND/cyberwallblue/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/MAILAND/cyberwallblue",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://www.modelscope.cn/models/MAILAND/cyberwallblue/resolve/master/_cover_images_/20250103072348_20.png"
+    ],
+    "description": " merjic/cyberwallblue",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:22:45.650Z"
+  },
+  {
+    "name": "娇娇sdxl 瓷韵青花",
+    "fullName": "iao422/porcelain",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/7621696c-5e65-4da3-adc2-57547e6d9f72.jpg?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/iao422/porcelain/resolve/master/%E4%B8%AD%E5%9B%BD%E9%A3%8E%E2%80%94%E9%9D%92%E8%8A%B1%E7%93%B7_v1.0.safetensors",
+    "pageUrl": "https://modelscope.cn/models/iao422/porcelain",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/7621696c-5e65-4da3-adc2-57547e6d9f72.jpg?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 娇娇sdxl 瓷韵青花",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\中国风—青花瓷_v1.0.safetensors",
+    "createdAt": "2025-06-10T09:22:45.650Z"
+  },
+  {
+    "name": "AWPortraitCN",
+    "fullName": "LiblibAI/AWPortraitCN",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/9538065e-d4d9-4c0f-aea7-407787c5be6d.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/LiblibAI/AWPortraitCN/resolve/master/AWPortraitCN.safetensors",
+    "pageUrl": "https://modelscope.cn/models/LiblibAI/AWPortraitCN",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/9538065e-d4d9-4c0f-aea7-407787c5be6d.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://modelscope.cn/api/v1/models/LiblibAI/AWPortraitCN/repo?Revision=master&FilePath=.%2Fimages%2Fcover.png&View=true",
+      "https://modelscope.cn/api/v1/models/LiblibAI/AWPortraitCN/repo?Revision=master&FilePath=.%2Fimages%2Fteaser.png&View=true"
+    ],
+    "description": " AWPortraitCN",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\AWPortraitCN.safetensors",
+    "createdAt": "2025-06-10T09:22:45.650Z"
+  },
+  {
+    "name": "MAJICFLUS_麦橘超中国风插画",
+    "fullName": "DonRat/MAJICFLUS_SuperChinesestyleillustration",
+    "coverImage": "https://www.modelscope.cn/models/DonRat/MAJICFLUS_SuperChinesestyleillustration/resolve/master/_cover_images_/ac4f77a1-63b9-4794-bf22-a4905920951a.png",
+    "downloadUrl": "https://modelscope.cn/models/DonRat/MAJICFLUS_SuperChinesestyleillustration/resolve/master/%E9%BA%A6%E6%A9%98%E8%B6%85%E4%B8%AD%E5%9B%BD%E9%A3%8E%E6%8F%92%E7%94%BB.safetensors",
+    "pageUrl": "https://modelscope.cn/models/DonRat/MAJICFLUS_SuperChinesestyleillustration",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://www.modelscope.cn/models/DonRat/MAJICFLUS_SuperChinesestyleillustration/resolve/master/_cover_images_/ac4f77a1-63b9-4794-bf22-a4905920951a.png",
+      "https://www.modelscope.cn/models/DonRat/MAJICFLUS_SuperChinesestyleillustration/resolve/master/_cover_images_/afd53f5b-4a81-4baf-a9af-5689e37871fb.png",
+      "https://www.modelscope.cn/models/DonRat/MAJICFLUS_SuperChinesestyleillustration/resolve/master/_cover_images_/bd6aac55-0763-441d-8f7c-cf25923eb4f0.png",
+      "https://www.modelscope.cn/models/DonRat/MAJICFLUS_SuperChinesestyleillustration/resolve/master/_cover_images_/12775311-4bbf-4694-9621-46e6155707df.png",
+      "https://www.modelscope.cn/models/DonRat/MAJICFLUS_SuperChinesestyleillustration/resolve/master/_cover_images_/f3cebfc6-5ed7-4731-9593-22865d2a3a2e.png"
+    ],
+    "description": " MAJICFLUS_麦橘超中国风插画",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\麦橘超中国风插画.safetensors",
+    "createdAt": "2025-06-10T09:22:45.650Z"
+  },
+  {
+    "name": "MAJICFLUS_麦橘超猫",
+    "fullName": "ASHUOA/MAJICFLUS_up_cat",
+    "coverImage": "https://www.modelscope.cn/models/ASHUOA/MAJICFLUS_up_cat/resolve/master/_cover_images_/f1c7919d-b260-4254-9c16-803e5b88e42a.png",
+    "downloadUrl": "https://modelscope.cn/models/ASHUOA/MAJICFLUS_up_cat/resolve/master/MAJICFLUS_%E9%BA%A6%E6%A9%98%E8%B6%85%E7%8C%AB.safetensors",
+    "pageUrl": "https://modelscope.cn/models/ASHUOA/MAJICFLUS_up_cat",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://www.modelscope.cn/models/ASHUOA/MAJICFLUS_up_cat/resolve/master/_cover_images_/f1c7919d-b260-4254-9c16-803e5b88e42a.png",
+      "https://www.modelscope.cn/models/ASHUOA/MAJICFLUS_up_cat/resolve/master/_cover_images_/71fc73fc-676c-4dd2-a45b-f22ccb3b5426.png",
+      "https://www.modelscope.cn/models/ASHUOA/MAJICFLUS_up_cat/resolve/master/_cover_images_/e6a8e53e-3e0f-4e11-8b1f-12ae1c3dc3ef.png",
+      "https://www.modelscope.cn/models/ASHUOA/MAJICFLUS_up_cat/resolve/master/_cover_images_/b39cf542-9ac1-4c1c-bc30-d71f328ad4cd.png",
+      "https://www.modelscope.cn/models/ASHUOA/MAJICFLUS_up_cat/resolve/master/_cover_images_/d0d38eaf-5e37-4746-8b94-7e870b067f30.png"
+    ],
+    "description": " MAJICFLUS_麦橘超猫",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\MAJICFLUS_麦橘超猫.safetensors",
+    "createdAt": "2025-06-10T09:22:45.650Z"
+  },
+  {
+    "name": "东方梦-摄影版",
+    "fullName": "fulan2015/OrientalDream",
+    "coverImage": "https://www.modelscope.cn/models/fulan2015/OrientalDream/resolve/master/_cover_images_/616114bd-554e-40f1-82a6-88a51097970d.png",
+    "downloadUrl": "https://modelscope.cn/models/fulan2015/OrientalDream/resolve/master/Fulan_dongfangmeng_Majic_F.1.safetensors",
+    "pageUrl": "https://modelscope.cn/models/fulan2015/OrientalDream",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://www.modelscope.cn/models/fulan2015/OrientalDream/resolve/master/_cover_images_/616114bd-554e-40f1-82a6-88a51097970d.png",
+      "https://www.modelscope.cn/models/fulan2015/OrientalDream/resolve/master/_cover_images_/57c4ba89-1f63-4fff-a3d8-c52fc773c3ef.png",
+      "https://www.modelscope.cn/models/fulan2015/OrientalDream/resolve/master/_cover_images_/6d170a4c-cbc3-4276-bcb0-21381a53c429.png",
+      "https://www.modelscope.cn/models/fulan2015/OrientalDream/resolve/master/_cover_images_/d9a86430-a95b-415a-8b66-d4c40b302443.png",
+      "https://www.modelscope.cn/models/fulan2015/OrientalDream/resolve/master/_cover_images_/da30f0d0-9724-4e66-9d54-db5438b124ac.png"
+    ],
+    "description": " 东方梦-摄影版",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\Fulan_dongfangmeng_Majic_F.1.safetensors",
+    "createdAt": "2025-06-10T09:22:45.650Z"
+  },
+  {
+    "name": "戰國_二次元风（一丹一世界）",
+    "fullName": "smallririri/SMalL_rIRiri-jadetablet_majicFlus",
+    "coverImage": "https://www.modelscope.cn/models/smallririri/SMalL_rIRiri-jadetablet_majicFlus/resolve/master/_cover_images_/bd178b8d-c1ed-42fd-8e3a-114c4e8679c1.png",
+    "downloadUrl": "https://modelscope.cn/models/smallririri/SMalL_rIRiri-jadetablet_majicFlus/resolve/master/flux-zg-GJ%20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/smallririri/SMalL_rIRiri-jadetablet_majicFlus",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://www.modelscope.cn/models/smallririri/SMalL_rIRiri-jadetablet_majicFlus/resolve/master/_cover_images_/bd178b8d-c1ed-42fd-8e3a-114c4e8679c1.png",
+      "https://www.modelscope.cn/models/smallririri/SMalL_rIRiri-jadetablet_majicFlus/resolve/master/_cover_images_/4c6dc3b1-81dc-483a-acbe-af21bf0ff5a9.png",
+      "https://www.modelscope.cn/models/smallririri/SMalL_rIRiri-jadetablet_majicFlus/resolve/master/_cover_images_/a4feed6b-a02a-4b76-a240-628ffb127ef8.png",
+      "https://www.modelscope.cn/models/smallririri/SMalL_rIRiri-jadetablet_majicFlus/resolve/master/_cover_images_/5b1cc449-e93f-4da7-b5d0-e8837f016714.png"
+    ],
+    "description": " 戰國_二次元风（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\flux-zg-GJ .safetensors",
+    "createdAt": "2025-06-10T09:22:45.650Z"
+  },
+  {
+    "name": "MAJICFLUS-麦橘光影约拍",
+    "fullName": "WANGMOON/MAJICFLUS-photo",
+    "coverImage": "https://www.modelscope.cn/models/WANGMOON/MAJICFLUS-photo/resolve/master/_cover_images_/d1d2079f-66ef-4900-baae-4a0cb571d5e1.png",
+    "downloadUrl": "https://modelscope.cn/models/WANGMOON/MAJICFLUS-photo/resolve/master/al.24.safetensors",
+    "pageUrl": "https://modelscope.cn/models/WANGMOON/MAJICFLUS-photo",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://www.modelscope.cn/models/WANGMOON/MAJICFLUS-photo/resolve/master/_cover_images_/d1d2079f-66ef-4900-baae-4a0cb571d5e1.png",
+      "https://www.modelscope.cn/models/WANGMOON/MAJICFLUS-photo/resolve/master/_cover_images_/fb4096e0-ccfa-4002-b1fb-3ee80c6efaef.png",
+      "https://resouces.modelscope.cn/cover-images/354b61c2-04cd-4358-9298-6e74202e0e74.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " MAJICFLUS-麦橘光影约拍",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\al.24.safetensors",
+    "createdAt": "2025-06-10T09:22:45.650Z"
+  },
+  {
+    "name": "3D数字人形象",
+    "fullName": "CyrilPilgrim/CyrilPilgrim-DigitalHuman_v1",
+    "coverImage": "https://www.modelscope.cn/models/CyrilPilgrim/CyrilPilgrim-DigitalHuman_v1/resolve/master/_cover_images_/38d8b4b8-025c-434e-8441-a15330183795.png",
+    "downloadUrl": "https://modelscope.cn/models/CyrilPilgrim/CyrilPilgrim-DigitalHuman_v1/resolve/master/%E3%80%90CyrilPilgrim%E3%80%91DigitalHuman_v1.safetensors",
+    "pageUrl": "https://modelscope.cn/models/CyrilPilgrim/CyrilPilgrim-DigitalHuman_v1",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://www.modelscope.cn/models/CyrilPilgrim/CyrilPilgrim-DigitalHuman_v1/resolve/master/_cover_images_/38d8b4b8-025c-434e-8441-a15330183795.png",
+      "https://www.modelscope.cn/models/CyrilPilgrim/CyrilPilgrim-DigitalHuman_v1/resolve/master/_cover_images_/2f1aa1e3-262c-4700-9868-6aff1c056b0a.png",
+      "https://www.modelscope.cn/models/CyrilPilgrim/CyrilPilgrim-DigitalHuman_v1/resolve/master/_cover_images_/993ef402-1aab-4148-a695-de28be4bf18e.png",
+      "https://www.modelscope.cn/models/CyrilPilgrim/CyrilPilgrim-DigitalHuman_v1/resolve/master/_cover_images_/cc34df59-6e84-4524-89aa-02941bd86207.png",
+      "https://www.modelscope.cn/models/CyrilPilgrim/CyrilPilgrim-DigitalHuman_v1/resolve/master/_cover_images_/6a4f6bbb-b442-4c22-96b2-05a10b690911.png"
+    ],
+    "description": " 3D数字人形象",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\【CyrilPilgrim】DigitalHuman_v1.safetensors",
+    "createdAt": "2025-06-10T09:22:45.650Z"
+  },
+  {
+    "name": "Flux-Cute-3D-Kawaii-LoRA",
+    "fullName": "strangerzone/Flux-Cute-3D-Kawaii-LoRA",
+    "coverImage": "https://modelscope.cn/api/v1/models/strangerzone/Flux-Cute-3D-Kawaii-LoRA/repo?Revision=master&FilePath=images%2F3D.png&View=true",
+    "downloadUrl": "https://modelscope.cn/models/strangerzone/Flux-Cute-3D-Kawaii-LoRA/resolve/master/Cute-3d-Kawaii.safetensors",
+    "pageUrl": "https://modelscope.cn/models/strangerzone/Flux-Cute-3D-Kawaii-LoRA",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://modelscope.cn/api/v1/models/strangerzone/Flux-Cute-3D-Kawaii-LoRA/repo?Revision=master&FilePath=images%2F3D.png&View=true"
+    ],
+    "description": " Flux-Cute-3D-Kawaii-LoRA",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\Cute-3d-Kawaii.safetensors",
+    "createdAt": "2025-06-10T09:22:45.650Z"
+  },
+  {
+    "name": "Canopus-LoRA-Flux-UltraRealism-2.0",
+    "fullName": "prithivMLmods/Canopus-LoRA-Flux-UltraRealism-2.0",
+    "coverImage": "https://modelscope.cn/api/v1/models/prithivMLmods/Canopus-LoRA-Flux-UltraRealism-2.0/repo?Revision=master&FilePath=images%2Fflux1.png&View=true",
+    "downloadUrl": "https://modelscope.cn/models/prithivMLmods/Canopus-LoRA-Flux-UltraRealism-2.0/resolve/master/Canopus-LoRA-Flux-UltraRealism.safetensors",
+    "pageUrl": "https://modelscope.cn/models/prithivMLmods/Canopus-LoRA-Flux-UltraRealism-2.0",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://modelscope.cn/api/v1/models/prithivMLmods/Canopus-LoRA-Flux-UltraRealism-2.0/repo?Revision=master&FilePath=images%2Fflux1.png&View=true",
+      "https://modelscope.cn/api/v1/models/prithivMLmods/Canopus-LoRA-Flux-UltraRealism-2.0/repo?Revision=master&FilePath=images%2F34.png&View=true"
+    ],
+    "description": " Canopus-LoRA-Flux-UltraRealism-2.0",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\Canopus-LoRA-Flux-UltraRealism.safetensors",
+    "createdAt": "2025-06-10T09:22:45.650Z"
+  },
+  {
+    "name": "Flux-Animeo-v1-LoRA",
+    "fullName": "strangerzone/Flux-Animeo-v1-LoRA",
+    "coverImage": "https://modelscope.cn/api/v1/models/strangerzone/Flux-Animeo-v1-LoRA/repo?Revision=master&FilePath=images%2F4.png&View=true",
+    "downloadUrl": "https://modelscope.cn/models/strangerzone/Flux-Animeo-v1-LoRA/resolve/master/Animeo.safetensors",
+    "pageUrl": "https://modelscope.cn/models/strangerzone/Flux-Animeo-v1-LoRA",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://modelscope.cn/api/v1/models/strangerzone/Flux-Animeo-v1-LoRA/repo?Revision=master&FilePath=images%2F4.png&View=true"
+    ],
+    "description": " Flux-Animeo-v1-LoRA",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\Animeo.safetensors",
+    "createdAt": "2025-06-10T09:22:45.650Z"
+  },
+  {
+    "name": "Flux-Ultimate-LoRA-Collection",
+    "fullName": "strangerzone/Flux-Ultimate-LoRA-Collection",
+    "coverImage": "https://resouces.modelscope.cn/proxy-image/fff6407b2aaa31ca105fc280fe70239e093e7adf9031be4b4c1ab43d386e667c.png",
+    "downloadUrl": "https://modelscope.cn/models/strangerzone/Flux-Ultimate-LoRA-Collection/resolve/master/2021-Art.safetensors",
+    "pageUrl": "https://modelscope.cn/models/strangerzone/Flux-Ultimate-LoRA-Collection",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/proxy-image/fff6407b2aaa31ca105fc280fe70239e093e7adf9031be4b4c1ab43d386e667c.png"
+    ],
+    "description": " Flux-Ultimate-LoRA-Collection",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\2021-Art.safetensors",
+    "createdAt": "2025-06-10T09:22:45.650Z"
+  },
+  {
+    "name": "FLUX.1-dev-LoRA-Text-Poster",
+    "fullName": "LiblibAI/FLUX.1-dev-LoRA-Text-Poster",
+    "coverImage": "https://modelscope.cn/api/v1/models/LiblibAI/FLUX.1-dev-LoRA-Text-Poster/repo?Revision=master&FilePath=.%2Fposter.jpeg&View=true",
+    "downloadUrl": "https://modelscope.cn/models/LiblibAI/FLUX.1-dev-LoRA-Text-Poster/resolve/master/FLUX-dev-lora-Text-Poster.safetensors",
+    "pageUrl": "https://modelscope.cn/models/LiblibAI/FLUX.1-dev-LoRA-Text-Poster",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://modelscope.cn/api/v1/models/LiblibAI/FLUX.1-dev-LoRA-Text-Poster/repo?Revision=master&FilePath=.%2Fposter.jpeg&View=true"
+    ],
+    "description": " FLUX.1-dev-LoRA-Text-Poster",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\FLUX-dev-lora-Text-Poster.safetensors",
+    "createdAt": "2025-06-10T09:22:45.650Z"
+  },
+  {
+    "name": "Flux-Automotive-X2-LoRA",
+    "fullName": "strangerzone/Flux-Automotive-X2-LoRA",
+    "coverImage": "https://resouces.modelscope.cn/proxy-image/4bd5577c91345117cf295af0c5f3a10fe72d7b20aa7b8cf8b157eb54821e18a9.png",
+    "downloadUrl": "https://modelscope.cn/models/strangerzone/Flux-Automotive-X2-LoRA/resolve/master/Automotive-X2.safetensors",
+    "pageUrl": "https://modelscope.cn/models/strangerzone/Flux-Automotive-X2-LoRA",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/proxy-image/4bd5577c91345117cf295af0c5f3a10fe72d7b20aa7b8cf8b157eb54821e18a9.png"
+    ],
+    "description": " Flux-Automotive-X2-LoRA",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\Automotive-X2.safetensors",
+    "createdAt": "2025-06-10T09:22:45.650Z"
+  },
+  {
+    "name": "Flux-3D-Emojies-LoRA",
+    "fullName": "strangerzone/Flux-3D-Emojies-LoRA",
+    "coverImage": "https://resouces.modelscope.cn/proxy-image/6e67f7c4695052d2be380a3f4c2848df2265635d51fe1b1edea01f225e594b56.png",
+    "downloadUrl": "https://modelscope.cn/models/strangerzone/Flux-3D-Emojies-LoRA/resolve/master/Flux-3D-Emojies-Mation.safetensors",
+    "pageUrl": "https://modelscope.cn/models/strangerzone/Flux-3D-Emojies-LoRA",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/proxy-image/6e67f7c4695052d2be380a3f4c2848df2265635d51fe1b1edea01f225e594b56.png"
+    ],
+    "description": " Flux-3D-Emojies-LoRA",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\Flux-3D-Emojies-Mation.safetensors",
+    "createdAt": "2025-06-10T09:22:45.650Z"
+  },
+  {
+    "name": "热成像风格滤镜",
+    "fullName": "Jimmy888/koi_fugu2.0",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/0f18e449-8a2f-4b48-a364-c12203a9643b.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_fugu2.0/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_fugu2.0",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/0f18e449-8a2f-4b48-a364-c12203a9643b.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 热成像风格滤镜",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "复古风格滤镜",
+    "fullName": "Jimmy888/koi_fugu",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/6b057d22-0be2-41fe-9d09-0a4392577f88.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_fugu/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_fugu",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/6b057d22-0be2-41fe-9d09-0a4392577f88.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 复古风格滤镜",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "极简主义头像麦橘版",
+    "fullName": "Jimmy888/koi_abstraction",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/bfca214d-f72a-42a5-9ca0-24cf66a40a9d.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_abstraction/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_abstraction",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/bfca214d-f72a-42a5-9ca0-24cf66a40a9d.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/d236855b-c670-4c65-8ad9-ab66b25dde63.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/c7eb030b-5b96-45c6-b448-b44d3ab98399.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/0bc6969c-3917-448b-8dd0-d38dab16eb5b.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/9a52d7ab-e66d-4e6f-abab-2c1bddb05671.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 极简主义头像麦橘版",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "极致幻想主义2.0",
+    "fullName": "Jimmy888/koi_Fantasy",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/eb9fef75-ab89-4725-af1d-835127d4bbe2.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_Fantasy/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_Fantasy",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/eb9fef75-ab89-4725-af1d-835127d4bbe2.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/746a9a51-46a7-4274-9014-06866f1b1d6c.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/d58df825-2ec8-4d61-9cc8-7f678f3ce47d.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/4f8dd7ac-ff5b-41f9-a260-36ef948b3596.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/2e128cf8-2023-4342-93f5-5b5a514a0e8a.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 极致幻想主义2.0",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "辉光滤镜麦橘版",
+    "fullName": "Jimmy888/koi_HG",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/dc649af6-ea50-48cb-b6d9-dd485f2c7945.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_HG/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_HG",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/dc649af6-ea50-48cb-b6d9-dd485f2c7945.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 辉光滤镜麦橘版",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "簪花旗袍麦橘版",
+    "fullName": "Jimmy888/koi_qipao",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/94097437-4379-4e66-b3f5-fbaec0a6a791.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_qipao/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_qipao",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/94097437-4379-4e66-b3f5-fbaec0a6a791.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 簪花旗袍麦橘版",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "半写实摄影2.0",
+    "fullName": "Jimmy888/koi_bxs2.0",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/afe9e5ec-a32c-4558-8e3a-21d215a77f68.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_bxs2.0/resolve/master/26.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_bxs2.0",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/afe9e5ec-a32c-4558-8e3a-21d215a77f68.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 半写实摄影2.0",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\26.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "赛博法师",
+    "fullName": "Jimmy888/koi_CyberpunkMage",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/04e7162c-4b23-445e-8b01-4111aadf0e0c.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_CyberpunkMage/resolve/master/26.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_CyberpunkMage",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/04e7162c-4b23-445e-8b01-4111aadf0e0c.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 赛博法师",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\26.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "藏锋2.0",
+    "fullName": "Jimmy888/koi_F3_weapon2.0",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/030063f2-e089-472a-a106-dcaa4a718471.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_F3_weapon2.0/resolve/master/26.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_F3_weapon2.0",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/030063f2-e089-472a-a106-dcaa4a718471.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/cbafe92c-3d6e-4f07-a75a-8c171d4d95cd.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/70f07e11-f786-4ad0-9946-71bfabad5bdb.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/5bac78cb-d22e-4ac8-ad3d-f5e137663f47.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/1a0b8636-d04f-4762-b47c-d3a871018b3c.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 藏锋2.0",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\26.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "魔女小Q",
+    "fullName": "Jimmy888/koi_SuccubusQ",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/a491a732-28d6-4435-828f-ed00a4f7c326.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_SuccubusQ/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_SuccubusQ",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/a491a732-28d6-4435-828f-ed00a4f7c326.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 魔女小Q",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "炫彩风格滤镜",
+    "fullName": "Jimmy888/koi_xuancai",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/02ba67e6-eb60-4939-9820-1cb86e024545.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_xuancai/resolve/master/30.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_xuancai",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/02ba67e6-eb60-4939-9820-1cb86e024545.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 炫彩风格滤镜",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\30.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "东方武学之降龙",
+    "fullName": "Jimmy888/koi_wuxue",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/17046d95-a8f6-427e-a401-e46cacf91a7e.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_wuxue/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_wuxue",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/17046d95-a8f6-427e-a401-e46cacf91a7e.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 东方武学之降龙",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "墨隐神现_泼墨风",
+    "fullName": "Jimmy888/koi_shenmo",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/697ad05d-463a-42f8-bfc8-98fb2f0fb28a.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_shenmo/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_shenmo",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/697ad05d-463a-42f8-bfc8-98fb2f0fb28a.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/82fdfaa1-31b7-4a8d-8668-0eb169e80afa.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/bee32cf6-6fcc-4f90-962f-811dc2f36b52.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 墨隐神现_泼墨风",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "乐动春晓",
+    "fullName": "Jimmy888/koi_chunxiao",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/97a9b94c-f9fb-4129-99f7-f834d3762f98.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_chunxiao/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_chunxiao",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/97a9b94c-f9fb-4129-99f7-f834d3762f98.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 乐动春晓",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "蒂法2.0通用动作版",
+    "fullName": "Jimmy888/koi_tifa2.0",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/ea53dd1a-e073-4b88-a49e-eba31b8b413b.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_tifa2.0/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_tifa2.0",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/ea53dd1a-e073-4b88-a49e-eba31b8b413b.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/b727ff35-28c6-47ef-bf63-0b6b17a30980.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/c276c576-f160-45a7-9754-b659f02f9773.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/3544574b-d35f-42d7-b81a-996568aae8f7.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/395480b7-1816-4210-98c4-0beefb51d804.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 蒂法2.0通用动作版",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "百炼藏锋F3",
+    "fullName": "Jimmy888/koi_F3_weapon",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/fd8dd714-d389-4a23-b68b-ca75c6a6ca2c.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_F3_weapon/resolve/master/24.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_F3_weapon",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/fd8dd714-d389-4a23-b68b-ca75c6a6ca2c.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/65b71312-0dc7-44d2-8f5a-ef5844017a7f.jpg?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/003eefdd-2d1f-4f07-a74d-6face85d30fd.jpg?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/60c5a6b9-81bf-4983-87ee-e54cb53e8447.jpg?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/f7059370-b32b-4f0d-bafc-affbaf933dc1.jpg?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 百炼藏锋F3",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\24.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "半写实奇幻",
+    "fullName": "Jimmy888/koi_bxs",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/ea2526ce-05fa-4a82-8468-c78a96b61c52.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_bxs/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_bxs",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/ea2526ce-05fa-4a82-8468-c78a96b61c52.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/b95620cb-1546-414d-b1c1-3a857940bb36.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/1080f914-a9a6-43d4-905e-2384b21ea961.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/fe05fc17-ec98-4fe4-9a01-1819aeb5f4b8.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/87af24ab-c6b6-4b79-b2c0-0304048a9069.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 半写实奇幻",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "守望先锋DVa",
+    "fullName": "Jimmy888/koi_DVa",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/b0b5b966-a5b2-466d-88d6-d5efa5cdefed.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_DVa/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_DVa",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/b0b5b966-a5b2-466d-88d6-d5efa5cdefed.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/95809d6d-b581-4cd6-b36a-64ad78d4bd83.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/98b6ef44-f5f5-4816-bf12-3465e4d65330.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/0d427e6a-2fc5-4bd9-8a87-dce85fb71459.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/43e3fddb-1790-4e8a-8ccc-2e9cc478d24f.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 守望先锋DVa",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "古色古香（一丹一世界）",
+    "fullName": "Jimmy888/koi_gsgx",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/3d306545-6b18-411f-a154-e876078bcf4a.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_gsgx/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_gsgx",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/3d306545-6b18-411f-a154-e876078bcf4a.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/9b786a8a-e971-467b-b2b5-204fa6f4329b.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/18a755fa-8536-4912-b86f-c0f428fa43fe.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/ef3fcfec-c5d4-4eb1-a2b8-6b2bc8146f0f.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/3a732083-e2a2-4ee3-acdf-f80ca7147f1b.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 古色古香（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "极致幻想2.0",
+    "fullName": "Jimmy888/koi_Fantasy2.0",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/1aaee8b0-2595-4775-bf29-2396a1db06db.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_Fantasy2.0/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_Fantasy2.0",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/1aaee8b0-2595-4775-bf29-2396a1db06db.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/8727efc3-4994-46c8-b18b-0f8e8d75a2ac.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/cad0f5ee-f8e2-454c-9d39-d772b3faad00.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/c29eea0a-12bf-4ed2-b4b0-e37138c01fdb.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/e4e89ea6-8894-4a54-b787-47a68ceab146.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 极致幻想2.0",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "破碎的完整（一丹一世界）",
+    "fullName": "Jimmy888/koi_FNL",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/f47e0edb-80a2-410b-920b-ed5d930e84a9.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_FNL/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_FNL",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/f47e0edb-80a2-410b-920b-ed5d930e84a9.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/63343072-73c9-42c4-ab6d-8ab35df0f47f.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/88fb2d19-465a-4656-9a68-d3e8961c9bc7.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/ced1b7dd-35f9-4a91-8071-b8c4d426a9e5.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/075f1e55-ff27-4ba3-8242-fdcdf409414b.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 破碎的完整（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "梦想之家（一丹一世界）",
+    "fullName": "Jimmy888/koi_house",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/cabe8c54-4f41-428c-a1f5-0e866df17e44.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_house/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_house",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/cabe8c54-4f41-428c-a1f5-0e866df17e44.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/eb0a4c74-8cc5-4e7f-a6a0-39db0e0060ec.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/4cbef705-dca9-401f-a932-6ed7fe40bc9b.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/2b708981-a55a-466b-b6bb-20c6e374a053.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/c9e45aac-fc02-48c2-aebf-2f769a51502a.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 梦想之家（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "混沌狂想pro（通用版）",
+    "fullName": "Jimmy888/koi_KX",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/efa8dcaa-85c9-4a41-a4b9-252343904d98.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_KX/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_KX",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/efa8dcaa-85c9-4a41-a4b9-252343904d98.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/9416e8d0-a255-4fc5-b67b-ede9a804a4dc.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/37aacd1f-b322-409d-a909-78fb6c775064.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/cc9c39f1-c590-46c4-a3ff-485dd757ce18.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/8d985717-2239-440a-98bb-ba0cb75fe422.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 混沌狂想pro（通用版）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "游戏CG/koi_E3",
+    "fullName": "Jimmy888/koi_E3",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/8a171f8b-9a02-4329-af5e-90861917bd19.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_E3/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_E3",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/8a171f8b-9a02-4329-af5e-90861917bd19.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/739915fa-be5c-41a7-b0cf-b3bd7e501af4.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/016c3a83-b350-417e-b6ce-bf107fc0243f.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/4f20d705-d0b9-4f47-ab3d-75dac5b8d2bf.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/5d145505-cca7-4fb1-9bdf-2b52c8a3c32c.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 游戏CG/koi_E3",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "2.5D极致幻想koi_F3",
+    "fullName": "Jimmy888/koi_F3",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/cb68d123-1367-44e2-93b9-ac1d3268b6dd.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_F3/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_F3",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/cb68d123-1367-44e2-93b9-ac1d3268b6dd.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/a306cb5f-913a-40a7-90c3-de84fd0ed492.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/70a9ac43-3a75-4727-ae99-08359089c33b.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/38e94626-c8ad-4463-b572-26c641e91a49.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/53cbfca0-5bbd-4cad-a953-a49254c937c2.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 2.5D极致幻想koi_F3",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "抽象主义koi_S3",
+    "fullName": "Jimmy888/koi_S3",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/e45ac86d-6188-4571-a75b-88cdbf1eab9d.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_S3/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_S3",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/e45ac86d-6188-4571-a75b-88cdbf1eab9d.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/cca319d8-ca72-4f99-8720-632f4ca6446b.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/c773038c-ae89-4cfe-9952-b5ce0020ce7a.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/7f017e23-b435-4f8a-a506-db52d5d46323.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/afa27639-0baa-447b-979a-a291ffb3dde5.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 抽象主义koi_S3",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "麦橘版街头霸王春丽（一丹一世界）",
+    "fullName": "Jimmy888/koi_CL",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/f609584b-7fbc-44f3-b7c7-b7d2cbcebdef.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_CL/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_CL",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/f609584b-7fbc-44f3-b7c7-b7d2cbcebdef.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/c7b4582a-cded-48a5-a99e-b9c53f016efa.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/77a9adb6-4add-48f5-9cc3-9f7369b920ca.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/72e60e26-0b88-433e-96f0-a6b671ac63a4.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/d655ff1e-3930-4e6f-a394-056b7854f9e6.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 麦橘版街头霸王春丽（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "麦橘版时尚蒂法（一丹一世界）",
+    "fullName": "Jimmy888/koi_tifa",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/6593cbff-5c79-4ed5-9faf-57bc994be68d.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_tifa/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_tifa",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/6593cbff-5c79-4ed5-9faf-57bc994be68d.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/00b6507f-7f51-4759-ab53-01232cc89983.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/b27ed763-3620-4d76-92de-01501fdb3221.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/fa7526d4-97b6-4f86-b00f-757eb9519cb1.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/65e31f92-31ba-47d8-b0d1-f73c3c24053f.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 麦橘版时尚蒂法（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "活力小清新（一丹一世界）",
+    "fullName": "Jimmy888/koi_photograph",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/7da8e851-e35a-4cbc-8e19-e33b8a080777.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_photograph/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_photograph",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/7da8e851-e35a-4cbc-8e19-e33b8a080777.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/36b90a32-6e56-4b48-880b-1198fdd03fc4.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/999ec173-6bd3-40d6-9551-b647ad7c1495.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/90fa0ba4-5dcf-4c5f-9cdd-e7a49a20d936.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/dfd77c47-cd14-41a7-b08e-3df05eee18c7.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 活力小清新（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "混沌狂想（一丹一世界）",
+    "fullName": "Jimmy888/koi_guaiqi",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/15f5f24b-411e-4972-88ed-056d017277a1.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_guaiqi/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_guaiqi",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/15f5f24b-411e-4972-88ed-056d017277a1.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/a2bf3f60-8cd4-4a07-a284-2ca7f70e680b.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/00302634-75bd-4f69-b546-c56e437ea733.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/ddd76886-3f06-4f2d-8cde-549f0a3300e4.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/6635e939-d6e5-4376-831b-1d09cbf5ee2f.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " 混沌狂想（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "Jimmy888/koi_DP",
+    "fullName": "Jimmy888/koi_DP",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/90766322-0b7e-4f71-b2da-bca8c28913bd.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/Jimmy888/koi_DP/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/Jimmy888/koi_DP",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/90766322-0b7e-4f71-b2da-bca8c28913bd.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": " Jimmy888/koi_DP",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-10T09:37:19.388Z"
+  },
+  {
+    "name": "素描",
+    "fullName": "AImissyou/sumiao2",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/8aa0470f-037d-400b-8bd3-322278e299a6.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/sumiao2/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/sumiao2",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/8aa0470f-037d-400b-8bd3-322278e299a6.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - 素描",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "日漫",
+    "fullName": "AImissyou/riman",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/563f0174-0ba1-497b-92ac-6346a8ebec7a.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/riman/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/riman",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/563f0174-0ba1-497b-92ac-6346a8ebec7a.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - 日漫",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "法式复古 室内场景lora",
+    "fullName": "AImissyou/fs",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/5bebe358-966a-4a7c-bdad-fdd52badfc6c.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/fs/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/fs",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/5bebe358-966a-4a7c-bdad-fdd52badfc6c.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/703bd6fd-3ef7-430a-b040-4a6b09c99fba.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/52cd73da-6718-4943-8f11-ff24a4db168c.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/817e1041-606c-480c-bd19-16b343bc83a0.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - 法式复古 室内场景lora",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "珐琅金属质感徽章（一丹一世界）",
+    "fullName": "AImissyou/hz",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/925429fb-8f5d-4f42-8481-20bc088170e6.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/hz/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/hz",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/925429fb-8f5d-4f42-8481-20bc088170e6.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/799d5171-fc3e-450a-85b8-08dbe685fb0e.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/9e0eb2fc-16b9-4223-9f28-6280c0b93c63.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/d2f1f995-7ec8-46d2-a94d-e915f8cec4cc.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/cff336af-e05d-41d0-a06b-eaead714cc51.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - 珐琅金属质感徽章（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "新中式旗袍写真（一丹一世界）",
+    "fullName": "AImissyou/qp",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/647655c3-2d2d-45f1-b117-6a1ff1028c7c.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/qp/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/qp",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/647655c3-2d2d-45f1-b117-6a1ff1028c7c.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/c1c7d5fe-1059-4542-a605-c3d4e1d290f4.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/a53df171-82f4-40fc-8e8a-ca022ebf65ca.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - 新中式旗袍写真（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "蝴蝶精灵儿童写真（一丹一世界）",
+    "fullName": "AImissyou/butterfly",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/b92f5113-0b6b-41d2-a172-de63ecc83de8.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/butterfly/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/butterfly",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/b92f5113-0b6b-41d2-a172-de63ecc83de8.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/36441946-da02-464d-987b-392addf31e6c.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/f1067381-a764-4b3d-ab57-3e48ecab027a.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/5efc47eb-6dac-4601-ab7e-0b2975ef879b.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/0d61fbbe-ac61-4e75-908e-c0b77b41586c.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - 蝴蝶精灵儿童写真（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "电商宠物场景（一丹一世界）",
+    "fullName": "AImissyou/cw",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/0bdcc9fa-16da-4d91-b977-adc1bfdf3cb4.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/cw/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/cw",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/0bdcc9fa-16da-4d91-b977-adc1bfdf3cb4.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/cc271a39-f1e0-4667-b0c9-373effb5ac48.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/2ed52756-7744-4394-8ab4-d1e345b023d1.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/84c86c7c-e538-417e-91ff-b3defe6485b5.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/f16b54cb-2833-42ff-ad35-16443053b1b9.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - 电商宠物场景（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "Q版古装娃娃（一丹一世界）",
+    "fullName": "AImissyou/3Q",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/889de6d5-1733-4027-84ea-ad69b7fb93d4.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/3Q/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/3Q",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/889de6d5-1733-4027-84ea-ad69b7fb93d4.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/c0487f8c-7986-41c9-8e9c-d3d00cc1f444.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/88697ad1-3d00-49a5-b45f-84cbc0efb623.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/bc9d5a59-e5cc-41c2-b93a-bd1d1cfbac54.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/89771996-4a99-428e-805f-ad8af0ad1216.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - Q版古装娃娃（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "非遗簪花写真（一丹一世界）",
+    "fullName": "AImissyou/zanhua",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/0aa59b7a-73a4-48d1-9d9e-fde54cc4b7b8.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/zanhua/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/zanhua",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/0aa59b7a-73a4-48d1-9d9e-fde54cc4b7b8.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/081e825d-ebc4-4be1-8062-ed7e0312b2cd.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/98ef8828-e574-40c1-910e-e840c8e5b249.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/9de9cbf1-2374-459c-9b59-a00a37960b05.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/660da2e8-b44a-4570-8452-949b3300ee37.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - 非遗簪花写真（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "红衣佳人，古风写真（一丹一世界）",
+    "fullName": "AImissyou/hy",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/92ab0a5e-77f8-45ca-82c4-bad378a37ac4.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/hy/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/hy",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/92ab0a5e-77f8-45ca-82c4-bad378a37ac4.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/285477cc-52e4-420e-9b1c-61b637d64964.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/83fb5015-ff33-4349-b7e3-eed22687cebf.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/8a9104b0-338a-4f60-b6bb-d333af6d0176.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - 红衣佳人，古风写真（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "高奢珠宝（一丹一世界）",
+    "fullName": "AImissyou/zhubao",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/b52a0be4-9a07-4f00-9b45-1aa624406b7e.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/zhubao/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/zhubao",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/b52a0be4-9a07-4f00-9b45-1aa624406b7e.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/93b26526-377d-49fd-8ad5-8b3d0d560666.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/f98a7bd6-3a11-4987-8390-2defe6e2887f.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/45f22d30-5c75-4728-8af9-e02f72ac612a.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/49aad1c6-de54-432c-9a8d-cfcdefd91d5c.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - 高奢珠宝（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "九尾狐妖写真（一丹一世界）",
+    "fullName": "AImissyou/9w",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/52eadc5e-86f0-4284-9c98-c11a6e594fc6.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/9w/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/9w",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/52eadc5e-86f0-4284-9c98-c11a6e594fc6.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/a4143d3b-ddbb-4c9d-90eb-9aab3b29357f.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/2e714a60-81d2-4aca-983a-ad5bfe492417.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/c56c3109-6767-4c8c-93d5-d626b6e865e6.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - 九尾狐妖写真（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "3D电商促销活动运营场景lora（一丹一世界）",
+    "fullName": "AImissyou/3D",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/24f88fc9-7fef-4dcf-8a6a-0e24cc365abe.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/3D/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/3D",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/24f88fc9-7fef-4dcf-8a6a-0e24cc365abe.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/0be2f1b7-efe7-40fb-b051-72af06cba53c.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/9bc5a471-f925-4956-af2d-1f9fb9dcbf7c.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/f1024457-dc52-49c5-a2fe-9783e189b9ad.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/9cc8985b-987c-4c69-b79c-73c64dea5546.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - 3D电商促销活动运营场景lora（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "璀璨美奢珠宝（一丹一世界）",
+    "fullName": "AImissyou/zhubao2",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/9083e71d-6bdc-4d1c-9541-f22e05f6d92e.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/zhubao2/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/zhubao2",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/9083e71d-6bdc-4d1c-9541-f22e05f6d92e.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/f50f8c66-fafd-4461-b496-7879e570e469.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/c7a8d0ff-ef6b-4bdc-a0b7-572cab0d5372.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/5f1c7122-9a17-4f70-946b-d640e2ea886a.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/3e2bdbf1-c52f-4f40-805a-0ffa010e8038.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - 璀璨美奢珠宝（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "肌理风插画（一丹一世界）",
+    "fullName": "AImissyou/jili",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/790959a7-73e4-4020-8cc0-24884d91ddd3.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/jili/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/jili",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/790959a7-73e4-4020-8cc0-24884d91ddd3.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/b8aa6215-e8be-4f60-9b9a-42bc9e7dbf1e.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/81001f53-9f5c-4f85-87b9-3c79e2818e69.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/991aeadd-4ce4-47e4-860e-bcea0ac44a51.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/8372e2af-5caa-4b62-97ac-f643e69f761c.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - 肌理风插画（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "情绪故事（一丹一世界）",
+    "fullName": "AImissyou/Freedom",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/0b916354-1add-49cc-b116-fb2ea2f66dce.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/Freedom/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/Freedom",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/0b916354-1add-49cc-b116-fb2ea2f66dce.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/f5625c6e-6c99-43a0-83d8-db93beab3a4b.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/89827572-9e48-47fa-9372-62d8c2785768.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/eb375cc8-9704-4489-83a4-340c86172ff3.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/81cba025-428e-4475-b21a-c861d16bcbff.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - 情绪故事（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "鎏金世界（一丹一世界）",
+    "fullName": "AImissyou/LiuJin-world",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/81d68f67-260b-41f7-9e70-6789499d28c6.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/LiuJin-world/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/LiuJin-world",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/81d68f67-260b-41f7-9e70-6789499d28c6.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/e909befa-b484-48c5-936e-943e34d523ac.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/0ce17486-80fc-4f9d-883f-10283191bb08.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/61d7a2ff-74a2-42a7-8a97-ac3c08f34a47.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/3e30e0ab-0ae3-40a1-8e2c-14009182a828.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - 鎏金世界（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "末日废土世界（一丹一世界）",
+    "fullName": "AImissyou/FEITU",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/ada5063c-0667-40ae-8ef3-e8c69d44c7da.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/FEITU/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/FEITU",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/ada5063c-0667-40ae-8ef3-e8c69d44c7da.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/27eebe9e-3660-48be-9683-ccb7b48c292b.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/c4fca574-e880-457d-821a-a5fab01971f4.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/3187250c-0bc1-4bfe-8e39-05a3ddd2ced3.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/465f27c8-3e68-4b53-b85d-1041c92b416f.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - 末日废土世界（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "非遗珠绣（一丹一世界）",
+    "fullName": "AImissyou/zhuxiu",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/92cd30e7-2f4e-419a-b4f7-875dd2dfdd89.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/zhuxiu/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/zhuxiu",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/92cd30e7-2f4e-419a-b4f7-875dd2dfdd89.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/708ea36a-fcac-464c-9d21-e3d6cc3a3f46.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/fb293767-3d67-4147-a3f8-fe7c8a8b0fdc.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/65659d34-68a8-45c0-a899-8d5d7bf2f2e4.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/ba60fb6e-a36a-4d37-aa1a-1c86c7244014.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - 非遗珠绣（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "DSDJ扁平插画（一丹一世界）",
+    "fullName": "AImissyou/DSDJ",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/241656dc-633d-4a42-b79d-2674cabaa95e.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/DSDJ/resolve/master/15.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/DSDJ",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/241656dc-633d-4a42-b79d-2674cabaa95e.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/98ad4a1b-5dd3-4df4-bec5-7f2a854374bb.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/2337991f-6ff3-4d17-bca3-2f9a00ce037a.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/1c0be07d-435b-4e28-98c8-ad7cebafe0ed.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/9ab9443d-9971-4aa9-80ea-f83222202164.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - DSDJ扁平插画（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\15.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "AImissyou秘境（一丹一世界）",
+    "fullName": "AImissyou/RedBlack",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/dbb8f6c1-6eb9-4a71-9f96-0af11d46eb2a.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/RedBlack/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/RedBlack",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/dbb8f6c1-6eb9-4a71-9f96-0af11d46eb2a.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/6f77923d-0257-4b05-83c8-d59db4946582.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/48e50f28-fecb-420b-ac28-1d9f0a3c4c86.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/b396aae3-b427-4949-ad98-280d70a41130.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/6e4f8b7b-8fe9-42cb-b73d-567e6696a470.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - AImissyou秘境（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "AImissyou富家千金（一丹一世界）",
+    "fullName": "AImissyou/pretty-girl",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/0a6e5abf-2024-4bf8-b2c7-b84055c82656.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/pretty-girl/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/pretty-girl",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/0a6e5abf-2024-4bf8-b2c7-b84055c82656.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/7a68e119-3f12-40e6-a62f-0ebf43ca030e.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/5b0da9ce-3b7c-4575-9ac7-751733d538b9.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/6a37a352-1c91-4229-8e64-5660aa080222.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/5ed17241-6a6b-4c48-94f9-e2879e67dd2f.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - AImissyou富家千金（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "AImissyou/logo",
+    "fullName": "AImissyou/logo",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/a7a973ea-b35b-46ab-a56b-97537e783356.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/logo/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/logo",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/a7a973ea-b35b-46ab-a56b-97537e783356.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - AImissyou/logo",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "AImissyou迷失乐园（一丹一世界）",
+    "fullName": "AImissyou/mh",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/73418196-e3d7-4086-b7e6-827168086d6d.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/mh/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/mh",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/73418196-e3d7-4086-b7e6-827168086d6d.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/16da3d1d-0121-493a-ab43-0fa0afc3207e.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/dafd6ee8-6175-4bbb-8354-eebade62bc49.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/6f6e5290-febb-486e-8e79-01d3a038a1c7.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/da36bd1a-5d26-4959-ad27-c16fa75942ea.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - AImissyou迷失乐园（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "JK制服少女（一丹一世界）",
+    "fullName": "AImissyou/JK",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/bb8bc462-caed-438e-9936-18c83ba73057.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/JK/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/JK",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/bb8bc462-caed-438e-9936-18c83ba73057.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/e14aeddb-d362-41db-b169-5f46f21dd617.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/7d0cf345-3601-47b7-8725-bc827eaab238.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/6c113012-6ac8-43d1-8422-8e4e44170e5f.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/81097cb9-4bd7-46cb-a50f-66fa52339b1f.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - JK制服少女（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "拍立得",
+    "fullName": "AImissyou/pailide",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/d28ab629-c682-4ebe-ba85-70c951b2294b.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/pailide/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/pailide",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/d28ab629-c682-4ebe-ba85-70c951b2294b.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - 拍立得",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "像素",
+    "fullName": "AImissyou/xiangsu",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/c448f039-093d-4576-baec-8abfed6c736e.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/xiangsu/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/xiangsu",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/c448f039-093d-4576-baec-8abfed6c736e.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - 像素",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "充气",
+    "fullName": "AImissyou/chongqi",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/2bebd9b8-2fe1-4233-8de1-c1a0164d41cb.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/chongqi/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/chongqi",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/2bebd9b8-2fe1-4233-8de1-c1a0164d41cb.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - 充气",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "手绘",
+    "fullName": "AImissyou/shouhui",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/e21d3da9-7b32-4a1c-8cc2-26fbe8893a48.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/shouhui/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/shouhui",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/e21d3da9-7b32-4a1c-8cc2-26fbe8893a48.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - 手绘",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "法式",
+    "fullName": "AImissyou/fashi",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/d8b5e105-7d18-4882-9e59-cf2a526677d9.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/fashi/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/fashi",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/d8b5e105-7d18-4882-9e59-cf2a526677d9.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - 法式",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "AImissyou队-Q版毛毡西游（AI 西游记）",
+    "fullName": "AImissyou/mzxy",
+    "coverImage": "https://resouces.modelscope.cn/cover-videos/51372c1d-7838-48d3-b29e-fde48f7b192d.mp4?x-oss-process=video/snapshot,t_1000,f_jpg",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/mzxy/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/mzxy",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [],
+    "description": "从ModelScope批量导入 - AImissyou队-Q版毛毡西游（AI 西游记）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "AImissyou/mzxy2",
+    "fullName": "AImissyou/mzxy2",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/93620732-5704-49b9-ada2-4f9b597ea4f0.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/mzxy2/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/mzxy2",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/93620732-5704-49b9-ada2-4f9b597ea4f0.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - AImissyou/mzxy2",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "穿越大唐 汉服美人（一丹一世界）",
+    "fullName": "AImissyou/hanfu",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/12bdbf2b-0f6b-4c03-90fe-d299ea3df6b7.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AImissyou/hanfu/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AImissyou/hanfu",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/12bdbf2b-0f6b-4c03-90fe-d299ea3df6b7.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/c0e54ff5-f36f-4d33-b3ad-411d421ad747.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/a6d63f7c-cf6d-4080-a336-822b4db5f8d5.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://resouces.modelscope.cn/cover-images/18f2df0b-9589-4e44-bc3a-df08e9909fb6.png?x-oss-process=image/resize,w_1000/format,webp"
+    ],
+    "description": "从ModelScope批量导入 - 穿越大唐 汉服美人（一丹一世界）",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "createdAt": "2025-06-21T18:36:04.553Z"
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "id": "tts-voice-clone",
+    "name": "TTS语音克隆",
+    "icon": "https://modelscope.cn/models/leisongde/ComfyUI/resolve/master/TTS.png",
+    "folderName": "TTS",
+    "port": 65030,
+    "scriptPath": "app.py",
+    "showCountdown": true,
+    "accessDelay": 6,
+    "accessUrl": "http://127.0.0.1:65030/",
+    "runningCheck": {
+      "url": "http://127.0.0.1:65030/ping",
+      "method": "GET",
+      "timeout": 3000
+    },
+    "downloadConfig": {
+      "fileName": "TTS.7z",
+      "downloadTo": "../ai",
+      "extractCode": "777520",
+      "deleteAfterExtract": true
+    }
+  },
+  {
+    "id": "FaceFusion",
+    "name": "图片/视频换脸",
+    "icon": "https://modelscope.cn/models/leisongde/ComfyUI/resolve/master/FaceFusion.png",
+    "folderName": "FaceFusion",
+    "port": 65040,
+    "scriptPath": "app.py",
+    "showCountdown": true,
+    "accessDelay": 6,
+    "accessUrl": "http://127.0.0.1:65040/",
+    "runningCheck": {
+      "url": "http://127.0.0.1:65040/ping",
+      "method": "GET",
+      "timeout": 3000
+    },
+    "downloadConfig": {
+      "fileName": "FaceFusion.7z",
+      "downloadTo": "../ai",
+      "extractCode": "777520",
+      "deleteAfterExtract": true
+    }
+  },
+  {
+    "id": "framepack",
+    "name": "图生视频",
+    "icon": "https://modelscope.cn/models/leisongde/ComfyUI/resolve/master/framepack.png",
+    "folderName": "framepack",
+    "port": "65060",
+    "scriptPath": "app.py",
+    "showCountdown": true,
+    "accessDelay": 6,
+    "accessUrl": "http://127.0.0.1:65060",
+    "runningCheck": {
+      "url": "http://127.0.0.1:65060/ping",
+      "method": "GET",
+      "timeout": 3000
+    },
+    "downloadConfig": {
+      "fileName": "framepack.7z",
+      "downloadTo": "../ai",
+      "extractCode": "777520",
+      "deleteAfterExtract": true
+    }
+  },
+  {
+    "id": "LatentSync",
+    "name": "LatentSync数字人",
+    "icon": "https://modelscope.cn/models/leisongde/ComfyUI/resolve/master/LatentSync.png",
+    "folderName": "LatentSync",
+    "port": "65000",
+    "scriptPath": "app.py",
+    "showCountdown": true,
+    "accessDelay": 6,
+    "accessUrl": "http://127.0.0.1:65000",
+    "runningCheck": {
+      "url": "http://127.0.0.1:65000/ping",
+      "method": "GET",
+      "timeout": 3000
+    },
+    "downloadConfig": {
+      "fileName": "LatentSync.7z",
+      "downloadTo": "../ai",
+      "extractCode": "777520",
+      "deleteAfterExtract": true
+    }
+  },
+  {
+    "id": "lora",
+    "name": "秋叶lora训练器",
+    "icon": "https://modelscope.cn/models/leisongde/ComfyUI/resolve/master/lora.png",
+    "folderName": "lora",
+    "port": "65050",
+    "scriptPath": "app.py",
+    "showCountdown": true,
+    "accessDelay": 6,
+    "accessUrl": "http://127.0.0.1:65050",
+    "runningCheck": {
+      "url": "http://127.0.0.1:65050/ping",
+      "method": "GET",
+      "timeout": 3000
+    },
+    "downloadConfig": {
+      "fileName": "lora.7z",
+      "downloadTo": "../ai",
+      "extractCode": "777520",
+      "deleteAfterExtract": true
+    }
+  },
+  {
+    "id": "RVC",
+    "name": "RVC声音模型训练",
+    "icon": "https://modelscope.cn/models/leisongde/ComfyUI/resolve/master/RVC.png",
+    "folderName": "RVC",
+    "port": "65010",
+    "scriptPath": "app.py",
+    "showCountdown": true,
+    "accessDelay": 6,
+    "accessUrl": "http://127.0.0.1:65010",
+    "runningCheck": {
+      "url": "http://127.0.0.1:65010/ping",
+      "method": "GET",
+      "timeout": 3000
+    },
+    "downloadConfig": {
+      "fileName": "RVC.7z",
+      "downloadTo": "../ai",
+      "extractCode": "777520",
+      "deleteAfterExtract": true
+    }
+  },
+  {
+    "id": "uvr",
+    "name": "音频分离",
+    "icon": "https://modelscope.cn/models/leisongde/ComfyUI/resolve/master/uvr.png",
+    "folderName": "uvr",
+    "port": "65080",
+    "scriptPath": "app.py",
+    "showCountdown": true,
+    "accessDelay": 6,
+    "accessUrl": "http://127.0.0.1:65080",
+    "runningCheck": {
+      "url": "http://127.0.0.1:65080ping",
+      "method": "GET",
+      "timeout": 3000
+    },
+    "downloadConfig": {
+      "fileName": "uvr.7z",
+      "downloadTo": "../ai",
+      "extractCode": "777520",
+      "deleteAfterExtract": true
+    }
+  },
+  {
+    "id": "videolora",
+    "name": "视频lora训练",
+    "icon": "https://modelscope.cn/models/leisongde/ComfyUI/resolve/master/videolora.png",
+    "folderName": "videolora",
+    "port": "65070",
+    "scriptPath": "app.py",
+    "showCountdown": true,
+    "accessDelay": 6,
+    "accessUrl": "http://127.0.0.1:65070",
+    "runningCheck": {
+      "url": "http://127.0.0.1:65070/ping",
+      "method": "GET",
+      "timeout": 3000
+    },
+    "downloadConfig": {
+      "fileName": "videolora.7z",
+      "downloadTo": "../ai",
+      "extractCode": "777520",
+      "deleteAfterExtract": true
+    }
+  },
+  {
+    "id": "wd14",
+    "name": "图片打标",
+    "icon": "https://modelscope.cn/models/leisongde/ComfyUI/resolve/master/wd14.png",
+    "folderName": "wd14",
+    "port": "65020",
+    "scriptPath": "app.py",
+    "showCountdown": true,
+    "accessDelay": 6,
+    "accessUrl": "http://127.0.0.1:65020",
+    "runningCheck": {
+      "url": "http://127.0.0.1:65020/ping",
+      "method": "GET",
+      "timeout": 3000
+    },
+    "downloadConfig": {
+      "fileName": "wd14.7z",
+      "downloadTo": "../ai",
+      "extractCode": "777520",
+      "deleteAfterExtract": true
+    }
+  }
+]

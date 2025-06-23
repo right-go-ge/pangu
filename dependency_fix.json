@@ -5,7 +5,7 @@
   "commands": [
     {
       "id": "install_diffusers",
-      "name": "Install Diffusers1",
+      "name": "Install Diffusers",
       "enabled": true,
       "working_directory": "%AI_PATH%\\ComfyUI",
       "command": ".\\comfyui\\python.exe -m pip install diffusers --user",

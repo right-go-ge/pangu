@@ -1890,5 +1890,206 @@
     "description": "从ModelScope批量导入 - 穿越大唐 汉服美人（一丹一世界）",
     "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "kkbingdiao",
+    "fullName": "AIkaiyuanfenxiangKK/kkbingdiao",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/4935a4c0-a444-4a76-83ad-98f9c6ec6fac.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkbingdiao/resolve/master/kkbingdiao.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkbingdiao",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/4935a4c0-a444-4a76-83ad-98f9c6ec6fac.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
+    ],
+    "description": "从ModelScope批量导入 - kkbingdiao",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\kkbingdiao.safetensors",
+    "createdAt": "2025-06-23T13:57:01.754Z"
+  },
+  {
+    "name": "kkduoning",
+    "fullName": "AIkaiyuanfenxiangKK/kkduoning",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/cc4b6038-fef7-4eea-9e62-c2edc653e72d.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkduoning/resolve/master/kkduoning.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkduoning",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/cc4b6038-fef7-4eea-9e62-c2edc653e72d.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
+    ],
+    "description": "从ModelScope批量导入 - kkduoning",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\kkduoning.safetensors",
+    "createdAt": "2025-06-23T13:57:01.755Z"
+  },
+  {
+    "name": "KKdajiaoguai",
+    "fullName": "AIkaiyuanfenxiangKK/KKdajiaoguai",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/141fe39c-6ba8-4d0e-a87f-f440e0d57d5b.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/KKdajiaoguai/resolve/master/KKdajiaoguai.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/KKdajiaoguai",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/141fe39c-6ba8-4d0e-a87f-f440e0d57d5b.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
+    ],
+    "description": "从ModelScope批量导入 - KKdajiaoguai",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\KKdajiaoguai.safetensors",
+    "createdAt": "2025-06-23T13:57:01.755Z"
+  },
+  {
+    "name": "kkneo2",
+    "fullName": "AIkaiyuanfenxiangKK/kkneo2",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/3561334b-b8d1-4675-9d9a-2497a743287b.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkneo2/resolve/master/kkneo2.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkneo2",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/3561334b-b8d1-4675-9d9a-2497a743287b.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
+    ],
+    "description": "从ModelScope批量导入 - kkneo2",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\kkneo2.safetensors",
+    "createdAt": "2025-06-23T13:57:01.755Z"
+  },
+  {
+    "name": "AIkaiyuanfenxiangKK/kkjibuli",
+    "fullName": "AIkaiyuanfenxiangKK/kkjibuli",
+    "coverImage": "https://resouces.modelscope.cn/cover-videos/ad9d0db8-e5ee-4639-8b37-618014822ef7.mp4?x-oss-process=video/snapshot,t_1000,f_jpg",
+    "downloadUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkjibuli/resolve/master/kkjibuli.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkjibuli",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
+    ],
+    "description": "从ModelScope批量导入 - AIkaiyuanfenxiangKK/kkjibuli",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\AIkaiyuanfenxiangKK_kkjibuli.safetensors",
+    "createdAt": "2025-06-23T13:57:01.755Z"
+  },
+  {
+    "name": "AIkaiyuanfenxiangKK/kkhuaqiang",
+    "fullName": "AIkaiyuanfenxiangKK/kkhuaqiang",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/d82d4280-e9bb-4987-b52a-582f5a314494.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkhuaqiang/resolve/master/kkhuaqiang.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkhuaqiang",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/d82d4280-e9bb-4987-b52a-582f5a314494.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
+    ],
+    "description": "从ModelScope批量导入 - AIkaiyuanfenxiangKK/kkhuaqiang",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\AIkaiyuanfenxiangKK_kkhuaqiang.safetensors",
+    "createdAt": "2025-06-23T13:57:01.755Z"
+  },
+  {
+    "name": "AIkaiyuanfenxiangKK/kknvshen2",
+    "fullName": "AIkaiyuanfenxiangKK/kknvshen2",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/530bdadc-2c4b-48c7-bb75-21b1b75dc700.webp?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kknvshen2/resolve/master/kknvshen2.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kknvshen2",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/530bdadc-2c4b-48c7-bb75-21b1b75dc700.webp?x-oss-process=image/resize,w_1000/format,webp",
+      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
+    ],
+    "description": "从ModelScope批量导入 - AIkaiyuanfenxiangKK/kknvshen2",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\AIkaiyuanfenxiangKK_kknvshen2.safetensors",
+    "createdAt": "2025-06-23T13:57:01.755Z"
+  },
+  {
+    "name": "AIkaiyuanfenxiangKK/kknvshen",
+    "fullName": "AIkaiyuanfenxiangKK/kknvshen",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/3254cc87-6b32-4d4a-95e2-75394e3b4f41.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kknvshen/resolve/master/kknvshen.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kknvshen",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/3254cc87-6b32-4d4a-95e2-75394e3b4f41.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
+    ],
+    "description": "从ModelScope批量导入 - AIkaiyuanfenxiangKK/kknvshen",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\AIkaiyuanfenxiangKK_kknvshen.safetensors",
+    "createdAt": "2025-06-23T13:57:01.755Z"
+  },
+  {
+    "name": "AIkaiyuanfenxiangKK/kkmao",
+    "fullName": "AIkaiyuanfenxiangKK/kkmao",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/282eb87e-4a46-459b-9542-9559b40eba95.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkmao/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkmao",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/282eb87e-4a46-459b-9542-9559b40eba95.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
+    ],
+    "description": "从ModelScope批量导入 - AIkaiyuanfenxiangKK/kkmao",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\AIkaiyuanfenxiangKK_kkmao.safetensors",
+    "createdAt": "2025-06-23T13:57:01.755Z"
+  },
+  {
+    "name": "动漫插画治愈风格",
+    "fullName": "AIkaiyuanfenxiangKK/kkstyle",
+    "coverImage": "https://resouces.modelscope.cn/cover-videos/f55585f2-69e1-4fc3-aed0-20ed40441177.mp4?x-oss-process=video/snapshot,t_1000,f_jpg",
+    "downloadUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkstyle/resolve/master/kkstyle.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkstyle",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
+    ],
+    "description": "从ModelScope批量导入 - 动漫插画治愈风格",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\动漫插画治愈风格.safetensors",
+    "createdAt": "2025-06-23T13:57:01.755Z"
+  },
+  {
+    "name": "人像万相官方Lora",
+    "fullName": "AIkaiyuanfenxiangKK/wanlora",
+    "coverImage": "https://resouces.modelscope.cn/cover-videos/7cabef79-915a-4a5b-9bb1-4620eed94947.mp4?x-oss-process=video/snapshot,t_1000,f_jpg",
+    "downloadUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/wanlora/resolve/master/wanlora.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/wanlora",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
+    ],
+    "description": "从ModelScope批量导入 - 人像万相官方Lora",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\人像万相官方Lora.safetensors",
+    "createdAt": "2025-06-23T13:57:01.755Z"
+  },
+  {
+    "name": "AIkaiyuanfenxiangKK/kkdagirl",
+    "fullName": "AIkaiyuanfenxiangKK/kkdagirl",
+    "coverImage": "https://www.modelscope.cn/models/AIkaiyuanfenxiangKK/kkdagirl/resolve/master/_cover_images_/20250224192200_50.png",
+    "downloadUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkdagirl/resolve/master/kkdagirl.safetensors",
+    "pageUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkdagirl",
+    "categories": [
+      "FLUX"
+    ],
+    "effectImages": [
+      "https://www.modelscope.cn/models/AIkaiyuanfenxiangKK/kkdagirl/resolve/master/_cover_images_/20250224192200_50.png",
+      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
+    ],
+    "description": "从ModelScope批量导入 - AIkaiyuanfenxiangKK/kkdagirl",
+    "saveLocation": "ai\\ComfyUI\\models\\loras\\AIkaiyuanfenxiangKK_kkdagirl.safetensors",
+    "createdAt": "2025-06-23T13:57:01.755Z"
   }
 ]

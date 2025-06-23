@@ -59,6 +59,18 @@
         "id": "Facial_restoration",
         "version": "1.0.0"
       }
+    },
+    {
+      "name": "ces",
+      "type": "\tAI绘图",
+      "description": "测试",
+      "category": "图像生成",
+      "icon": "image_to_image",
+      "url": "http://127.0.0.1:5555123",
+      "workflow": {
+        "id": "cesf",
+        "version": "1.0.0"
+      }
     }
   ]
 }

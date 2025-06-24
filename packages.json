@@ -340,6 +340,64 @@
             }
           ],
           "last_updated": "2025-06-24"
+        },
+        {
+          "id": "zhishi",
+          "name": "姿势控制转会",
+          "description": "wan2.1姿势控制转会",
+          "version": "1",
+          "nodes": [
+            {
+              "id": "controlnet_aux",
+              "name": "controlnet_aux",
+              "description": "controlnet_aux",
+              "github_url": "https://github.com/Fannovel16/comfyui_controlnet_aux.git"
+            },
+            {
+              "id": "ComfyLiterals",
+              "name": "ComfyLiterals",
+              "description": "ComfyLiterals\n",
+              "github_url": "https://github.com/M1kep/ComfyLiterals.git"
+            },
+            {
+              "id": "ComfyUI-WanVideoWrapper",
+              "name": "ComfyUI-WanVideoWrapper",
+              "description": "ComfyUI-WanVideoWrapper\n",
+              "github_url": "https://github.com/kijai/ComfyUI-WanVideoWrapper.git"
+            },
+            {
+              "id": "efficiency nodes",
+              "name": "efficiency nodes",
+              "description": "efficiency nodes",
+              "github_url": "https://github.com/jags111/efficiency-nodes-comfyui.git"
+            },
+            {
+              "id": "comfyui-animatediff",
+              "name": "comfyui-animatediff",
+              "description": "comfyui-animatediff\n",
+              "github_url": "https://github.com/SipherAGI/comfyui-animatediff.git"
+            },
+            {
+              "id": "Advanced-ControlNet",
+              "name": "Advanced-ControlNet",
+              "description": "Advanced-ControlNet\n",
+              "github_url": "https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet.git"
+            },
+            {
+              "id": "ComfyUI-Whisper",
+              "name": "ComfyUI-Whisper",
+              "description": "ComfyUI-Whisper",
+              "github_url": "https://github.com/yuvraj108c/ComfyUI-Whisper.git"
+            },
+            {
+              "id": "ComfyUI-FishSpeech",
+              "name": "ComfyUI-FishSpeech",
+              "description": "ComfyUI-FishSpeech\n",
+              "github_url": "https://github.com/AIFSH/ComfyUI-FishSpeech.git"
+            }
+          ],
+          "models": [],
+          "last_updated": "2025-06-24"
         }
       ]
     }

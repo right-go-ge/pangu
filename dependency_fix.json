@@ -226,6 +226,14 @@
       "working_directory": "%AI_PATH%\\ComfyUI",
       "command": ".\\comfyui\\python.exe -m pip install sageattention",
       "description": "sageattention"
+    },
+    {
+      "id": "bizyair",
+      "name": "bizyair",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\bizyair",
+      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "description": "bizyair"
     }
   ],
   "settings": {

@@ -186,6 +186,46 @@
       "working_directory": "%AI_PATH%\\ComfyUI",
       "command": ".\\comfyui\\python.exe -m pip install onnxruntime-gpu",
       "description": "onnxruntime-gpu"
+    },
+    {
+      "id": "ComfyUI-Whisper",
+      "name": "ComfyUI-Whisper",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\ComfyUI-Whisper",
+      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "description": "ComfyUI-Whisper"
+    },
+    {
+      "id": "ComfyUI-FishSpeech",
+      "name": "ComfyUI-FishSpeech",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\ComfyUI-FishSpeech",
+      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "description": "ComfyUI-FishSpeech"
+    },
+    {
+      "id": "efficiency-nodes-comfyui",
+      "name": "efficiency-nodes-comfyui",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\efficiency-nodes-comfyui",
+      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "description": "efficiency-nodes-comfyui"
+    },
+    {
+      "id": "comfyui-animatediff",
+      "name": "comfyui-animatediff",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\comfyui-animatediff",
+      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "description": "comfyui-animatediff"
+    },
+    {
+      "id": "sageattention",
+      "name": "sageattention",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI",
+      "command": ".\\comfyui\\python.exe -m pip install sageattention",
+      "description": "sageattention"
     }
   ],
   "settings": {

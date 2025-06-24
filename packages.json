@@ -292,10 +292,56 @@
       ]
     },
     {
-      "id": "测试",
-      "name": "测试",
-      "description": "测试",
-      "packages": []
+      "id": "wan2.1",
+      "name": "wan2.1视频套件",
+      "description": "wan2.1视频套件",
+      "packages": [
+        {
+          "id": "texiao",
+          "name": "特效",
+          "description": "wan2.1视频特效",
+          "version": "1",
+          "nodes": [
+            {
+              "id": "Comfyroll Studio",
+              "name": "Comfyroll Studio",
+              "description": "Comfyroll Studio",
+              "github_url": "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes.git"
+            }
+          ],
+          "models": [
+            {
+              "id": "cimashiro/360DegreeRotation",
+              "name": "360度旋转",
+              "description": "触发词：r0t4tion 360 degrees rotation",
+              "file_urls": [
+                {
+                  "url": "https://modelscope.cn/models/cimashiro/360DegreeRotation/resolve/20250527103710/360_epoch20.safetensors",
+                  "name": "360度旋转.safetensors"
+                }
+              ],
+              "save_path": "ai/ComfyUI/models/loras/wan2.1/特效Lora/",
+              "size": "",
+              "file_url": "https://modelscope.cn/models/cimashiro/360DegreeRotation/resolve/20250527103710/360_epoch20.safetensors"
+            },
+            {
+              "id": "cimashiro/CrushEffect",
+              "name": "压扁它吧",
+              "description": "触发词：c5us4 crushes it",
+              "file_urls": [
+                {
+                  "url": "https://modelscope.cn/models/cimashiro/CrushEffect/resolve/20250527170703/crushit_epoch20.safetensors",
+                  "name": "压扁它吧.safetensors"
+                }
+              ],
+              "save_path": "ai/ComfyUI/models/loras/wan2.1/特效Lora/",
+              "size": "",
+              "file_url": "https://modelscope.cn/models/cimashiro/CrushEffect/resolve/20250527170703/crushit_epoch20.safetensors"
+            }
+          ],
+          "last_updated": "2025-06-24"
+        }
+      ]
     }
   ]
 }

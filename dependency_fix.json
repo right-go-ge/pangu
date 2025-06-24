@@ -178,6 +178,14 @@
       "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\ComfyUI-WanVideoWrapper",
       "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
       "description": "WanVideoWrapper"
+    },
+    {
+      "id": "onnxruntime-gpu",
+      "name": "onnxruntime-gpu",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI",
+      "command": ".\\comfyui\\python.exe -m pip install onnxruntime-gpu",
+      "description": "onnxruntime-gpu"
     }
   ],
   "settings": {

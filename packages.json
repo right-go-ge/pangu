@@ -432,6 +432,12 @@
               "name": "ComfyUI-RMBG",
               "description": "ComfyUI-RMBG",
               "github_url": "https://github.com/1038lab/ComfyUI-RMBG.git"
+            },
+            {
+              "id": "ComfyUI-nunchaku",
+              "name": "ComfyUI-nunchaku",
+              "description": "ComfyUI-nunchaku",
+              "github_url": "https://github.com/mit-han-lab/ComfyUI-nunchaku.git"
             }
           ],
           "models": [],

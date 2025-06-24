@@ -250,6 +250,14 @@
       "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\comfyui-rmbg",
       "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
       "description": "comfyui-rmbg"
+    },
+    {
+      "id": "ComfyUI-nunchaku",
+      "name": "ComfyUI-nunchaku",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\ComfyUI-nunchaku",
+      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "description": "ComfyUI-nunchaku"
     }
   ],
   "settings": {

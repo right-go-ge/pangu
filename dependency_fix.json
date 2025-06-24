@@ -162,6 +162,22 @@
       "working_directory": "%AI_PATH%\\ComfyUI",
       "command": ".\\comfyui\\python.exe -m pip install sacremoses",
       "description": "sacremoses"
+    },
+    {
+      "id": "comfyui_controlnet_aux",
+      "name": "comfyui_controlnet_aux",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\comfyui_controlnet_aux",
+      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "description": "comfyui_controlnet_aux"
+    },
+    {
+      "id": "WanVideoWrapper",
+      "name": "WanVideoWrapper",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\ComfyUI-WanVideoWrapper",
+      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "description": "WanVideoWrapper"
     }
   ],
   "settings": {

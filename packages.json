@@ -414,6 +414,28 @@
           ],
           "models": [],
           "last_updated": "2025-06-24"
+        },
+        {
+          "id": "yifu",
+          "name": "指定人物更换指定服装",
+          "description": "指定人物更换指定服装",
+          "version": "1",
+          "nodes": [
+            {
+              "id": "ComfyUI_LayerStyle",
+              "name": "ComfyUI_LayerStyle",
+              "description": "ComfyUI_LayerStyle\n",
+              "github_url": "https://github.com/chflame163/ComfyUI_LayerStyle.git"
+            },
+            {
+              "id": "ComfyUI-RMBG",
+              "name": "ComfyUI-RMBG",
+              "description": "ComfyUI-RMBG",
+              "github_url": "https://github.com/1038lab/ComfyUI-RMBG.git"
+            }
+          ],
+          "models": [],
+          "last_updated": "2025-06-24"
         }
       ]
     }

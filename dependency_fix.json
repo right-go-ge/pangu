@@ -234,6 +234,22 @@
       "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\bizyair",
       "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
       "description": "bizyair"
+    },
+    {
+      "id": "comfyui_layerstyle",
+      "name": "comfyui_layerstyle",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\comfyui_layerstyle",
+      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "description": "comfyui_layerstyle"
+    },
+    {
+      "id": "comfyui-rmbg",
+      "name": "comfyui-rmbg",
+      "enabled": true,
+      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\comfyui-rmbg",
+      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "description": "comfyui-rmbg"
     }
   ],
   "settings": {

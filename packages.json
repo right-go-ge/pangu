@@ -398,6 +398,22 @@
           ],
           "models": [],
           "last_updated": "2025-06-24"
+        },
+        {
+          "id": "shouzhen",
+          "name": "视频首帧转会",
+          "description": "视频首帧转会",
+          "version": "1",
+          "nodes": [
+            {
+              "id": "BizyAir",
+              "name": "BizyAir",
+              "description": "BizyAir\n",
+              "github_url": "https://github.com/siliconflow/BizyAir.git"
+            }
+          ],
+          "models": [],
+          "last_updated": "2025-06-24"
         }
       ]
     }

@@ -442,6 +442,52 @@
           ],
           "models": [],
           "last_updated": "2025-06-24"
+        },
+        {
+          "id": "VACE+",
+          "name": "VACE+视频转绘+真人转漫画+漫画转真人即可",
+          "description": "VACE+视频转绘+真人转漫画+漫画转真人即可",
+          "version": "1",
+          "nodes": [
+            {
+              "id": "ComfyUI-Florence2",
+              "name": "ComfyUI-Florence2",
+              "description": "ComfyUI-Florence2",
+              "github_url": "https://github.com/kijai/ComfyUI-Florence2.git"
+            },
+            {
+              "id": "ComfyUI_essentials",
+              "name": "ComfyUI_essentials",
+              "description": "ComfyUI_essentials\n",
+              "github_url": "https://github.com/cubiq/ComfyUI_essentials.git"
+            },
+            {
+              "id": "comfy_mtb",
+              "name": "comfy_mtb",
+              "description": "comfy_mtb",
+              "github_url": "https://github.com/melMass/comfy_mtb.git"
+            },
+            {
+              "id": "ComfyUI-DepthAnythingV2",
+              "name": "ComfyUI-DepthAnythingV2",
+              "description": "ComfyUI-DepthAnythingV2",
+              "github_url": "https://github.com/kijai/ComfyUI-DepthAnythingV2.git"
+            },
+            {
+              "id": "comfy-image-saver",
+              "name": "comfy-image-saver",
+              "description": "comfy-image-saver",
+              "github_url": "https://github.com/giriss/comfy-image-saver.git"
+            },
+            {
+              "id": "comfyui-tensorops",
+              "name": "comfyui-tensorops",
+              "description": "comfyui-tensorops",
+              "github_url": "https://github.com/un-seen/comfyui-tensorops.git"
+            }
+          ],
+          "models": [],
+          "last_updated": "2025-06-25"
         }
       ]
     }

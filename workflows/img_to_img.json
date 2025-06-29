@@ -33,8 +33,8 @@
   },
   "75": {
     "inputs": {
-      "clip_name1": "flux\\t5xxl_fp16.safetensors",
-      "clip_name2": "flux\\clip_l.safetensors",
+      "clip_name1": "flux/t5xxl_fp16.safetensors",
+      "clip_name2": "flux/clip_l.safetensors",
       "type": "flux",
       "device": "default"
     },
@@ -84,10 +84,7 @@
     "inputs": {
       "scheduler": "simple",
       "steps": 20,
-      "denoise": [
-        "94",
-        1
-      ],
+      "denoise": 0.75,
       "model": [
         "88",
         0
@@ -100,7 +97,7 @@
   },
   "79": {
     "inputs": {
-      "noise_seed": 185494729371608
+      "noise_seed": 836753343604027
     },
     "class_type": "RandomNoise",
     "_meta": {
@@ -147,7 +144,7 @@
   },
   "84": {
     "inputs": {
-      "vae_name": "flux\\ae.safetensors"
+      "vae_name": "flux/ae.safetensors"
     },
     "class_type": "VAELoader",
     "_meta": {
@@ -185,7 +182,7 @@
   },
   "87": {
     "inputs": {
-      "unet_name": "FLUX\\flux-dev.safetensors",
+      "unet_name": "FLUX/flux-dev.safetensors",
       "weight_dtype": "fp8_e4m3fn"
     },
     "class_type": "UNETLoader",
@@ -195,7 +192,7 @@
   },
   "88": {
     "inputs": {
-      "lora_01": "None",
+      "lora_01": "苏婉.safetensors",
       "strength_01": 0.8,
       "lora_02": "None",
       "strength_02": 1,
@@ -215,16 +212,6 @@
     "class_type": "Lora Loader Stack (rgthree)",
     "_meta": {
       "title": "LoRA堆加载器"
-    }
-  },
-  "94": {
-    "inputs": {
-      "string": "0.74",
-      "rounding": "round"
-    },
-    "class_type": "StringToNumber",
-    "_meta": {
-      "title": "图生图重绘幅度"
     }
   },
   "115": {

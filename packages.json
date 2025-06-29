@@ -66,13 +66,15 @@
               "id": "ComfyUI-KJNodes",
               "name": "ComfyUI-KJNodes",
               "description": "为ComfyUI设计的各类提升用户体验的节点，主要是用于改善可用性的视觉相关内容。",
-              "github_url": "https://github.com/kijai/ComfyUI-KJNodes.git"
+              "github_url": "https://github.com/kijai/ComfyUI-KJNodes.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
             },
             {
               "id": "comfyui-art-venture",
               "name": "comfyui-art-venture",
               "description": "ArtVenture Custom Nodes",
-              "github_url": "https://github.com/sipherxyz/comfyui-art-venture.git"
+              "github_url": "https://github.com/sipherxyz/comfyui-art-venture.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
             }
           ],
           "models": [

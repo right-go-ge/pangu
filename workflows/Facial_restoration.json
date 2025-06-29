@@ -1,0 +1,197 @@
+{
+  "18": {
+    "inputs": {
+      "model_name": "bbox/face_yolov8m.pt"
+    },
+    "class_type": "UltralyticsDetectorProvider",
+    "_meta": {
+      "title": "检测加载器"
+    }
+  },
+  "87": {
+    "inputs": {
+      "filename_prefix": [
+        "303",
+        0
+      ],
+      "images": [
+        "183",
+        1
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "保存图像"
+    }
+  },
+  "157": {
+    "inputs": {
+      "text": "",
+      "clip": [
+        "160",
+        0
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码器"
+    }
+  },
+  "159": {
+    "inputs": {
+      "vae_name": "flux\\ae.safetensors"
+    },
+    "class_type": "VAELoader",
+    "_meta": {
+      "title": "VAE加载器"
+    }
+  },
+  "160": {
+    "inputs": {
+      "clip_name1": "flux\\t5xxl_fp16.safetensors",
+      "clip_name2": "flux\\clip_l.safetensors",
+      "type": "flux",
+      "device": "default"
+    },
+    "class_type": "DualCLIPLoader",
+    "_meta": {
+      "title": "双CLIP加载器"
+    }
+  },
+  "161": {
+    "inputs": {
+      "unet_name": "FLUX\\flux-dev.safetensors",
+      "weight_dtype": "fp8_e4m3fn"
+    },
+    "class_type": "UNETLoader",
+    "_meta": {
+      "title": "UNET加载器"
+    }
+  },
+  "179": {
+    "inputs": {
+      "filename_prefix": [
+        "303",
+        0
+      ],
+      "images": [
+        "183",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "保存图像"
+    }
+  },
+  "183": {
+    "inputs": {
+      "guide_size": 512,
+      "guide_size_for": true,
+      "max_size": 1024,
+      "seed": 434011106401721,
+      "steps": 20,
+      "cfg": 1,
+      "sampler_name": "deis",
+      "scheduler": "beta",
+      "denoise": 0.22,
+      "feather": 5,
+      "noise_mask": true,
+      "force_inpaint": true,
+      "bbox_threshold": 0.5,
+      "bbox_dilation": 20,
+      "bbox_crop_factor": 3,
+      "sam_detection_hint": "center-1",
+      "sam_dilation": 0,
+      "sam_threshold": 0.93,
+      "sam_bbox_expansion": 0,
+      "sam_mask_hint_threshold": 0.7,
+      "sam_mask_hint_use_negative": "False",
+      "drop_size": 10,
+      "refiner_ratio": 0.2,
+      "cycle": 1,
+      "inpaint_model": false,
+      "noise_mask_feather": 20,
+      "tiled_encode": false,
+      "tiled_decode": false,
+      "image": [
+        "361",
+        0
+      ],
+      "detailer_pipe": [
+        "185",
+        0
+      ]
+    },
+    "class_type": "FaceDetailerPipe",
+    "_meta": {
+      "title": "面部细化(节点束)"
+    }
+  },
+  "185": {
+    "inputs": {
+      "wildcard": "",
+      "Select to add LoRA": "Select the LoRA to add to the text",
+      "Select to add Wildcard": "Select the Wildcard to add to the text",
+      "model": [
+        "161",
+        0
+      ],
+      "clip": [
+        "160",
+        0
+      ],
+      "vae": [
+        "159",
+        0
+      ],
+      "positive": [
+        "157",
+        0
+      ],
+      "negative": [
+        "364",
+        0
+      ],
+      "bbox_detector": [
+        "18",
+        0
+      ]
+    },
+    "class_type": "ToDetailerPipe",
+    "_meta": {
+      "title": "到细化束"
+    }
+  },
+  "303": {
+    "inputs": {
+      "string": "character_sheet_flux"
+    },
+    "class_type": "Simple String",
+    "_meta": {
+      "title": "简易字符串"
+    }
+  },
+  "361": {
+    "inputs": {
+      "image": "fr_input_20250608_224417_7582.png"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "加载图像"
+    }
+  },
+  "364": {
+    "inputs": {
+      "text": "",
+      "clip": [
+        "160",
+        0
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码器"
+    }
+  }
+}

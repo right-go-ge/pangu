@@ -5,7 +5,7 @@
     "downloadUrl": "https://modelscope.cn/models/smallririri/SMalL_rIRiri-jadetablet_majicFlus/resolve/v1.0/flux-zg-GJ .safetensors",
     "pageUrl": "https://modelscope.cn/models/smallririri/SMalL_rIRiri-jadetablet_majicFlus/files",
     "description": "简介：\n低权重使用 主要效果为脸部特化和滤镜增强\n权重越高 整体画面的风格会越往二次元转变\n过渡效果较平滑 可根据个人喜好增减权重值",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\flux-zg-GJ.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\flux-zg-GJ.safetensors",
     "categories": [
       "FLUX",
       "人物"
@@ -15,8 +15,7 @@
       "https://www.modelscope.cn/models/smallririri/SMalL_rIRiri-jadetablet_majicFlus/resolve/master/_cover_images_/a4feed6b-a02a-4b76-a240-628ffb127ef8.png",
       "https://www.modelscope.cn/models/smallririri/SMalL_rIRiri-jadetablet_majicFlus/resolve/master/_cover_images_/5b1cc449-e93f-4da7-b5d0-e8837f016714.png"
     ],
-    "createdAt": "2025-06-06T03:37:55.095Z",
-    "updatedAt": "2025-06-23T14:36:07.423Z"
+    "createdAt": "2025-06-06T03:37:55.095Z"
   },
   {
     "name": "MAJICFLUS_麦橘超缸",
@@ -24,7 +23,7 @@
     "downloadUrl": "https://modelscope.cn/models/ASHUOA/Stellardream/resolve/v1.0/MAJICFLUS_麦橘超缸.safetensors",
     "pageUrl": "https://modelscope.cn/models/ASHUOA/Stellardream/files",
     "description": "简介：\n低权重使用 主要效果为脸部特化和滤镜增强\n权重越高 整体画面的风格会越往二次元转变\n过渡效果较平滑 可根据个人喜好增减权重值",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\MAJICFLUS_麦橘超缸.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\MAJICFLUS_麦橘超缸.safetensors",
     "categories": [
       "FLUX",
       "人物"
@@ -55,7 +54,7 @@
       "https://resouces.modelscope.cn/cover-images/e174df4d-0d2b-48b0-91a5-d8571e8ccda7.webp?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 麦橘超然",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\majicflus_v134.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\majicflus_v134.safetensors",
     "createdAt": "2025-06-10T09:16:52.022Z"
   },
   {
@@ -72,7 +71,7 @@
       "https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/MTczODI3Mzc4MTc4OGRkZjlmMjRj.jpg?Expires=2671393782&OSSAccessKeyId=LTAI5tFUGCdfUhHbnHuDasWd&Signature=egYw7ScNRs694S8sv78BXUWsS5M%3D"
     ],
     "description": " LOCOmuchen/Majicflus_jingji",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\12.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\12.safetensors",
     "createdAt": "2025-06-10T09:16:52.023Z"
   },
   {
@@ -89,7 +88,7 @@
       "https://muse-ai.oss-cn-hangzhou.aliyuncs.com/img/MTczODgxMTcyMzY2MGU1ZDg4Nzhl.jpg?Expires=2671931724&OSSAccessKeyId=LTAI5tFUGCdfUhHbnHuDasWd&Signature=1r%2BFcZW6pUFTfd1RrS375dQIHkg%3D"
     ],
     "description": " LOCO-FLUX-质感人像",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\LOCO-Flux-3.0.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\LOCO-Flux-3.0.safetensors",
     "createdAt": "2025-06-10T09:16:52.023Z"
   },
   {
@@ -106,7 +105,7 @@
       "https://www.modelscope.cn/models/MAILAND/Merjic-Maria/resolve/master/_cover_images_/20250105033030_12.png"
     ],
     "description": " LOCOmuchen/《麦橘Maria》Majicflus",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\12.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\12.safetensors",
     "createdAt": "2025-06-10T09:16:52.023Z"
   },
   {
@@ -123,7 +122,7 @@
       "https://www.modelscope.cn/models/MAILAND/Magicflus_huafeihua/resolve/master/_cover_images_/20250111130857_12.png"
     ],
     "description": " LOCOmuchen/Magicflus_huafeihua",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\12.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\12.safetensors",
     "createdAt": "2025-06-10T09:16:52.023Z"
   },
   {
@@ -140,7 +139,7 @@
       "https://www.modelscope.cn/models/MAILAND/MergicMermaid/resolve/master/_cover_images_/20250104212948_12.png"
     ],
     "description": " LOCOmuchen/《麦橘人鱼》Majicflus",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\12.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\12.safetensors",
     "createdAt": "2025-06-10T09:16:52.023Z"
   },
   {
@@ -157,7 +156,7 @@
       "https://www.modelscope.cn/models/MAILAND/Majicflus_phone/resolve/master/_cover_images_/20250111190501_12.png"
     ],
     "description": " LOCOmuchen/Majicflus_phone",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\12.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\12.safetensors",
     "createdAt": "2025-06-10T09:16:52.023Z"
   },
   {
@@ -174,7 +173,7 @@
       "https://www.modelscope.cn/models/MAILAND/MagicIrene/resolve/master/_cover_images_/20250106042121_12.png"
     ],
     "description": " LOCOmuchen/《麦橘复古少女Irene》Majicflus",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\12.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\12.safetensors",
     "createdAt": "2025-06-10T09:16:52.023Z"
   },
   {
@@ -191,7 +190,7 @@
       "https://www.modelscope.cn/models/MAILAND/MergicSuperBling/resolve/master/_cover_images_/20250104203800_12.png"
     ],
     "description": " LOCOmuchen/《麦橘超Bling》Majicflus",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\12.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\12.safetensors",
     "createdAt": "2025-06-10T09:16:52.023Z"
   },
   {
@@ -208,7 +207,7 @@
       "https://www.modelscope.cn/models/MAILAND/Mergic_Digitalfashion/resolve/master/_cover_images_/20250105085423_12.png"
     ],
     "description": " LOCOmuchen/《麦橘Digitalfashion》Majicflus",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\12.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\12.safetensors",
     "createdAt": "2025-06-10T09:16:52.023Z"
   },
   {
@@ -225,7 +224,7 @@
       "https://resouces.modelscope.cn/cover-images/2010ec46-10da-49f0-b3e2-982393faa9dd.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " LOCOmuchen/《麦橘超boy》Majicflus",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\10.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\10.safetensors",
     "createdAt": "2025-06-10T09:16:52.023Z"
   },
   {
@@ -242,7 +241,7 @@
       "https://www.modelscope.cn/models/MAILAND/Merjicqingyi/resolve/master/_cover_images_/20250106171052_10.png"
     ],
     "description": " LOCOmuchen/《麦橘青衣》Majicflus",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\10.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\10.safetensors",
     "createdAt": "2025-06-10T09:16:52.023Z"
   },
   {
@@ -263,7 +262,7 @@
       "https://www.modelscope.cn/models/MAILAND/Retro_70s_MajicFlus/resolve/master/_cover_images_/818b7d56-cf63-44f0-8390-0b38e1601df6.png"
     ],
     "description": " 麦橘超复古 MajicFlus 适配",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\Retro_70s_MajicFlux.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\Retro_70s_MajicFlux.safetensors",
     "createdAt": "2025-06-10T09:16:52.023Z"
   },
   {
@@ -280,7 +279,7 @@
       "https://www.modelscope.cn/models/MAILAND/Billy_Dinh/resolve/master/_cover_images_/20250102092109_20.png"
     ],
     "description": " merjic/Billy_Dinh",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:16:52.023Z"
   },
   {
@@ -297,7 +296,7 @@
       "https://www.modelscope.cn/models/MAILAND/Merjicmengli/resolve/master/_cover_images_/20250104134542_12.png"
     ],
     "description": " LOCOmuchen/《麦橘梦璃》Majicflus",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\12.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\12.safetensors",
     "createdAt": "2025-06-10T09:16:52.023Z"
   },
   {
@@ -314,7 +313,7 @@
       "https://www.modelscope.cn/models/MAILAND/Merjic-snake/resolve/master/_cover_images_/20250104135140_12.png"
     ],
     "description": " LOCOmuchen/Merjic-snake",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\12.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\12.safetensors",
     "createdAt": "2025-06-10T09:16:52.023Z"
   },
   {
@@ -331,7 +330,7 @@
       "https://www.modelscope.cn/models/MAILAND/cyberwallblue/resolve/master/_cover_images_/20250103072348_20.png"
     ],
     "description": " merjic/cyberwallblue",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:16:52.023Z"
   },
   {
@@ -348,7 +347,7 @@
       "https://www.modelscope.cn/models/MAILAND/portrait-skin-texture/resolve/master/_cover_images_/50df5a36-a14e-4847-9974-c87bed89e59f.png"
     ],
     "description": " 沐辰人像皮肤质感提升",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\flux-loco-v1-000008.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\flux-loco-v1-000008.safetensors",
     "createdAt": "2025-06-10T09:16:52.023Z"
   },
   {
@@ -368,7 +367,7 @@
       "https://resouces.modelscope.cn/cover-images/aab708ae-2ace-4faa-bd5c-28b5b441886a.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 礼服（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:22:45.650Z"
   },
   {
@@ -385,7 +384,7 @@
       "https://www.modelscope.cn/models/VoidOc/fresh_fruits_flux_lora/resolve/master/_cover_images_/cb62c548-c6cd-4de1-9bb7-f85f1a881de2.png"
     ],
     "description": " 生鲜果蔬水花 | 写实摄影 Flux1.d Lora",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\生鲜果蔬水花 _ 写实摄影 Flux1.d Lora_v1.0.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\生鲜果蔬水花 _ 写实摄影 Flux1.d Lora_v1.0.safetensors",
     "createdAt": "2025-06-10T09:22:45.650Z"
   },
   {
@@ -402,7 +401,7 @@
       "https://www.modelscope.cn/models/Neolongx/Flash_emotion/resolve/master/_cover_images_/a904514d-b2a0-4d52-b663-791cb453cf93.png"
     ],
     "description": " 《MAJICFLUS_闪光情绪》",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\neomj闪光灯v3_15.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\neomj闪光灯v3_15.safetensors",
     "createdAt": "2025-06-10T09:22:45.650Z"
   },
   {
@@ -422,7 +421,7 @@
       "https://www.modelscope.cn/models/DonRat/MAJICFLUS_Tyndall/resolve/master/_cover_images_/d2abe9b5-a238-4fa5-9b18-6362c5ec5e84.png"
     ],
     "description": " MAJICFLUS_麦橘丁达尔",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\麦橘丁达尔.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\麦橘丁达尔.safetensors",
     "createdAt": "2025-06-10T09:22:45.650Z"
   },
   {
@@ -438,7 +437,7 @@
       "https://www.modelscope.cn/models/MAILAND/cyberwallblue/resolve/master/_cover_images_/20250103072348_20.png"
     ],
     "description": " merjic/cyberwallblue",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:22:45.650Z"
   },
   {
@@ -454,7 +453,7 @@
       "https://resouces.modelscope.cn/cover-images/7621696c-5e65-4da3-adc2-57547e6d9f72.jpg?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 娇娇sdxl 瓷韵青花",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\中国风—青花瓷_v1.0.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\中国风—青花瓷_v1.0.safetensors",
     "createdAt": "2025-06-10T09:22:45.650Z"
   },
   {
@@ -472,7 +471,7 @@
       "https://modelscope.cn/api/v1/models/LiblibAI/AWPortraitCN/repo?Revision=master&FilePath=.%2Fimages%2Fteaser.png&View=true"
     ],
     "description": " AWPortraitCN",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\AWPortraitCN.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\AWPortraitCN.safetensors",
     "createdAt": "2025-06-10T09:22:45.650Z"
   },
   {
@@ -492,7 +491,7 @@
       "https://www.modelscope.cn/models/DonRat/MAJICFLUS_SuperChinesestyleillustration/resolve/master/_cover_images_/f3cebfc6-5ed7-4731-9593-22865d2a3a2e.png"
     ],
     "description": " MAJICFLUS_麦橘超中国风插画",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\麦橘超中国风插画.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\麦橘超中国风插画.safetensors",
     "createdAt": "2025-06-10T09:22:45.650Z"
   },
   {
@@ -512,7 +511,7 @@
       "https://www.modelscope.cn/models/ASHUOA/MAJICFLUS_up_cat/resolve/master/_cover_images_/d0d38eaf-5e37-4746-8b94-7e870b067f30.png"
     ],
     "description": " MAJICFLUS_麦橘超猫",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\MAJICFLUS_麦橘超猫.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\MAJICFLUS_麦橘超猫.safetensors",
     "createdAt": "2025-06-10T09:22:45.650Z"
   },
   {
@@ -532,7 +531,7 @@
       "https://www.modelscope.cn/models/fulan2015/OrientalDream/resolve/master/_cover_images_/da30f0d0-9724-4e66-9d54-db5438b124ac.png"
     ],
     "description": " 东方梦-摄影版",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\Fulan_dongfangmeng_Majic_F.1.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\Fulan_dongfangmeng_Majic_F.1.safetensors",
     "createdAt": "2025-06-10T09:22:45.650Z"
   },
   {
@@ -551,7 +550,7 @@
       "https://www.modelscope.cn/models/smallririri/SMalL_rIRiri-jadetablet_majicFlus/resolve/master/_cover_images_/5b1cc449-e93f-4da7-b5d0-e8837f016714.png"
     ],
     "description": " 戰國_二次元风（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\flux-zg-GJ .safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\flux-zg-GJ .safetensors",
     "createdAt": "2025-06-10T09:22:45.650Z"
   },
   {
@@ -569,7 +568,7 @@
       "https://resouces.modelscope.cn/cover-images/354b61c2-04cd-4358-9298-6e74202e0e74.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " MAJICFLUS-麦橘光影约拍",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\al.24.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\al.24.safetensors",
     "createdAt": "2025-06-10T09:22:45.650Z"
   },
   {
@@ -589,7 +588,7 @@
       "https://www.modelscope.cn/models/CyrilPilgrim/CyrilPilgrim-DigitalHuman_v1/resolve/master/_cover_images_/6a4f6bbb-b442-4c22-96b2-05a10b690911.png"
     ],
     "description": " 3D数字人形象",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\【CyrilPilgrim】DigitalHuman_v1.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\【CyrilPilgrim】DigitalHuman_v1.safetensors",
     "createdAt": "2025-06-10T09:22:45.650Z"
   },
   {
@@ -605,7 +604,7 @@
       "https://modelscope.cn/api/v1/models/strangerzone/Flux-Cute-3D-Kawaii-LoRA/repo?Revision=master&FilePath=images%2F3D.png&View=true"
     ],
     "description": " Flux-Cute-3D-Kawaii-LoRA",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\Cute-3d-Kawaii.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\Cute-3d-Kawaii.safetensors",
     "createdAt": "2025-06-10T09:22:45.650Z"
   },
   {
@@ -622,7 +621,7 @@
       "https://modelscope.cn/api/v1/models/prithivMLmods/Canopus-LoRA-Flux-UltraRealism-2.0/repo?Revision=master&FilePath=images%2F34.png&View=true"
     ],
     "description": " Canopus-LoRA-Flux-UltraRealism-2.0",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\Canopus-LoRA-Flux-UltraRealism.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\Canopus-LoRA-Flux-UltraRealism.safetensors",
     "createdAt": "2025-06-10T09:22:45.650Z"
   },
   {
@@ -638,7 +637,7 @@
       "https://modelscope.cn/api/v1/models/strangerzone/Flux-Animeo-v1-LoRA/repo?Revision=master&FilePath=images%2F4.png&View=true"
     ],
     "description": " Flux-Animeo-v1-LoRA",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\Animeo.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\Animeo.safetensors",
     "createdAt": "2025-06-10T09:22:45.650Z"
   },
   {
@@ -654,7 +653,7 @@
       "https://resouces.modelscope.cn/proxy-image/fff6407b2aaa31ca105fc280fe70239e093e7adf9031be4b4c1ab43d386e667c.png"
     ],
     "description": " Flux-Ultimate-LoRA-Collection",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\2021-Art.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\2021-Art.safetensors",
     "createdAt": "2025-06-10T09:22:45.650Z"
   },
   {
@@ -670,7 +669,7 @@
       "https://modelscope.cn/api/v1/models/LiblibAI/FLUX.1-dev-LoRA-Text-Poster/repo?Revision=master&FilePath=.%2Fposter.jpeg&View=true"
     ],
     "description": " FLUX.1-dev-LoRA-Text-Poster",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\FLUX-dev-lora-Text-Poster.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\FLUX-dev-lora-Text-Poster.safetensors",
     "createdAt": "2025-06-10T09:22:45.650Z"
   },
   {
@@ -686,7 +685,7 @@
       "https://resouces.modelscope.cn/proxy-image/4bd5577c91345117cf295af0c5f3a10fe72d7b20aa7b8cf8b157eb54821e18a9.png"
     ],
     "description": " Flux-Automotive-X2-LoRA",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\Automotive-X2.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\Automotive-X2.safetensors",
     "createdAt": "2025-06-10T09:22:45.650Z"
   },
   {
@@ -702,7 +701,7 @@
       "https://resouces.modelscope.cn/proxy-image/6e67f7c4695052d2be380a3f4c2848df2265635d51fe1b1edea01f225e594b56.png"
     ],
     "description": " Flux-3D-Emojies-LoRA",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\Flux-3D-Emojies-Mation.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\Flux-3D-Emojies-Mation.safetensors",
     "createdAt": "2025-06-10T09:22:45.650Z"
   },
   {
@@ -718,7 +717,7 @@
       "https://resouces.modelscope.cn/cover-images/0f18e449-8a2f-4b48-a364-c12203a9643b.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 热成像风格滤镜",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -734,7 +733,7 @@
       "https://resouces.modelscope.cn/cover-images/6b057d22-0be2-41fe-9d09-0a4392577f88.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 复古风格滤镜",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -754,7 +753,7 @@
       "https://resouces.modelscope.cn/cover-images/9a52d7ab-e66d-4e6f-abab-2c1bddb05671.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 极简主义头像麦橘版",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -774,7 +773,7 @@
       "https://resouces.modelscope.cn/cover-images/2e128cf8-2023-4342-93f5-5b5a514a0e8a.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 极致幻想主义2.0",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -790,7 +789,7 @@
       "https://resouces.modelscope.cn/cover-images/dc649af6-ea50-48cb-b6d9-dd485f2c7945.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 辉光滤镜麦橘版",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -806,7 +805,7 @@
       "https://resouces.modelscope.cn/cover-images/94097437-4379-4e66-b3f5-fbaec0a6a791.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 簪花旗袍麦橘版",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -822,7 +821,7 @@
       "https://resouces.modelscope.cn/cover-images/afe9e5ec-a32c-4558-8e3a-21d215a77f68.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 半写实摄影2.0",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\26.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\26.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -838,7 +837,7 @@
       "https://resouces.modelscope.cn/cover-images/04e7162c-4b23-445e-8b01-4111aadf0e0c.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 赛博法师",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\26.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\26.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -858,7 +857,7 @@
       "https://resouces.modelscope.cn/cover-images/1a0b8636-d04f-4762-b47c-d3a871018b3c.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 藏锋2.0",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\26.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\26.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -874,7 +873,7 @@
       "https://resouces.modelscope.cn/cover-images/a491a732-28d6-4435-828f-ed00a4f7c326.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 魔女小Q",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -890,7 +889,7 @@
       "https://resouces.modelscope.cn/cover-images/02ba67e6-eb60-4939-9820-1cb86e024545.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 炫彩风格滤镜",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\30.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\30.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -906,7 +905,7 @@
       "https://resouces.modelscope.cn/cover-images/17046d95-a8f6-427e-a401-e46cacf91a7e.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 东方武学之降龙",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -924,7 +923,7 @@
       "https://resouces.modelscope.cn/cover-images/bee32cf6-6fcc-4f90-962f-811dc2f36b52.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 墨隐神现_泼墨风",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -940,7 +939,7 @@
       "https://resouces.modelscope.cn/cover-images/97a9b94c-f9fb-4129-99f7-f834d3762f98.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 乐动春晓",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -960,7 +959,7 @@
       "https://resouces.modelscope.cn/cover-images/395480b7-1816-4210-98c4-0beefb51d804.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 蒂法2.0通用动作版",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -980,7 +979,7 @@
       "https://resouces.modelscope.cn/cover-images/f7059370-b32b-4f0d-bafc-affbaf933dc1.jpg?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 百炼藏锋F3",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\24.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\24.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -1000,7 +999,7 @@
       "https://resouces.modelscope.cn/cover-images/87af24ab-c6b6-4b79-b2c0-0304048a9069.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 半写实奇幻",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -1020,7 +1019,7 @@
       "https://resouces.modelscope.cn/cover-images/43e3fddb-1790-4e8a-8ccc-2e9cc478d24f.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 守望先锋DVa",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -1040,7 +1039,7 @@
       "https://resouces.modelscope.cn/cover-images/3a732083-e2a2-4ee3-acdf-f80ca7147f1b.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 古色古香（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -1060,7 +1059,7 @@
       "https://resouces.modelscope.cn/cover-images/e4e89ea6-8894-4a54-b787-47a68ceab146.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 极致幻想2.0",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -1080,7 +1079,7 @@
       "https://resouces.modelscope.cn/cover-images/075f1e55-ff27-4ba3-8242-fdcdf409414b.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 破碎的完整（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -1100,7 +1099,7 @@
       "https://resouces.modelscope.cn/cover-images/c9e45aac-fc02-48c2-aebf-2f769a51502a.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 梦想之家（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -1120,7 +1119,7 @@
       "https://resouces.modelscope.cn/cover-images/8d985717-2239-440a-98bb-ba0cb75fe422.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 混沌狂想pro（通用版）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -1140,7 +1139,7 @@
       "https://resouces.modelscope.cn/cover-images/5d145505-cca7-4fb1-9bdf-2b52c8a3c32c.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 游戏CG/koi_E3",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -1160,7 +1159,7 @@
       "https://resouces.modelscope.cn/cover-images/53cbfca0-5bbd-4cad-a953-a49254c937c2.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 2.5D极致幻想koi_F3",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -1180,7 +1179,7 @@
       "https://resouces.modelscope.cn/cover-images/afa27639-0baa-447b-979a-a291ffb3dde5.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 抽象主义koi_S3",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -1200,7 +1199,7 @@
       "https://resouces.modelscope.cn/cover-images/d655ff1e-3930-4e6f-a394-056b7854f9e6.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 麦橘版街头霸王春丽（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -1220,7 +1219,7 @@
       "https://resouces.modelscope.cn/cover-images/65e31f92-31ba-47d8-b0d1-f73c3c24053f.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 麦橘版时尚蒂法（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -1240,7 +1239,7 @@
       "https://resouces.modelscope.cn/cover-images/dfd77c47-cd14-41a7-b08e-3df05eee18c7.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 活力小清新（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -1260,7 +1259,7 @@
       "https://resouces.modelscope.cn/cover-images/6635e939-d6e5-4376-831b-1d09cbf5ee2f.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " 混沌狂想（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -1276,7 +1275,7 @@
       "https://resouces.modelscope.cn/cover-images/90766322-0b7e-4f71-b2da-bca8c28913bd.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": " Jimmy888/koi_DP",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-10T09:37:19.388Z"
   },
   {
@@ -1292,7 +1291,7 @@
       "https://resouces.modelscope.cn/cover-images/8aa0470f-037d-400b-8bd3-322278e299a6.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - 素描",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1308,7 +1307,7 @@
       "https://resouces.modelscope.cn/cover-images/563f0174-0ba1-497b-92ac-6346a8ebec7a.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - 日漫",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1327,7 +1326,7 @@
       "https://resouces.modelscope.cn/cover-images/817e1041-606c-480c-bd19-16b343bc83a0.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - 法式复古 室内场景lora",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1347,7 +1346,7 @@
       "https://resouces.modelscope.cn/cover-images/cff336af-e05d-41d0-a06b-eaead714cc51.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - 珐琅金属质感徽章（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1365,7 +1364,7 @@
       "https://resouces.modelscope.cn/cover-images/a53df171-82f4-40fc-8e8a-ca022ebf65ca.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - 新中式旗袍写真（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1385,7 +1384,7 @@
       "https://resouces.modelscope.cn/cover-images/0d61fbbe-ac61-4e75-908e-c0b77b41586c.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - 蝴蝶精灵儿童写真（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1405,7 +1404,7 @@
       "https://resouces.modelscope.cn/cover-images/f16b54cb-2833-42ff-ad35-16443053b1b9.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - 电商宠物场景（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1425,7 +1424,7 @@
       "https://resouces.modelscope.cn/cover-images/89771996-4a99-428e-805f-ad8af0ad1216.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - Q版古装娃娃（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1445,7 +1444,7 @@
       "https://resouces.modelscope.cn/cover-images/660da2e8-b44a-4570-8452-949b3300ee37.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - 非遗簪花写真（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1464,7 +1463,7 @@
       "https://resouces.modelscope.cn/cover-images/8a9104b0-338a-4f60-b6bb-d333af6d0176.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - 红衣佳人，古风写真（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1484,7 +1483,7 @@
       "https://resouces.modelscope.cn/cover-images/49aad1c6-de54-432c-9a8d-cfcdefd91d5c.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - 高奢珠宝（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1503,7 +1502,7 @@
       "https://resouces.modelscope.cn/cover-images/c56c3109-6767-4c8c-93d5-d626b6e865e6.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - 九尾狐妖写真（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1523,7 +1522,7 @@
       "https://resouces.modelscope.cn/cover-images/9cc8985b-987c-4c69-b79c-73c64dea5546.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - 3D电商促销活动运营场景lora（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1543,7 +1542,7 @@
       "https://resouces.modelscope.cn/cover-images/3e2bdbf1-c52f-4f40-805a-0ffa010e8038.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - 璀璨美奢珠宝（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1563,7 +1562,7 @@
       "https://resouces.modelscope.cn/cover-images/8372e2af-5caa-4b62-97ac-f643e69f761c.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - 肌理风插画（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1583,7 +1582,7 @@
       "https://resouces.modelscope.cn/cover-images/81cba025-428e-4475-b21a-c861d16bcbff.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - 情绪故事（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1603,7 +1602,7 @@
       "https://resouces.modelscope.cn/cover-images/3e30e0ab-0ae3-40a1-8e2c-14009182a828.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - 鎏金世界（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1623,7 +1622,7 @@
       "https://resouces.modelscope.cn/cover-images/465f27c8-3e68-4b53-b85d-1041c92b416f.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - 末日废土世界（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1643,7 +1642,7 @@
       "https://resouces.modelscope.cn/cover-images/ba60fb6e-a36a-4d37-aa1a-1c86c7244014.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - 非遗珠绣（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1663,7 +1662,7 @@
       "https://resouces.modelscope.cn/cover-images/9ab9443d-9971-4aa9-80ea-f83222202164.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - DSDJ扁平插画（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\15.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\15.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1683,7 +1682,7 @@
       "https://resouces.modelscope.cn/cover-images/6e4f8b7b-8fe9-42cb-b73d-567e6696a470.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - AImissyou秘境（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1703,7 +1702,7 @@
       "https://resouces.modelscope.cn/cover-images/5ed17241-6a6b-4c48-94f9-e2879e67dd2f.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - AImissyou富家千金（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\20.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\20.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1719,7 +1718,7 @@
       "https://resouces.modelscope.cn/cover-images/a7a973ea-b35b-46ab-a56b-97537e783356.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - AImissyou/logo",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1739,7 +1738,7 @@
       "https://resouces.modelscope.cn/cover-images/da36bd1a-5d26-4959-ad27-c16fa75942ea.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - AImissyou迷失乐园（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1759,7 +1758,7 @@
       "https://resouces.modelscope.cn/cover-images/81097cb9-4bd7-46cb-a50f-66fa52339b1f.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - JK制服少女（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1775,7 +1774,7 @@
       "https://resouces.modelscope.cn/cover-images/d28ab629-c682-4ebe-ba85-70c951b2294b.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - 拍立得",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1791,7 +1790,7 @@
       "https://resouces.modelscope.cn/cover-images/c448f039-093d-4576-baec-8abfed6c736e.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - 像素",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1807,7 +1806,7 @@
       "https://resouces.modelscope.cn/cover-images/2bebd9b8-2fe1-4233-8de1-c1a0164d41cb.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - 充气",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1823,7 +1822,7 @@
       "https://resouces.modelscope.cn/cover-images/e21d3da9-7b32-4a1c-8cc2-26fbe8893a48.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - 手绘",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1839,7 +1838,7 @@
       "https://resouces.modelscope.cn/cover-images/d8b5e105-7d18-4882-9e59-cf2a526677d9.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - 法式",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1853,7 +1852,7 @@
     ],
     "effectImages": [],
     "description": "从ModelScope批量导入 - AImissyou队-Q版毛毡西游（AI 西游记）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1869,7 +1868,7 @@
       "https://resouces.modelscope.cn/cover-images/93620732-5704-49b9-ada2-4f9b597ea4f0.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - AImissyou/mzxy2",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
   },
   {
@@ -1888,208 +1887,7 @@
       "https://resouces.modelscope.cn/cover-images/18f2df0b-9589-4e44-bc3a-df08e9909fb6.png?x-oss-process=image/resize,w_1000/format,webp"
     ],
     "description": "从ModelScope批量导入 - 穿越大唐 汉服美人（一丹一世界）",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\18.safetensors",
+    "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
-  },
-  {
-    "name": "kkbingdiao",
-    "fullName": "AIkaiyuanfenxiangKK/kkbingdiao",
-    "coverImage": "https://resouces.modelscope.cn/cover-images/4935a4c0-a444-4a76-83ad-98f9c6ec6fac.png?x-oss-process=image/resize,w_1000/format,webp",
-    "downloadUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkbingdiao/resolve/master/kkbingdiao.safetensors",
-    "pageUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkbingdiao",
-    "categories": [
-      "FLUX"
-    ],
-    "effectImages": [
-      "https://resouces.modelscope.cn/cover-images/4935a4c0-a444-4a76-83ad-98f9c6ec6fac.png?x-oss-process=image/resize,w_1000/format,webp",
-      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
-    ],
-    "description": "从ModelScope批量导入 - kkbingdiao",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\kkbingdiao.safetensors",
-    "createdAt": "2025-06-23T13:57:01.754Z"
-  },
-  {
-    "name": "kkduoning",
-    "fullName": "AIkaiyuanfenxiangKK/kkduoning",
-    "coverImage": "https://resouces.modelscope.cn/cover-images/cc4b6038-fef7-4eea-9e62-c2edc653e72d.png?x-oss-process=image/resize,w_1000/format,webp",
-    "downloadUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkduoning/resolve/master/kkduoning.safetensors",
-    "pageUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkduoning",
-    "categories": [
-      "FLUX"
-    ],
-    "effectImages": [
-      "https://resouces.modelscope.cn/cover-images/cc4b6038-fef7-4eea-9e62-c2edc653e72d.png?x-oss-process=image/resize,w_1000/format,webp",
-      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
-    ],
-    "description": "从ModelScope批量导入 - kkduoning",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\kkduoning.safetensors",
-    "createdAt": "2025-06-23T13:57:01.755Z"
-  },
-  {
-    "name": "KKdajiaoguai",
-    "fullName": "AIkaiyuanfenxiangKK/KKdajiaoguai",
-    "coverImage": "https://resouces.modelscope.cn/cover-images/141fe39c-6ba8-4d0e-a87f-f440e0d57d5b.png?x-oss-process=image/resize,w_1000/format,webp",
-    "downloadUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/KKdajiaoguai/resolve/master/KKdajiaoguai.safetensors",
-    "pageUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/KKdajiaoguai",
-    "categories": [
-      "FLUX"
-    ],
-    "effectImages": [
-      "https://resouces.modelscope.cn/cover-images/141fe39c-6ba8-4d0e-a87f-f440e0d57d5b.png?x-oss-process=image/resize,w_1000/format,webp",
-      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
-    ],
-    "description": "从ModelScope批量导入 - KKdajiaoguai",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\KKdajiaoguai.safetensors",
-    "createdAt": "2025-06-23T13:57:01.755Z"
-  },
-  {
-    "name": "kkneo2",
-    "fullName": "AIkaiyuanfenxiangKK/kkneo2",
-    "coverImage": "https://resouces.modelscope.cn/cover-images/3561334b-b8d1-4675-9d9a-2497a743287b.png?x-oss-process=image/resize,w_1000/format,webp",
-    "downloadUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkneo2/resolve/master/kkneo2.safetensors",
-    "pageUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkneo2",
-    "categories": [
-      "FLUX"
-    ],
-    "effectImages": [
-      "https://resouces.modelscope.cn/cover-images/3561334b-b8d1-4675-9d9a-2497a743287b.png?x-oss-process=image/resize,w_1000/format,webp",
-      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
-    ],
-    "description": "从ModelScope批量导入 - kkneo2",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\kkneo2.safetensors",
-    "createdAt": "2025-06-23T13:57:01.755Z"
-  },
-  {
-    "name": "AIkaiyuanfenxiangKK/kkjibuli",
-    "fullName": "AIkaiyuanfenxiangKK/kkjibuli",
-    "coverImage": "https://resouces.modelscope.cn/cover-videos/ad9d0db8-e5ee-4639-8b37-618014822ef7.mp4?x-oss-process=video/snapshot,t_1000,f_jpg",
-    "downloadUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkjibuli/resolve/master/kkjibuli.safetensors",
-    "pageUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkjibuli",
-    "categories": [
-      "FLUX"
-    ],
-    "effectImages": [
-      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
-    ],
-    "description": "从ModelScope批量导入 - AIkaiyuanfenxiangKK/kkjibuli",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\AIkaiyuanfenxiangKK_kkjibuli.safetensors",
-    "createdAt": "2025-06-23T13:57:01.755Z"
-  },
-  {
-    "name": "AIkaiyuanfenxiangKK/kkhuaqiang",
-    "fullName": "AIkaiyuanfenxiangKK/kkhuaqiang",
-    "coverImage": "https://resouces.modelscope.cn/cover-images/d82d4280-e9bb-4987-b52a-582f5a314494.png?x-oss-process=image/resize,w_1000/format,webp",
-    "downloadUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkhuaqiang/resolve/master/kkhuaqiang.safetensors",
-    "pageUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkhuaqiang",
-    "categories": [
-      "FLUX"
-    ],
-    "effectImages": [
-      "https://resouces.modelscope.cn/cover-images/d82d4280-e9bb-4987-b52a-582f5a314494.png?x-oss-process=image/resize,w_1000/format,webp",
-      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
-    ],
-    "description": "从ModelScope批量导入 - AIkaiyuanfenxiangKK/kkhuaqiang",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\AIkaiyuanfenxiangKK_kkhuaqiang.safetensors",
-    "createdAt": "2025-06-23T13:57:01.755Z"
-  },
-  {
-    "name": "AIkaiyuanfenxiangKK/kknvshen2",
-    "fullName": "AIkaiyuanfenxiangKK/kknvshen2",
-    "coverImage": "https://resouces.modelscope.cn/cover-images/530bdadc-2c4b-48c7-bb75-21b1b75dc700.webp?x-oss-process=image/resize,w_1000/format,webp",
-    "downloadUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kknvshen2/resolve/master/kknvshen2.safetensors",
-    "pageUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kknvshen2",
-    "categories": [
-      "FLUX"
-    ],
-    "effectImages": [
-      "https://resouces.modelscope.cn/cover-images/530bdadc-2c4b-48c7-bb75-21b1b75dc700.webp?x-oss-process=image/resize,w_1000/format,webp",
-      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
-    ],
-    "description": "从ModelScope批量导入 - AIkaiyuanfenxiangKK/kknvshen2",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\AIkaiyuanfenxiangKK_kknvshen2.safetensors",
-    "createdAt": "2025-06-23T13:57:01.755Z"
-  },
-  {
-    "name": "AIkaiyuanfenxiangKK/kknvshen",
-    "fullName": "AIkaiyuanfenxiangKK/kknvshen",
-    "coverImage": "https://resouces.modelscope.cn/cover-images/3254cc87-6b32-4d4a-95e2-75394e3b4f41.png?x-oss-process=image/resize,w_1000/format,webp",
-    "downloadUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kknvshen/resolve/master/kknvshen.safetensors",
-    "pageUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kknvshen",
-    "categories": [
-      "FLUX"
-    ],
-    "effectImages": [
-      "https://resouces.modelscope.cn/cover-images/3254cc87-6b32-4d4a-95e2-75394e3b4f41.png?x-oss-process=image/resize,w_1000/format,webp",
-      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
-    ],
-    "description": "从ModelScope批量导入 - AIkaiyuanfenxiangKK/kknvshen",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\AIkaiyuanfenxiangKK_kknvshen.safetensors",
-    "createdAt": "2025-06-23T13:57:01.755Z"
-  },
-  {
-    "name": "AIkaiyuanfenxiangKK/kkmao",
-    "fullName": "AIkaiyuanfenxiangKK/kkmao",
-    "coverImage": "https://resouces.modelscope.cn/cover-images/282eb87e-4a46-459b-9542-9559b40eba95.png?x-oss-process=image/resize,w_1000/format,webp",
-    "downloadUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkmao/resolve/master/20.safetensors",
-    "pageUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkmao",
-    "categories": [
-      "FLUX"
-    ],
-    "effectImages": [
-      "https://resouces.modelscope.cn/cover-images/282eb87e-4a46-459b-9542-9559b40eba95.png?x-oss-process=image/resize,w_1000/format,webp",
-      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
-    ],
-    "description": "从ModelScope批量导入 - AIkaiyuanfenxiangKK/kkmao",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\AIkaiyuanfenxiangKK_kkmao.safetensors",
-    "createdAt": "2025-06-23T13:57:01.755Z"
-  },
-  {
-    "name": "动漫插画治愈风格",
-    "fullName": "AIkaiyuanfenxiangKK/kkstyle",
-    "coverImage": "https://resouces.modelscope.cn/cover-videos/f55585f2-69e1-4fc3-aed0-20ed40441177.mp4?x-oss-process=video/snapshot,t_1000,f_jpg",
-    "downloadUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkstyle/resolve/master/kkstyle.safetensors",
-    "pageUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkstyle",
-    "categories": [
-      "FLUX"
-    ],
-    "effectImages": [
-      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
-    ],
-    "description": "从ModelScope批量导入 - 动漫插画治愈风格",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\动漫插画治愈风格.safetensors",
-    "createdAt": "2025-06-23T13:57:01.755Z"
-  },
-  {
-    "name": "人像万相官方Lora",
-    "fullName": "AIkaiyuanfenxiangKK/wanlora",
-    "coverImage": "https://resouces.modelscope.cn/cover-videos/7cabef79-915a-4a5b-9bb1-4620eed94947.mp4?x-oss-process=video/snapshot,t_1000,f_jpg",
-    "downloadUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/wanlora/resolve/master/wanlora.safetensors",
-    "pageUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/wanlora",
-    "categories": [
-      "FLUX"
-    ],
-    "effectImages": [
-      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
-    ],
-    "description": "从ModelScope批量导入 - 人像万相官方Lora",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\人像万相官方Lora.safetensors",
-    "createdAt": "2025-06-23T13:57:01.755Z"
-  },
-  {
-    "name": "AIkaiyuanfenxiangKK/kkdagirl",
-    "fullName": "AIkaiyuanfenxiangKK/kkdagirl",
-    "coverImage": "https://www.modelscope.cn/models/AIkaiyuanfenxiangKK/kkdagirl/resolve/master/_cover_images_/20250224192200_50.png",
-    "downloadUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkdagirl/resolve/master/kkdagirl.safetensors",
-    "pageUrl": "https://modelscope.cn/models/AIkaiyuanfenxiangKK/kkdagirl",
-    "categories": [
-      "FLUX"
-    ],
-    "effectImages": [
-      "https://www.modelscope.cn/models/AIkaiyuanfenxiangKK/kkdagirl/resolve/master/_cover_images_/20250224192200_50.png",
-      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
-    ],
-    "description": "从ModelScope批量导入 - AIkaiyuanfenxiangKK/kkdagirl",
-    "saveLocation": "ai\\ComfyUI\\models\\loras\\AIkaiyuanfenxiangKK_kkdagirl.safetensors",
-    "createdAt": "2025-06-23T13:57:01.755Z"
   }
 ]

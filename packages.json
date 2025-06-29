@@ -20,7 +20,7 @@
               "description": "关于\nEnhancements & experiments for ComfyUI, mostly focusing on UI features\nComfyUI 的增强与实验，主要关注 UI 功能",
               "github_url": "https://github.com/pythongosssss/ComfyUI-Custom-Scripts.git",
               "branch": "main",
-              "install_path": "ai/ComfyUI/custom_nodes"
+              "install_path": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes"
             },
             {
               "id": "rgthree-comfy",
@@ -28,7 +28,7 @@
               "description": "Making ComfyUI more comfortable.",
               "github_url": "https://github.com/rgthree/rgthree-comfy.git",
               "branch": "main",
-              "install_path": "ai/ComfyUI/custom_nodes"
+              "install_path": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes"
             },
             {
               "id": "ComfyUI-Easy-Use",
@@ -36,7 +36,7 @@
               "description": "To enhance the usability of ComfyUI, optimizations and integrations have been implemented for several commonly used nodes.",
               "github_url": "https://github.com/yolain/ComfyUI-Easy-Use.git",
               "branch": "main",
-              "install_path": "ai/ComfyUI/custom_nodes"
+              "install_path": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes"
             },
             {
               "id": "comfyui-get-meta",
@@ -44,7 +44,7 @@
               "description": "Get metadata from image.",
               "github_url": "https://github.com/shinich39/comfyui-get-meta.git",
               "branch": "main",
-              "install_path": "ai/ComfyUI/custom_nodes"
+              "install_path": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes"
             },
             {
               "id": "ComfyUI-LogicUtils",
@@ -52,7 +52,7 @@
               "description": "Logical Utils (compare, string, boolean operations) for ComfyUI",
               "github_url": "https://github.com/aria1th/ComfyUI-LogicUtils.git",
               "branch": "main",
-              "install_path": "ai/ComfyUI/custom_nodes"
+              "install_path": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes"
             },
             {
               "id": "comfyui-mixlab-nodes",
@@ -60,7 +60,7 @@
               "description": "3D, ScreenShareNode & FloatingVideoNode, SpeechRecognition & SpeechSynthesis, GPT, LoadImagesFromLocal, Layers, Other Nodes, ...",
               "github_url": "https://github.com/shadowcz007/comfyui-mixlab-nodes.git",
               "branch": "main",
-              "install_path": "ai/ComfyUI/custom_nodes"
+              "install_path": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes"
             },
             {
               "id": "ComfyUI-KJNodes",
@@ -81,7 +81,7 @@
               "name": "flux-dev.safetensors",
               "description": "Flux.1 Dev的核心UNet模型",
               "file_url": "https://modelscope.cn/models/MusePublic/489_ckpt_FLUX_1/resolve/2172/2172.safetensors",
-              "save_path": "ai/ComfyUI/models/unet/FLUX/",
+              "save_path": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\unet\\FLUX",
               "size": "24.14GB",
               "file_urls": [
                 {
@@ -103,7 +103,7 @@
               "name": "ae.safetensors",
               "description": "用于编码和解码潜在空间的VAE模型",
               "file_url": "https://modelscope.cn/models/muse/flux_vae/resolve/master/ae.safetensors",
-              "save_path": "ai/ComfyUI/models/vae/flux/",
+              "save_path": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\vae\\flux",
               "size": "335MB",
               "file_urls": [
                 {
@@ -134,7 +134,7 @@
                   "name": "t5xxl_fp8_e4m3fn_scaled.safetensors"
                 }
               ],
-              "save_path": "ai/ComfyUI/models/clip/flux/",
+              "save_path": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\clip\\flux",
               "size": "共4个文件",
               "file_url": "https://modelscope.cn/api/v1/models/comfyanonymous/flux_text_encoders/repo?Revision=master&FilePath=clip_l.safetensors"
             }
@@ -182,7 +182,7 @@
                   "name": "diffusion_pytorch_model.safetensors"
                 }
               ],
-              "save_path": "ai/ComfyUI/models/controlnet/flux/Shakker-Labs/",
+              "save_path": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\controlnet\\flux\\Shakker-Labs",
               "size": "6.6GB",
               "file_url": "https://modelscope.cn/models/AI-ModelScope/FLUX.1-dev-ControlNet-Union-Pro/resolve/master/diffusion_pytorch_model.safetensors"
             },
@@ -196,7 +196,7 @@
                   "name": "4x-UltraSharp.pth"
                 }
               ],
-              "save_path": "ai/ComfyUI/models/upscale_models/",
+              "save_path": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\upscale_models",
               "size": "67M",
               "file_url": "https://modelscope.cn/models/leisongde/comfyui_models/resolve/master/4x-UltraSharp.pth"
             },
@@ -210,7 +210,7 @@
                   "name": "face_yolov8m.pt"
                 }
               ],
-              "save_path": "ai/ComfyUI/models/ultralytics/bbox/",
+              "save_path": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\ultralytics\\bbox",
               "size": "60M",
               "file_url": "https://modelscope.cn/models/leisongde/comfyui_models/resolve/master/face_yolov8m.pt"
             }
@@ -280,7 +280,7 @@
                   "name": "v3_sd15_adapter.ckpt"
                 }
               ],
-              "save_path": "ai/ComfyUI/models/animatediff_models/",
+              "save_path": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\animatediff_models",
               "size": "6GB",
               "file_url": "https://modelscope.cn/models/Shanghai_AI_Laboratory/animatediff/resolve/master/mm_sd_v14.ckpt"
             }
@@ -288,104 +288,6 @@
           "author": "一人团队",
           "size": "1.5GB",
           "last_updated": "2025-06-06"
-        }
-      ]
-    },
-    {
-      "id": "wan2.1",
-      "name": "wan2.1视频套件",
-      "description": "wan2.1视频套件",
-      "packages": [
-        {
-          "id": "texiao",
-          "name": "特效",
-          "description": "wan2.1视频特效",
-          "version": "1",
-          "nodes": [
-            {
-              "id": "Comfyroll Studio",
-              "name": "Comfyroll Studio",
-              "description": "Comfyroll Studio",
-              "github_url": "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes.git"
-            }
-          ],
-          "models": [
-            {
-              "id": "cimashiro/360DegreeRotation",
-              "name": "360度旋转",
-              "description": "触发词：r0t4tion 360 degrees rotation",
-              "file_urls": [
-                {
-                  "url": "https://modelscope.cn/models/cimashiro/360DegreeRotation/resolve/20250527103710/360_epoch20.safetensors",
-                  "name": "360度旋转.safetensors"
-                }
-              ],
-              "save_path": "ai/ComfyUI/models/loras/wan2.1/特效Lora/",
-              "size": "",
-              "file_url": "https://modelscope.cn/models/cimashiro/360DegreeRotation/resolve/20250527103710/360_epoch20.safetensors"
-            },
-            {
-              "id": "cimashiro/CrushEffect",
-              "name": "压扁它吧",
-              "description": "触发词：c5us4 crushes it",
-              "file_urls": [
-                {
-                  "url": "https://modelscope.cn/models/cimashiro/CrushEffect/resolve/20250527170703/crushit_epoch20.safetensors",
-                  "name": "压扁它吧.safetensors"
-                }
-              ],
-              "save_path": "ai/ComfyUI/models/loras/wan2.1/特效Lora/",
-              "size": "",
-              "file_url": "https://modelscope.cn/models/cimashiro/CrushEffect/resolve/20250527170703/crushit_epoch20.safetensors"
-            }
-          ],
-          "last_updated": "2025-06-24"
-        },
-        {
-          "id": "ttov",
-          "name": "wan2.1文生视频VACE",
-          "description": "wan2.1文生视频VACE",
-          "version": "1",
-          "nodes": [],
-          "models": [
-            {
-              "id": "wan2.1_vace_14B_fp16",
-              "name": "wan2.1_vace_14B_fp16",
-              "description": "wan2.1_vace_14B_fp16",
-              "file_urls": [
-                {
-                  "url": "https://modelscope.cn/models/summery/wan2.1_vace_14B_fp16/resolve/master/wan2.1_vace_14B_fp16.safetensors",
-                  "name": "wan2.1_vace_14B_fp16.safetensors"
-                },
-                {
-                  "url": "https://modelscope.cn/models/summery/wan2.1_vace_14B_fp16/resolve/master/wan2.1_vace_1.3B_fp16.safetensors",
-                  "name": "wan2.1_vace_1.3B_fp16.safetensors"
-                }
-              ],
-              "save_path": "ai/ComfyUI/models/diffusion_models/wan2.1/",
-              "size": "34G",
-              "file_url": "https://modelscope.cn/models/summery/wan2.1_vace_14B_fp16/resolve/master/wan2.1_vace_14B_fp16.safetensors"
-            },
-            {
-              "id": "umt5_xxl_fp16",
-              "name": "umt5_xxl_fp16",
-              "description": "umt5_xxl_fp16",
-              "file_urls": [
-                {
-                  "url": "https://modelscope.cn/models/summery/wan2.1_vace_14B_fp16/resolve/master/umt5_xxl_fp16.safetensors",
-                  "name": "umt5_xxl_fp16.safetensors"
-                },
-                {
-                  "url": "https://modelscope.cn/models/summery/wan2.1_vace_14B_fp16/resolve/master/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
-                  "name": "umt5_xxl_fp8_e4m3fn_scaled.safetensors"
-                }
-              ],
-              "save_path": "ai/ComfyUI/models/clip/wan2.1/",
-              "size": "",
-              "file_url": "https://modelscope.cn/models/summery/wan2.1_vace_14B_fp16/resolve/master/umt5_xxl_fp16.safetensors"
-            }
-          ],
-          "last_updated": "2025-06-25"
         }
       ]
     }

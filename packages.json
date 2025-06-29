@@ -152,25 +152,29 @@
               "id": "ComfyUI-AdvancedLivePortrait",
               "name": "ComfyUI-AdvancedLivePortrait",
               "description": "ComfyUI-AdvancedLivePortrait",
-              "github_url": "https://github.com/PowerHouseMan/ComfyUI-AdvancedLivePortrait.git"
+              "github_url": "https://github.com/PowerHouseMan/ComfyUI-AdvancedLivePortrait.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
             },
             {
               "id": "cg-use-everywhere",
               "name": "cg-use-everywhere",
               "description": "cg-use-everywhere",
-              "github_url": "https://github.com/chrisgoringe/cg-use-everywhere.git"
+              "github_url": "https://github.com/chrisgoringe/cg-use-everywhere.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
             },
             {
               "id": "ComfyUI_UltimateSDUpscale",
               "name": "ComfyUI_UltimateSDUpscale",
               "description": "ComfyUI_UltimateSDUpscale",
-              "github_url": "https://github.com/ssitu/ComfyUI_UltimateSDUpscale.git"
+              "github_url": "https://github.com/ssitu/ComfyUI_UltimateSDUpscale.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
             },
             {
               "id": "ComfyUI-Impact-Subpack",
               "name": "ComfyUI-Impact-Subpack",
               "description": "ComfyUI-Impact-Subpack",
-              "github_url": "https://github.com/ltdrdata/ComfyUI-Impact-Subpack.git"
+              "github_url": "https://github.com/ltdrdata/ComfyUI-Impact-Subpack.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
             }
           ],
           "models": [

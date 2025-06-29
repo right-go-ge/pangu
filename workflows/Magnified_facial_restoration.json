@@ -1,0 +1,165 @@
+{
+  "82": {
+    "inputs": {
+      "upscale_by": 2,
+      "seed": 883863499668958,
+      "steps": 22,
+      "cfg": 1,
+      "sampler_name": "deis",
+      "scheduler": "beta",
+      "denoise": 0.2,
+      "mode_type": "Linear",
+      "tile_width": 1024,
+      "tile_height": 1024,
+      "mask_blur": 8,
+      "tile_padding": 32,
+      "seam_fix_mode": "None",
+      "seam_fix_denoise": 1,
+      "seam_fix_width": 64,
+      "seam_fix_mask_blur": 8,
+      "seam_fix_padding": 16,
+      "force_uniform_tiles": true,
+      "tiled_decode": false,
+      "image": [
+        "361",
+        0
+      ],
+      "model": [
+        "161",
+        0
+      ],
+      "positive": [
+        "157",
+        0
+      ],
+      "negative": [
+        "364",
+        0
+      ],
+      "vae": [
+        "159",
+        0
+      ],
+      "upscale_model": [
+        "83",
+        0
+      ]
+    },
+    "class_type": "UltimateSDUpscale",
+    "_meta": {
+      "title": "SD放大"
+    }
+  },
+  "83": {
+    "inputs": {
+      "model_name": "4x-UltraSharp.pth"
+    },
+    "class_type": "UpscaleModelLoader",
+    "_meta": {
+      "title": "放大模型加载器"
+    }
+  },
+  "84": {
+    "inputs": {
+      "images": [
+        "82",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "预览图像"
+    }
+  },
+  "157": {
+    "inputs": {
+      "text": "Enlarge the original image without modification",
+      "clip": [
+        "160",
+        0
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码器"
+    }
+  },
+  "159": {
+    "inputs": {
+      "vae_name": "flux\\ae.safetensors"
+    },
+    "class_type": "VAELoader",
+    "_meta": {
+      "title": "VAE加载器"
+    }
+  },
+  "160": {
+    "inputs": {
+      "clip_name1": "flux\\t5xxl_fp16.safetensors",
+      "clip_name2": "flux\\clip_l.safetensors",
+      "type": "flux",
+      "device": "default"
+    },
+    "class_type": "DualCLIPLoader",
+    "_meta": {
+      "title": "双CLIP加载器"
+    }
+  },
+  "161": {
+    "inputs": {
+      "unet_name": "FLUX\\flux-dev.safetensors",
+      "weight_dtype": "fp8_e4m3fn"
+    },
+    "class_type": "UNETLoader",
+    "_meta": {
+      "title": "UNET加载器"
+    }
+  },
+  "303": {
+    "inputs": {
+      "string": "character_sheet_flux"
+    },
+    "class_type": "Simple String",
+    "_meta": {
+      "title": "简易字符串"
+    }
+  },
+  "361": {
+    "inputs": {
+      "image": "C:\\Users\\right\\AppData\\Local\\Temp\\gradio\\5682a7af7b0c5b314ae7047f4a224691e2a3b27ec34462220d1947c3d114e479\\image_20250608_180911.png"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "加载图像"
+    }
+  },
+  "364": {
+    "inputs": {
+      "text": "",
+      "clip": [
+        "160",
+        0
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码器"
+    }
+  },
+  "365": {
+    "inputs": {
+      "filename_prefix": [
+        "303",
+        0
+      ],
+      "images": [
+        "82",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "保存图像"
+    }
+  }
+}

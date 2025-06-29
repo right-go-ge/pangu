@@ -1,0 +1,319 @@
+{
+  "1": {
+    "inputs": {
+      "noise": [
+        "16",
+        0
+      ],
+      "guider": [
+        "5",
+        0
+      ],
+      "sampler": [
+        "3",
+        0
+      ],
+      "sigmas": [
+        "2",
+        0
+      ],
+      "latent_image": [
+        "23",
+        0
+      ]
+    },
+    "class_type": "SamplerCustomAdvanced",
+    "_meta": {
+      "title": "自定义采样器(高级)"
+    }
+  },
+  "2": {
+    "inputs": {
+      "scheduler": "beta",
+      "steps": 25,
+      "denoise": 1,
+      "model": [
+        "24",
+        0
+      ]
+    },
+    "class_type": "BasicScheduler",
+    "_meta": {
+      "title": "基础调度器"
+    }
+  },
+  "3": {
+    "inputs": {
+      "sampler_name": "deis"
+    },
+    "class_type": "KSamplerSelect",
+    "_meta": {
+      "title": "K采样器选择"
+    }
+  },
+  "4": {
+    "inputs": {
+      "samples": [
+        "1",
+        1
+      ],
+      "vae": [
+        "15",
+        0
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": "VAE解码"
+    }
+  },
+  "5": {
+    "inputs": {
+      "model": [
+        "24",
+        0
+      ],
+      "conditioning": [
+        "8",
+        0
+      ]
+    },
+    "class_type": "BasicGuider",
+    "_meta": {
+      "title": "基础引导"
+    }
+  },
+  "6": {
+    "inputs": {
+      "filename_prefix": [
+        "25",
+        0
+      ],
+      "images": [
+        "4",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "保存图像"
+    }
+  },
+  "7": {
+    "inputs": {
+      "text": "",
+      "clip": [
+        "14",
+        0
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码器"
+    }
+  },
+  "8": {
+    "inputs": {
+      "guidance": 3.5,
+      "conditioning": [
+        "9",
+        0
+      ]
+    },
+    "class_type": "FluxGuidance",
+    "_meta": {
+      "title": "Flux引导"
+    }
+  },
+  "9": {
+    "inputs": {
+      "strength": 0.63,
+      "start_percent": 0,
+      "end_percent": 0.4,
+      "positive": [
+        "18",
+        0
+      ],
+      "negative": [
+        "7",
+        0
+      ],
+      "control_net": [
+        "11",
+        0
+      ],
+      "vae": [
+        "15",
+        0
+      ],
+      "image": [
+        "21",
+        0
+      ]
+    },
+    "class_type": "ControlNetApplySD3",
+    "_meta": {
+      "title": "ControlNet应用"
+    }
+  },
+  "10": {
+    "inputs": {
+      "image": "pose_20250608_123717.png"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "加载图像"
+    }
+  },
+  "11": {
+    "inputs": {
+      "type": "auto",
+      "control_net": [
+        "12",
+        0
+      ]
+    },
+    "class_type": "SetUnionControlNetType",
+    "_meta": {
+      "title": "设置UnionControlNet类型"
+    }
+  },
+  "12": {
+    "inputs": {
+      "control_net_name": "flux\\Shakker-Labs\\diffusion_pytorch_model.safetensors"
+    },
+    "class_type": "ControlNetLoader",
+    "_meta": {
+      "title": "ControlNet加载器"
+    }
+  },
+  "13": {
+    "inputs": {
+      "unet_name": "FLUX\\flux-dev.safetensors",
+      "weight_dtype": "fp8_e4m3fn"
+    },
+    "class_type": "UNETLoader",
+    "_meta": {
+      "title": "UNET加载器"
+    }
+  },
+  "14": {
+    "inputs": {
+      "clip_name1": "flux\\t5xxl_fp16.safetensors",
+      "clip_name2": "flux\\clip_l.safetensors",
+      "type": "flux",
+      "device": "default"
+    },
+    "class_type": "DualCLIPLoader",
+    "_meta": {
+      "title": "双CLIP加载器"
+    }
+  },
+  "15": {
+    "inputs": {
+      "vae_name": "flux\\ae.safetensors"
+    },
+    "class_type": "VAELoader",
+    "_meta": {
+      "title": "VAE加载器"
+    }
+  },
+  "16": {
+    "inputs": {
+      "noise_seed": 671983948664096
+    },
+    "class_type": "RandomNoise",
+    "_meta": {
+      "title": "随机噪波"
+    }
+  },
+  "17": {
+    "inputs": {
+      "lora_01": "苏婉.safetensors",
+      "strength_01": 1,
+      "lora_02": "None",
+      "strength_02": 1,
+      "lora_03": "None",
+      "strength_03": 1,
+      "lora_04": "None",
+      "strength_04": 1,
+      "model": [
+        "13",
+        0
+      ],
+      "clip": [
+        "14",
+        0
+      ]
+    },
+    "class_type": "Lora Loader Stack (rgthree)",
+    "_meta": {
+      "title": "LoRA堆加载器"
+    }
+  },
+  "18": {
+    "inputs": {
+      "text": "Character sheet, white background, multiple views, from multiple angles, visible face, portrait, an ethereal silver-haired fox spirit wearing layered pink hanfu with white collar embroidery and intricate floral hairpins, delicate furry ears, serene expression, translucent chiffon skirts, ornate silver waist ornaments with tassels, soft cinematic lighting, simplified pale blue background, traditional Chinese fantasy art masterpiece, photography, sharp focus",
+      "clip": [
+        "17",
+        1
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码器"
+    }
+  },
+  "21": {
+    "inputs": {
+      "upscale_method": "lanczos",
+      "width": 1280,
+      "height": 1280,
+      "crop": "disabled",
+      "image": [
+        "10",
+        0
+      ]
+    },
+    "class_type": "ImageScale",
+    "_meta": {
+      "title": "图像缩放"
+    }
+  },
+  "23": {
+    "inputs": {
+      "width": 1280,
+      "height": 1280,
+      "batch_size": 1
+    },
+    "class_type": "EmptySD3LatentImage",
+    "_meta": {
+      "title": "空Latent_SD3"
+    }
+  },
+  "24": {
+    "inputs": {
+      "max_shift": 1.15,
+      "base_shift": 0.5,
+      "width": 1280,
+      "height": 1280,
+      "model": [
+        "17",
+        0
+      ]
+    },
+    "class_type": "ModelSamplingFlux",
+    "_meta": {
+      "title": "模型采样算法Flux"
+    }
+  },
+  "25": {
+    "inputs": {
+      "string": "character_sheet_flux"
+    },
+    "class_type": "Simple String",
+    "_meta": {
+      "title": "简易字符串"
+    }
+  }
+}

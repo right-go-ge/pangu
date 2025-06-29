@@ -1,0 +1,322 @@
+{
+  "73": {
+    "inputs": {
+      "text": [
+        "148",
+        0
+      ],
+      "clip": [
+        "88",
+        1
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码器"
+    }
+  },
+  "74": {
+    "inputs": {
+      "samples": [
+        "76",
+        0
+      ],
+      "vae": [
+        "84",
+        0
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": "VAE解码"
+    }
+  },
+  "75": {
+    "inputs": {
+      "clip_name1": "flux\\t5xxl_fp16.safetensors",
+      "clip_name2": "flux\\clip_l.safetensors",
+      "type": "flux",
+      "device": "default"
+    },
+    "class_type": "DualCLIPLoader",
+    "_meta": {
+      "title": "双CLIP加载器"
+    }
+  },
+  "76": {
+    "inputs": {
+      "noise": [
+        "79",
+        0
+      ],
+      "guider": [
+        "85",
+        0
+      ],
+      "sampler": [
+        "77",
+        0
+      ],
+      "sigmas": [
+        "78",
+        0
+      ],
+      "latent_image": [
+        "81",
+        0
+      ]
+    },
+    "class_type": "SamplerCustomAdvanced",
+    "_meta": {
+      "title": "自定义采样器(高级)"
+    }
+  },
+  "77": {
+    "inputs": {
+      "sampler_name": "euler"
+    },
+    "class_type": "KSamplerSelect",
+    "_meta": {
+      "title": "K采样器选择"
+    }
+  },
+  "78": {
+    "inputs": {
+      "scheduler": "simple",
+      "steps": 20,
+      "denoise": [
+        "94",
+        1
+      ],
+      "model": [
+        "88",
+        0
+      ]
+    },
+    "class_type": "BasicScheduler",
+    "_meta": {
+      "title": "基础调度器"
+    }
+  },
+  "79": {
+    "inputs": {
+      "noise_seed": 185494729371608
+    },
+    "class_type": "RandomNoise",
+    "_meta": {
+      "title": "随机噪波"
+    }
+  },
+  "80": {
+    "inputs": {
+      "guidance": 7.5,
+      "conditioning": [
+        "73",
+        0
+      ]
+    },
+    "class_type": "FluxGuidance",
+    "_meta": {
+      "title": "Flux引导"
+    }
+  },
+  "81": {
+    "inputs": {
+      "pixels": [
+        "82",
+        0
+      ],
+      "vae": [
+        "84",
+        0
+      ]
+    },
+    "class_type": "VAEEncode",
+    "_meta": {
+      "title": "VAE编码"
+    }
+  },
+  "82": {
+    "inputs": {
+      "image": "2e2deeb4-5fdb-409c-ae32-a3a2a07dc720.png"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "加载图像"
+    }
+  },
+  "84": {
+    "inputs": {
+      "vae_name": "flux\\ae.safetensors"
+    },
+    "class_type": "VAELoader",
+    "_meta": {
+      "title": "VAE加载器"
+    }
+  },
+  "85": {
+    "inputs": {
+      "model": [
+        "88",
+        0
+      ],
+      "conditioning": [
+        "80",
+        0
+      ]
+    },
+    "class_type": "BasicGuider",
+    "_meta": {
+      "title": "基础引导"
+    }
+  },
+  "86": {
+    "inputs": {
+      "filename_prefix": "",
+      "images": [
+        "74",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "保存图像"
+    }
+  },
+  "87": {
+    "inputs": {
+      "unet_name": "FLUX\\flux-dev.safetensors",
+      "weight_dtype": "fp8_e4m3fn"
+    },
+    "class_type": "UNETLoader",
+    "_meta": {
+      "title": "UNET加载器"
+    }
+  },
+  "88": {
+    "inputs": {
+      "lora_01": "None",
+      "strength_01": 0.8,
+      "lora_02": "None",
+      "strength_02": 1,
+      "lora_03": "None",
+      "strength_03": 1,
+      "lora_04": "None",
+      "strength_04": 1,
+      "model": [
+        "87",
+        0
+      ],
+      "clip": [
+        "75",
+        0
+      ]
+    },
+    "class_type": "Lora Loader Stack (rgthree)",
+    "_meta": {
+      "title": "LoRA堆加载器"
+    }
+  },
+  "94": {
+    "inputs": {
+      "string": "0.74",
+      "rounding": "round"
+    },
+    "class_type": "StringToNumber",
+    "_meta": {
+      "title": "图生图重绘幅度"
+    }
+  },
+  "115": {
+    "inputs": {
+      "anything": [
+        "74",
+        0
+      ]
+    },
+    "class_type": "easy cleanGpuUsed",
+    "_meta": {
+      "title": "清理GPU占用"
+    }
+  },
+  "146": {
+    "inputs": {
+      "separator": "",
+      "prompt1": [
+        "150",
+        0
+      ],
+      "prompt2": [
+        "152",
+        0
+      ]
+    },
+    "class_type": "easy promptConcat",
+    "_meta": {
+      "title": "提示词联结"
+    }
+  },
+  "147": {
+    "inputs": {
+      "separator": "",
+      "prompt1": [
+        "146",
+        0
+      ],
+      "prompt2": [
+        "151",
+        0
+      ]
+    },
+    "class_type": "easy promptConcat",
+    "_meta": {
+      "title": "提示词联结"
+    }
+  },
+  "148": {
+    "inputs": {
+      "text_0": "A woman with long pink hair. Her hair is soft and bright, And naturally falls on her shoulder and on her chest. On both sides of her head, A pair of fine cat ear decorations, She's got some cute and cute feelings. Her eyes are big and bright, Your eyes are soft, Seems to be looking far away or at a particular objectThis woman is wearing a beautiful kimono, The main color is white, It's got pink flowers on it, It's very elegant and romantic, and there's a lot of detail in the design, Including delicate embroidery and laced edges, And a bright red belt, There's a bow on the belt, She's wearing an open red flower on her head, The petals are full, It's a beautiful color, It's a beautiful contrast to her pink hairIn the background, you can see some blurry cherry branches and floating petals, It creates an atmosphere of spring and romance. The whole picture is filled with soft light and warm colors, Give a quiet, beautiful feeling",
+      "text": [
+        "147",
+        0
+      ]
+    },
+    "class_type": "ShowText|pysssss",
+    "_meta": {
+      "title": "展示文本"
+    }
+  },
+  "150": {
+    "inputs": {
+      "text": "一位拥有粉色长发的女性角色。她的头发柔顺且光泽，自然地垂落在肩上和胸前。在她的头顶两侧，有一对精致的猫耳装饰，增加了几分可爱与俏皮的感觉。她的眼睛大而明亮，眼神温柔，似乎在注视着远方或某个特定的对象",
+      "generation": "off",
+      "seed": 298883701455143
+    },
+    "class_type": "ChinesePrompt_Mix",
+    "_meta": {
+      "title": "面部及摄影设备"
+    }
+  },
+  "151": {
+    "inputs": {
+      "text": "背景中可以看到一些模糊的樱花树枝和飘落的花瓣，营造出一种春天的气息和浪漫的氛围。整个画面充满了柔和的光线和温暖的色调，给人一种宁静、美好的感觉。",
+      "generation": "off",
+      "seed": 739842924754760
+    },
+    "class_type": "ChinesePrompt_Mix",
+    "_meta": {
+      "title": "环境"
+    }
+  },
+  "152": {
+    "inputs": {
+      "text": "这位女性穿着一件华丽的和服，主要颜色为白色，上面点缀着粉红色的花朵图案，显得非常优雅和浪漫。和服的设计细节丰富，包括精致的刺绣和蕾丝边饰，以及一条鲜艳的红色腰带，腰带上还系有一个蝴蝶结，增添了整体造型的层次感和立体感。 她的头上还戴着一朵盛开的红花，花瓣饱满，颜色鲜艳，与她的粉色头发形成了美丽的对比。",
+      "generation": "off",
+      "seed": 133012715970606
+    },
+    "class_type": "ChinesePrompt_Mix",
+    "_meta": {
+      "title": "衣着及动作"
+    }
+  }
+}

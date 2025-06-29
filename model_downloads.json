@@ -1,54 +1,54 @@
 [
   {
-    "url": "https://github.com/right-go-ge/pangu/blob/main/workflows/workflows.json",
+    "url": "https://raw.githubusercontent.com/right-go-ge/pangu/main/workflows/workflows.json",
     "save_path": "json/workflows.json"
   },
   {
-    "url": "https://github.com/right-go-ge/pangu/blob/main/app.py",
+    "url": "https://raw.githubusercontent.com/right-go-ge/pangu/main/app.py",
     "save_path": "app.py"
   },
   {
-    "url": "https://github.com/right-go-ge/pangu/blob/main/ai_software.json",
+    "url": "https://raw.githubusercontent.com/right-go-ge/pangu/main/ai_software.json",
     "save_path": "json/ai_software.json"
   },
   {
-    "url": "https://github.com/right-go-ge/pangu/blob/main/gzl.json",
+    "url": "https://raw.githubusercontent.com/right-go-ge/pangu/main/gzl.json",
     "save_path": "json/gzl.json"
   },
   {
-    "url": "https://github.com/right-go-ge/pangu/blob/main/ai_web.json",
+    "url": "https://raw.githubusercontent.com/right-go-ge/pangu/main/ai_web.json",
     "save_path": "json/ai_web.json"
   },
   {
-    "url": "https://github.com/right-go-ge/pangu/blob/main/agents.json",
+    "url": "https://raw.githubusercontent.com/right-go-ge/pangu/main/agents.json",
     "save_path": "resources/data/agents.json"
   },
   {
-    "url": "https://github.com/right-go-ge/pangu/blob/main/workflows/img_to_img.json",
+    "url": "https://raw.githubusercontent.com/right-go-ge/pangu/main/workflows/img_to_img.json",
     "save_path": "workflows/img_to_img.json"
   },
   {
-    "url": "https://github.com/right-go-ge/pangu/blob/main/workflows/Random_three_views.json",
+    "url": "https://raw.githubusercontent.com/right-go-ge/pangu/main/workflows/Random_three_views.json",
     "save_path": "workflows/Random_three_views.json"
   },
   {
-    "url": "https://github.com/right-go-ge/pangu/blob/main/workflows/Magnified_facial_restoration.json",
+    "url": "https://raw.githubusercontent.com/right-go-ge/pangu/main/workflows/Magnified_facial_restoration.json",
     "save_path": "workflows/Magnified_facial_restoration.json"
   },
   {
-    "url": "https://github.com/right-go-ge/pangu/blob/main/workflows/Facial_restoration.json",
+    "url": "https://raw.githubusercontent.com/right-go-ge/pangu/main/workflows/Facial_restoration.json",
     "save_path": "workflows/Facial_restoration.json"
   },
   {
-    "url": "https://github.com/right-go-ge/pangu/blob/main/lora.json",
+    "url": "https://raw.githubusercontent.com/right-go-ge/pangu/main/lora.json",
     "save_path": "json/lora.json"
   },
   {
-    "url": "https://github.com/right-go-ge/pangu/blob/main/comfyui_commands.json",
+    "url": "https://raw.githubusercontent.com/right-go-ge/pangu/main/comfyui_commands.json",
     "save_path": "json/comfyui_commands.json"
   },
   {
-    "url": "https://github.com/right-go-ge/pangu/blob/main/dependency_fix.json",
+    "url": "https://raw.githubusercontent.com/right-go-ge/pangu/main/dependency_fix.json",
     "save_path": "json/dependency_fix.json"
   }
 ]

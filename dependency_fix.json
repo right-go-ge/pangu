@@ -7,257 +7,161 @@
       "id": "install_diffusers",
       "name": "Install Diffusers",
       "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI",
-      "command": ".\\comfyui\\python.exe -m pip install diffusers --user",
+      "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI && source comfyui/bin/activate && python -m pip install diffusers --user\"",
       "description": "Install Diffusers library"
     },
     {
       "id": "diffusers",
       "name": "up diffusers",
       "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI",
-      "command": ".\\comfyui\\python.exe -m pip install --upgrade diffusers ",
+      "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI && source comfyui/bin/activate && python -m pip install --upgrade diffusers\"",
       "description": "up diffusers"
     },
     {
       "id": "ControlNetPreprocessors",
       "name": "Install ControlNetPreprocessors",
       "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI",
-      "command": ".\\comfyui\\python.exe -m pip install opencv-python",
+      "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI && source comfyui/bin/activate && python -m pip install opencv-python\"",
       "description": "Install ControlNetPreprocessors"
     },
     {
       "id": "dghs-imgutils",
       "name": "Install dghs-imgutils",
       "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI",
-      "command": ".\\comfyui\\python.exe -m pip install dghs-imgutils[gpu] --user",
+      "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI && source comfyui/bin/activate && python -m pip install dghs-imgutils[gpu] --user\"",
       "description": "Install dghs-imgutils"
     },
     {
       "id": "ultralytics",
       "name": "Install ultralytics",
       "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI",
-      "command": ".\\comfyui\\python.exe -m pip install ultralytics",
+      "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI && source comfyui/bin/activate && python -m pip install ultralytics\"",
       "description": "Install ultralytics"
     },
     {
       "id": "sentencepiece",
       "name": "Install sentencepiece",
       "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI",
-      "command": ".\\comfyui\\python.exe -m pip install sentencepiece",
+      "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI && source comfyui/bin/activate && python -m pip install sentencepiece\"",
       "description": "Install sentencepiece"
     },
     {
       "id": "pandas",
       "name": "Install pandas",
       "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI",
-      "command": ".\\comfyui\\python.exe -m pip install pandas",
+      "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI && source comfyui/bin/activate && python -m pip install pandas\"",
       "description": "Install pandas"
     },
     {
       "id": "setuptools",
       "name": "install setuptools",
       "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI",
-      "command": ".\\comfyui\\python.exe -m pip install setuptools",
+      "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI && source comfyui/bin/activate && python -m pip install setuptools\"",
       "description": "install setuptools"
     },
     {
       "id": "ImpactPack",
       "name": "Install ImpactPack",
       "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\ComfyUI-Impact-Pack",
-      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes\\ComfyUI-Impact-Pack",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI/custom_nodes/ComfyUI-Impact-Pack && source ../../comfyui/bin/activate && python -m pip install -r requirements.txt\"",
       "description": "Install ImpactPack"
     },
     {
       "id": "AnimateDiff",
       "name": "install AnimateDiff",
       "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\ComfyUI-AnimateDiff-Evolved",
-      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes\\ComfyUI-AnimateDiff-Evolved",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved && source ../../comfyui/bin/activate && python -m pip install -r requirements.txt\"",
       "description": "install AnimateDiff"
     },
     {
       "id": "VideoHelperSuite",
       "name": "install VideoHelperSuite",
       "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\ComfyUI-VideoHelperSuite",
-      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes\\ComfyUI-VideoHelperSuite",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI/custom_nodes/ComfyUI-VideoHelperSuite && source ../../comfyui/bin/activate && python -m pip install -r requirements.txt\"",
       "description": "install VideoHelperSuite"
     },
     {
       "id": "comfyui-advancedliveportrait",
       "name": "Install comfyui-advancedliveportrait",
       "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\comfyui-advancedliveportrait",
-      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes\\comfyui-advancedliveportrait",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI/custom_nodes/comfyui-advancedliveportrait && source ../../comfyui/bin/activate && python -m pip install -r requirements.txt\"",
       "description": "Install comfyui-advancedliveportrait"
     },
     {
       "id": "comfyui-art-venture",
       "name": "comfyui-art-venture",
       "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\comfyui-art-venture",
-      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes\\comfyui-art-venture",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI/custom_nodes/comfyui-art-venture && source ../../comfyui/bin/activate && python -m pip install -r requirements.txt\"",
       "description": "comfyui-art-venture"
     },
     {
       "id": "comfyui-easy-use",
       "name": "comfyui-easy-use",
       "enabled": true,
-      "working_directory": "ai\\ComfyUI\\custom_nodes\\comfyui-easy-use",
-      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes\\comfyui-easy-use",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI/custom_nodes/comfyui-easy-use && source ../../comfyui/bin/activate && python -m pip install -r requirements.txt\"",
       "description": "comfyui-easy-use"
     },
     {
       "id": "comfyui-impact-subpack",
       "name": "comfyui-impact-subpack",
       "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\comfyui-impact-subpack",
-      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes\\comfyui-impact-subpack",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI/custom_nodes/comfyui-impact-subpack && source ../../comfyui/bin/activate && python -m pip install -r requirements.txt\"",
       "description": "comfyui-impact-subpack"
     },
     {
       "id": "comfyui-kjnodes",
       "name": "comfyui-kjnodes",
       "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\comfyui-kjnodes",
-      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes\\comfyui-kjnodes",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI/custom_nodes/comfyui-kjnodes && source ../../comfyui/bin/activate && python -m pip install -r requirements.txt\"",
       "description": "comfyui-kjnodes"
     },
     {
       "id": "ComfyUI-Manager",
       "name": "ComfyUI-Manager",
       "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\ComfyUI-Manager",
-      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes\\ComfyUI-Manager",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI/custom_nodes/ComfyUI-Manager && source ../../comfyui/bin/activate && python -m pip install -r requirements.txt\"",
       "description": "ComfyUI-Manager"
     },
     {
       "id": "comfyui-mixlab-nodes",
       "name": "comfyui-mixlab-nodes",
       "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\comfyui-mixlab-nodes",
-      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes\\comfyui-mixlab-nodes",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI/custom_nodes/comfyui-mixlab-nodes && source ../../comfyui/bin/activate && python -m pip install -r requirements.txt\"",
       "description": "comfyui-mixlab-nodes"
     },
     {
       "id": "rgthree-comfy",
       "name": "rgthree-comfy",
       "enabled": true,
-      "working_directory": "ai\\ComfyUI\\custom_nodes\\rgthree-comfy",
-      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
+      "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes\\rgthree-comfy",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI/custom_nodes/rgthree-comfy && source ../../comfyui/bin/activate && python -m pip install -r requirements.txt\"",
       "description": "rgthree-comfy"
     },
     {
       "id": "sacremoses",
       "name": "sacremoses",
       "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI",
-      "command": ".\\comfyui\\python.exe -m pip install sacremoses",
+      "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI && source comfyui/bin/activate && python -m pip install sacremoses\"",
       "description": "sacremoses"
-    },
-    {
-      "id": "comfyui_controlnet_aux",
-      "name": "comfyui_controlnet_aux",
-      "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\comfyui_controlnet_aux",
-      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
-      "description": "comfyui_controlnet_aux"
-    },
-    {
-      "id": "WanVideoWrapper",
-      "name": "WanVideoWrapper",
-      "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\ComfyUI-WanVideoWrapper",
-      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
-      "description": "WanVideoWrapper"
-    },
-    {
-      "id": "onnxruntime-gpu",
-      "name": "onnxruntime-gpu",
-      "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI",
-      "command": ".\\comfyui\\python.exe -m pip install onnxruntime-gpu",
-      "description": "onnxruntime-gpu"
-    },
-    {
-      "id": "ComfyUI-Whisper",
-      "name": "ComfyUI-Whisper",
-      "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\ComfyUI-Whisper",
-      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
-      "description": "ComfyUI-Whisper"
-    },
-    {
-      "id": "ComfyUI-FishSpeech",
-      "name": "ComfyUI-FishSpeech",
-      "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\ComfyUI-FishSpeech",
-      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
-      "description": "ComfyUI-FishSpeech"
-    },
-    {
-      "id": "efficiency-nodes-comfyui",
-      "name": "efficiency-nodes-comfyui",
-      "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\efficiency-nodes-comfyui",
-      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
-      "description": "efficiency-nodes-comfyui"
-    },
-    {
-      "id": "comfyui-animatediff",
-      "name": "comfyui-animatediff",
-      "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\comfyui-animatediff",
-      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
-      "description": "comfyui-animatediff"
-    },
-    {
-      "id": "sageattention",
-      "name": "sageattention",
-      "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI",
-      "command": ".\\comfyui\\python.exe -m pip install sageattention",
-      "description": "sageattention"
-    },
-    {
-      "id": "bizyair",
-      "name": "bizyair",
-      "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\bizyair",
-      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
-      "description": "bizyair"
-    },
-    {
-      "id": "comfyui_layerstyle",
-      "name": "comfyui_layerstyle",
-      "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\comfyui_layerstyle",
-      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
-      "description": "comfyui_layerstyle"
-    },
-    {
-      "id": "comfyui-rmbg",
-      "name": "comfyui-rmbg",
-      "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\comfyui-rmbg",
-      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
-      "description": "comfyui-rmbg"
-    },
-    {
-      "id": "ComfyUI-nunchaku",
-      "name": "ComfyUI-nunchaku",
-      "enabled": true,
-      "working_directory": "%AI_PATH%\\ComfyUI\\custom_nodes\\ComfyUI-nunchaku",
-      "command": "..\\..\\comfyui\\python.exe -m pip install -r requirements.txt",
-      "description": "ComfyUI-nunchaku"
     }
   ],
   "settings": {

@@ -1,8 +1,8 @@
 {
   "82": {
     "inputs": {
-      "upscale_by": 2,
-      "seed": 883863499668958,
+      "upscale_by": 1.5,
+      "seed": 819109813933969,
       "steps": 22,
       "cfg": 1,
       "sampler_name": "deis",
@@ -86,7 +86,7 @@
   },
   "159": {
     "inputs": {
-      "vae_name": "flux\\ae.safetensors"
+      "vae_name": "flux/ae.safetensors"
     },
     "class_type": "VAELoader",
     "_meta": {
@@ -95,8 +95,8 @@
   },
   "160": {
     "inputs": {
-      "clip_name1": "flux\\t5xxl_fp16.safetensors",
-      "clip_name2": "flux\\clip_l.safetensors",
+      "clip_name1": "flux/t5xxl_fp16.safetensors",
+      "clip_name2": "flux/clip_l.safetensors",
       "type": "flux",
       "device": "default"
     },
@@ -107,7 +107,7 @@
   },
   "161": {
     "inputs": {
-      "unet_name": "FLUX\\flux-dev.safetensors",
+      "unet_name": "FLUX/flux-dev.safetensors",
       "weight_dtype": "fp8_e4m3fn"
     },
     "class_type": "UNETLoader",
@@ -126,7 +126,7 @@
   },
   "361": {
     "inputs": {
-      "image": "C:\\Users\\right\\AppData\\Local\\Temp\\gradio\\5682a7af7b0c5b314ae7047f4a224691e2a3b27ec34462220d1947c3d114e479\\image_20250608_180911.png"
+      "image": "image_20250630_102440.png"
     },
     "class_type": "LoadImage",
     "_meta": {

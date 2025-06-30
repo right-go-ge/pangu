@@ -20,6 +20,12 @@ import platform
 import subprocess
 
 # 配置日志记录
+# 修复Windows控制台编码问题
+if platform.system() == 'Windows':
+    import io
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
+
 log_file = "ttoi_error.log"
 logging.basicConfig(
     level=logging.ERROR,

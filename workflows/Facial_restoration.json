@@ -39,7 +39,7 @@
   },
   "159": {
     "inputs": {
-      "vae_name": "flux\\ae.safetensors"
+      "vae_name": "flux/ae.safetensors"
     },
     "class_type": "VAELoader",
     "_meta": {
@@ -48,8 +48,8 @@
   },
   "160": {
     "inputs": {
-      "clip_name1": "flux\\t5xxl_fp16.safetensors",
-      "clip_name2": "flux\\clip_l.safetensors",
+      "clip_name1": "flux/t5xxl_fp16.safetensors",
+      "clip_name2": "flux/t5xxl_fp16.safetensors",
       "type": "flux",
       "device": "default"
     },
@@ -60,7 +60,7 @@
   },
   "161": {
     "inputs": {
-      "unet_name": "FLUX\\flux-dev.safetensors",
+      "unet_name": "FLUX/flux-dev.safetensors",
       "weight_dtype": "fp8_e4m3fn"
     },
     "class_type": "UNETLoader",
@@ -89,7 +89,7 @@
       "guide_size": 512,
       "guide_size_for": true,
       "max_size": 1024,
-      "seed": 434011106401721,
+      "seed": 533406099831865,
       "steps": 20,
       "cfg": 1,
       "sampler_name": "deis",
@@ -174,7 +174,7 @@
   },
   "361": {
     "inputs": {
-      "image": "fr_input_20250608_224417_7582.png"
+      "image": "fr_input_20250630_113802_3664.png"
     },
     "class_type": "LoadImage",
     "_meta": {

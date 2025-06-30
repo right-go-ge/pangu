@@ -51,6 +51,9 @@ except Exception as e:
 # ComfyUI服务器地址
 COMFYUI_SERVER = "127.0.0.1:8188"  # 可以根据实际情况修改
 
+# WSL路径常量
+WSL_COMFYUI_PATH = "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI"
+
 # 读取workflows.json文件
 def load_workflow():
     # 首先尝试当前目录的json文件夹
@@ -212,6 +215,81 @@ except Exception as e:
     logging.error(f"加载放大及面部修复工作流失败: {e}")
     magnified_facial_restoration_workflow = {}  # 使用空字典作为默认值
 
+# 读取面部修复工作流文件
+def load_facial_restoration_workflow():
+    # 首先尝试当前目录的workflows文件夹
+    try:
+        with open("workflows/Facial_restoration.json", "r", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        # 如果当前目录没有，则尝试相对于exe的目录
+        import sys
+        import os
+        exe_dir = os.path.dirname(sys.executable) if getattr(sys, 'frozen', False) else os.path.dirname(os.path.abspath(__file__))
+        workflow_path = os.path.join(exe_dir, "workflows", "Facial_restoration.json")
+        try:
+            with open(workflow_path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except FileNotFoundError:
+            print(f"错误：无法找到Facial_restoration.json文件，已尝试路径: workflows/Facial_restoration.json 和 {workflow_path}")
+            raise
+
+# 保存面部修复工作流文件
+def save_facial_restoration_workflow_json(workflow_data):
+    # 首先尝试当前目录的workflows文件夹
+    try:
+        os.makedirs("workflows", exist_ok=True)
+        with open("workflows/Facial_restoration.json", "w", encoding="utf-8") as f:
+            json.dump(workflow_data, f, ensure_ascii=False, indent=2)
+    except FileNotFoundError:
+        # 如果当前目录没有，则尝试相对于exe的目录
+        exe_dir = os.path.dirname(sys.executable) if getattr(sys, 'frozen', False) else os.path.dirname(os.path.abspath(__file__))
+        workflow_path = os.path.join(exe_dir, "workflows", "Facial_restoration.json")
+        os.makedirs(os.path.dirname(workflow_path), exist_ok=True)
+        with open(workflow_path, "w", encoding="utf-8") as f:
+            json.dump(workflow_data, f, ensure_ascii=False, indent=2)
+
+# 加载面部修复工作流
+try:
+    facial_restoration_workflow = load_facial_restoration_workflow()
+except Exception as e:
+    logging.error(f"加载面部修复工作流失败: {e}")
+    facial_restoration_workflow = {}  # 使用空字典作为默认值
+
+# 获取模型文件列表的通用函数
+def get_models_from_folder(folder_path, extensions=None, normalize=True):
+    if extensions is None:
+        extensions = ['.safetensors', '.ckpt', '.pt', '.pth', '.bin']
+    
+    models = []
+    
+    try:
+        if os.path.exists(folder_path):
+            # 遍历所有子文件夹
+            for root, dirs, files in os.walk(folder_path):
+                for model_file in files:
+                    if any(model_file.lower().endswith(ext) for ext in extensions):
+                        # 计算相对路径，用于模型加载
+                        rel_path = os.path.relpath(os.path.join(root, model_file), folder_path)
+                        # 使用正斜杠版本，确保WSL兼容性
+                        if normalize:
+                            rel_path = rel_path.replace('\\', '/')
+                        if rel_path not in models:
+                            models.append(rel_path)
+        
+        # 对列表进行排序，方便查找
+        models.sort()
+    except Exception as e:
+        print(f"读取模型文件夹时出错: {e}")
+        logging.error(f"读取模型文件夹时出错: {e}")
+    
+    return models
+
+# 获取超分辨率检测模型列表
+def get_ultralytics_models():
+    ultralytics_path = os.path.join(WSL_COMFYUI_PATH, "models", "ultralytics")
+    return get_models_from_folder(ultralytics_path, extensions=['.pt'])
+
 # 获取模型列表
 def get_models_list():
     models = {
@@ -219,81 +297,67 @@ def get_models_list():
         "clip": [],
         "vae": [],
         "lora": [],
-        "controlnet": []  # 添加ControlNet模型列表
+        "controlnet": [],  # 添加ControlNet模型列表
+        "ultralytics": []  # 添加ultralytics模型列表
     }
     
-    # 获取可能的基础路径
-    import sys
-    base_paths = []
-    
-    # 添加当前目录
-    base_paths.append("")
-    
-    # 添加exe所在目录（如果是打包后的程序）
-    if getattr(sys, 'frozen', False):
-        exe_dir = os.path.dirname(sys.executable)
-        base_paths.append(exe_dir)
-    
-    # 尝试各种可能的路径查找模型
-    for base_path in base_paths:
+    # 尝试读取WSL路径下的模型
+    try:
         # UNET模型路径
-        unet_path = os.path.join(base_path, "ai", "ComfyUI", "models", "unet", "FLUX")
-        if os.path.exists(unet_path):
-            for model_file in os.listdir(unet_path):
-                if model_file.endswith(('.safetensors', '.ckpt', '.pt', '.pth', '.bin')):
-                    # 使用反斜杠版本，确保Windows兼容性
-                    model_path = "FLUX\\" + model_file
-                    if model_path not in models["unet"]:
-                        models["unet"].append(model_path)
+        unet_path = os.path.join(WSL_COMFYUI_PATH, "models", "unet")
+        models["unet"] = get_models_from_folder(unet_path)
         
         # CLIP模型路径
-        clip_path = os.path.join(base_path, "ai", "ComfyUI", "models", "clip", "flux")
-        if os.path.exists(clip_path):
-            for model_file in os.listdir(clip_path):
-                if model_file.endswith(('.safetensors', '.ckpt', '.pt', '.pth', '.bin')):
-                    # 使用反斜杠版本，确保Windows兼容性
-                    model_path = "flux\\" + model_file
-                    if model_path not in models["clip"]:
-                        models["clip"].append(model_path)
+        clip_path = os.path.join(WSL_COMFYUI_PATH, "models", "clip")
+        models["clip"] = get_models_from_folder(clip_path)
         
         # VAE模型路径
-        vae_path = os.path.join(base_path, "ai", "ComfyUI", "models", "vae", "flux")
-        if os.path.exists(vae_path):
-            for model_file in os.listdir(vae_path):
-                if model_file.endswith(('.safetensors', '.ckpt', '.pt', '.pth', '.bin')):
-                    # 使用反斜杠版本，确保Windows兼容性
-                    model_path = "flux\\" + model_file
-                    if model_path not in models["vae"]:
-                        models["vae"].append(model_path)
+        vae_path = os.path.join(WSL_COMFYUI_PATH, "models", "vae")
+        models["vae"] = get_models_from_folder(vae_path)
         
         # LoRA模型路径
-        lora_path = os.path.join(base_path, "ai", "ComfyUI", "models", "loras")
+        lora_path = os.path.join(WSL_COMFYUI_PATH, "models", "loras")
         if os.path.exists(lora_path):
             # 首先添加"None"选项
             if "None" not in models["lora"]:
                 models["lora"].append("None")
             for model_file in os.listdir(lora_path):
-                if model_file.endswith(('.safetensors', '.ckpt', '.pt', '.pth', '.bin')):
+                if os.path.isfile(os.path.join(lora_path, model_file)) and model_file.endswith(('.safetensors', '.ckpt', '.pt', '.pth', '.bin')):
                     if model_file not in models["lora"]:
                         models["lora"].append(model_file)
         
         # ControlNet模型路径
-        controlnet_base_path = os.path.join(base_path, "ai", "ComfyUI", "models", "controlnet")
-        if os.path.exists(controlnet_base_path):
-            for root, dirs, files in os.walk(controlnet_base_path):
-                for model_file in files:
-                    if model_file.endswith(('.safetensors', '.ckpt', '.pt', '.pth', '.bin')):
-                        # 计算相对路径，用于模型加载
-                        rel_path = os.path.relpath(os.path.join(root, model_file), controlnet_base_path)
-                        # 使用反斜杠版本，确保Windows兼容性
-                        rel_path = rel_path.replace('/', '\\')
-                        if rel_path not in models["controlnet"]:
-                            models["controlnet"].append(rel_path)
-
-            # 确保默认模型在列表中
-            default_model = "flux\\Shakker-Labs\\diffusion_pytorch_model.safetensors"
-            if default_model not in models["controlnet"] and len(models["controlnet"]) == 0:
-                models["controlnet"].append(default_model)
+        controlnet_path = os.path.join(WSL_COMFYUI_PATH, "models", "controlnet")
+        models["controlnet"] = get_models_from_folder(controlnet_path)
+        
+        # Ultralytics模型路径
+        ultralytics_path = os.path.join(WSL_COMFYUI_PATH, "models", "ultralytics")
+        models["ultralytics"] = get_models_from_folder(ultralytics_path, extensions=['.pt'])
+    
+    except Exception as e:
+        print(f"读取模型时出错: {e}")
+        logging.error(f"读取模型时出错: {e}")
+    
+    # 确保每个类别至少有一个默认选项
+    if not models["unet"]:
+        models["unet"].append("FLUX/flux-dev.safetensors")
+    
+    if not models["clip"]:
+        models["clip"].append("flux/t5xxl_fp16.safetensors")
+        models["clip"].append("flux/clip_l.safetensors")
+    
+    if not models["vae"]:
+        models["vae"].append("flux/ae.safetensors")
+    
+    if not models["controlnet"] and len(models["controlnet"]) == 0:
+        models["controlnet"].append("flux/Shakker-Labs/diffusion_pytorch_model.safetensors")
+    
+    if not models["ultralytics"]:
+        models["ultralytics"].append("bbox/face_yolov8m.pt")
+    
+    # 对每个列表进行排序，方便查找
+    for key in models:
+        models[key].sort()
     
     return models
 
@@ -332,21 +396,21 @@ def extract_adjustable_params():
     
     # 提取模型参数 - 设置默认值为截图中的模型
     if "6" in workflow and "inputs" in workflow["6"]:
-        params["unet_name"] = workflow["6"]["inputs"].get("unet_name", "FLUX\\flux-dev.safetensors")
+        params["unet_name"] = workflow["6"]["inputs"].get("unet_name", "FLUX/flux-dev.safetensors")
     else:
-        params["unet_name"] = "FLUX\\flux-dev.safetensors"
+        params["unet_name"] = "FLUX/flux-dev.safetensors"
     
     if "5" in workflow and "inputs" in workflow["5"]:
-        params["clip_name1"] = workflow["5"]["inputs"].get("clip_name1", "flux\\t5xxl_fp16.safetensors")
-        params["clip_name2"] = workflow["5"]["inputs"].get("clip_name2", "flux\\clip_l.safetensors")
+        params["clip_name1"] = workflow["5"]["inputs"].get("clip_name1", "flux/t5xxl_fp16.safetensors")
+        params["clip_name2"] = workflow["5"]["inputs"].get("clip_name2", "flux/clip_l.safetensors")
     else:
-        params["clip_name1"] = "flux\\t5xxl_fp16.safetensors"
-        params["clip_name2"] = "flux\\clip_l.safetensors"
+        params["clip_name1"] = "flux/t5xxl_fp16.safetensors"
+        params["clip_name2"] = "flux/clip_l.safetensors"
     
     if "4" in workflow and "inputs" in workflow["4"]:
-        params["vae_name"] = workflow["4"]["inputs"].get("vae_name", "flux\\ae.safetensors")
+        params["vae_name"] = workflow["4"]["inputs"].get("vae_name", "flux/ae.safetensors")
     else:
-        params["vae_name"] = "flux\\ae.safetensors"
+        params["vae_name"] = "flux/ae.safetensors"
     
     # 提取LoRA参数
     if "12" in workflow and "inputs" in workflow["12"]:
@@ -373,7 +437,7 @@ def extract_adjustable_params():
 
 # 获取ComfyUI的input文件夹中所有图片
 def get_input_folder_images():
-    comfyui_input_path = os.path.join("ai", "ComfyUI", "input")
+    comfyui_input_path = os.path.join(WSL_COMFYUI_PATH, "input")
     os.makedirs(comfyui_input_path, exist_ok=True)
     
     image_files = []
@@ -435,10 +499,10 @@ def extract_img2img_params():
             "face_prompt": "",
             "clothes_prompt": "",
             "environment_prompt": "",
-            "unet_name": "FLUX\\flux-dev.safetensors",
-            "clip_name1": "flux\\t5xxl_fp16.safetensors",
-            "clip_name2": "flux\\clip_l.safetensors",
-            "vae_name": "flux\\ae.safetensors",
+            "unet_name": "FLUX/flux-dev.safetensors",
+            "clip_name1": "flux/t5xxl_fp16.safetensors",
+            "clip_name2": "flux/clip_l.safetensors",
+            "vae_name": "flux/ae.safetensors",
             "redraw_strength": 0.75,  # 图生图重绘幅度参数，代替去噪强度
             "image_name": ""  # 添加图片命名参数
         }
@@ -495,21 +559,21 @@ def extract_img2img_params():
     
     # 提取模型参数
     if "87" in img2img_workflow and "inputs" in img2img_workflow["87"]:  # 使用正确的节点ID
-        params["unet_name"] = img2img_workflow["87"]["inputs"].get("unet_name", "FLUX\\flux-dev.safetensors")
+        params["unet_name"] = img2img_workflow["87"]["inputs"].get("unet_name", "FLUX/flux-dev.safetensors")
     else:
-        params["unet_name"] = "FLUX\\flux-dev.safetensors"  # 设置默认值
+        params["unet_name"] = "FLUX/flux-dev.safetensors"  # 设置默认值
     
     if "75" in img2img_workflow and "inputs" in img2img_workflow["75"]:  # 使用正确的节点ID
-        params["clip_name1"] = img2img_workflow["75"]["inputs"].get("clip_name1", "flux\\t5xxl_fp16.safetensors")
-        params["clip_name2"] = img2img_workflow["75"]["inputs"].get("clip_name2", "flux\\clip_l.safetensors")
+        params["clip_name1"] = img2img_workflow["75"]["inputs"].get("clip_name1", "flux/t5xxl_fp16.safetensors")
+        params["clip_name2"] = img2img_workflow["75"]["inputs"].get("clip_name2", "flux/clip_l.safetensors")
     else:
-        params["clip_name1"] = "flux\\t5xxl_fp16.safetensors"  # 设置默认值
-        params["clip_name2"] = "flux\\clip_l.safetensors"  # 设置默认值
+        params["clip_name1"] = "flux/t5xxl_fp16.safetensors"  # 设置默认值
+        params["clip_name2"] = "flux/clip_l.safetensors"  # 设置默认值
     
     if "84" in img2img_workflow and "inputs" in img2img_workflow["84"]:  # 使用正确的节点ID
-        params["vae_name"] = img2img_workflow["84"]["inputs"].get("vae_name", "flux\\ae.safetensors")
+        params["vae_name"] = img2img_workflow["84"]["inputs"].get("vae_name", "flux/ae.safetensors")
     else:
-        params["vae_name"] = "flux\\ae.safetensors"  # 设置默认值
+        params["vae_name"] = "flux/ae.safetensors"  # 设置默认值
     
     # 提取LoRA参数 - 固定从节点88提取
     if "88" in img2img_workflow and "inputs" in img2img_workflow["88"]:
@@ -953,7 +1017,7 @@ class ComfyUIWebSocket:
         return node_descriptions.get(node_id, f"处理节点 {node_id}")
 
 # 发送工作流到ComfyUI并获取结果
-def send_workflow_to_comfyui(workflow_data, progress=None, return_all_images=False):
+def send_workflow_to_comfyui(workflow_data, progress=None, return_all_images=False, input_image_path=None):
     try:
         # 生成客户端ID
         client_id = str(uuid.uuid4())
@@ -1036,6 +1100,20 @@ def send_workflow_to_comfyui(workflow_data, progress=None, return_all_images=Fal
         
         # 使用深度复制避免修改原始数据
         workflow_copy = copy.deepcopy(workflow_data)
+        
+        # 处理输入图像路径，如果提供了
+        if input_image_path and os.path.exists(input_image_path):
+            print(f"处理工作流中的输入图像: {input_image_path}")
+            # 获取文件名（不包含路径）
+            filename = os.path.basename(input_image_path)
+            
+            # 检查所有可能包含图像路径的节点
+            for node_id, node_data in workflow_copy.items():
+                if "inputs" in node_data:
+                    # LoadImage节点检查
+                    if "image" in node_data["inputs"] and "class_type" in node_data and node_data["class_type"] == "LoadImage":
+                        node_data["inputs"]["image"] = filename
+                        print(f"已将图像文件名 {filename} 设置到节点 {node_id} 的image字段")
         
         # 准备API请求数据
         prompt_data = {
@@ -1199,7 +1277,7 @@ def send_workflow_to_comfyui(workflow_data, progress=None, return_all_images=Fal
                 if progress is not None:
                     progress(0.95, "等待超时，尝试查找最新保存的图像...")
                 result = find_latest_image()
-                if result:
+                if return_all_images and result:
                     generated_images.append(result)
                 
         # 确保WebSocket已关闭
@@ -1615,7 +1693,7 @@ def find_latest_image():
         if not save_path_format:
             logging.warning("无法从workflow中获取保存路径格式")
             # 尝试查找ComfyUI输出目录
-            comfyui_output = os.path.join("ai", "ComfyUI", "output")
+            comfyui_output = os.path.join(WSL_COMFYUI_PATH, "output")
             if os.path.exists(comfyui_output):
                 logging.info(f"尝试在ComfyUI默认输出目录查找: {comfyui_output}")
                 return find_latest_in_directory(comfyui_output)
@@ -1637,9 +1715,9 @@ def find_latest_image():
             
             # 尝试在ComfyUI可能的输出路径查找
             potential_paths = [
-                os.path.join("ai", "ComfyUI", "output"),
-                os.path.join("ai", "ComfyUI", "output", base_folder),
-                os.path.join("ComfyUI", "output"),
+                os.path.join(WSL_COMFYUI_PATH, "output"),
+                os.path.join(WSL_COMFYUI_PATH, "output", base_folder),
+                os.path.join(WSL_COMFYUI_PATH, "output"),  # 重复路径作为备份
                 "output",
                 base_folder
             ]
@@ -1901,7 +1979,7 @@ with gr.Blocks(title="图生图 - ComfyUI接口") as img2img_demo:
             # 添加打开input文件夹的函数
             def open_input_folder():
                 # 确保ComfyUI的input文件夹存在
-                comfyui_input_path = os.path.join("ai", "ComfyUI", "input")
+                comfyui_input_path = os.path.join(WSL_COMFYUI_PATH, "input")
                 os.makedirs(comfyui_input_path, exist_ok=True)
                 
                 # 获取当前操作系统
@@ -1910,12 +1988,13 @@ with gr.Blocks(title="图生图 - ComfyUI接口") as img2img_demo:
                 # 根据操作系统使用不同的命令打开文件夹
                 try:
                     if system == "Windows":
-                        os.system(f'explorer "{os.path.abspath(comfyui_input_path)}"')
+                        # 直接使用WSL路径打开，不转换为本地路径
+                        os.system(f'explorer "{comfyui_input_path}"')
                     elif system == "Darwin":  # macOS
                         os.system(f'open "{os.path.abspath(comfyui_input_path)}"')
                     elif system == "Linux":
                         os.system(f'xdg-open "{os.path.abspath(comfyui_input_path)}"')
-                    return "已打开ComfyUI的input文件夹"
+                    return f"已打开ComfyUI的input文件夹: {comfyui_input_path}"
                 except Exception as e:
                     return f"打开文件夹出错: {str(e)}"
             
@@ -1925,7 +2004,7 @@ with gr.Blocks(title="图生图 - ComfyUI接口") as img2img_demo:
                     return None, "未上传图片", "图片尺寸: 使用上传图片的原始尺寸", None
                     
                 # 确保ComfyUI的input文件夹存在
-                comfyui_input_path = os.path.join("ai", "ComfyUI", "input")
+                comfyui_input_path = os.path.join(WSL_COMFYUI_PATH, "input")
                 os.makedirs(comfyui_input_path, exist_ok=True)
                 
                 # 获取当前时间作为文件名
@@ -1968,7 +2047,7 @@ with gr.Blocks(title="图生图 - ComfyUI接口") as img2img_demo:
                 new_images = get_input_folder_images()
                 dropdown_choices = []
                 for name in new_images:
-                    full_path = os.path.join("ai", "ComfyUI", "input", name)
+                    full_path = os.path.join(WSL_COMFYUI_PATH, "input", name)
                     try:
                         size_kb = os.path.getsize(full_path) // 1024
                         dropdown_choices.append((f"{name} ({size_kb} KB)", full_path))
@@ -1985,7 +2064,7 @@ with gr.Blocks(title="图生图 - ComfyUI接口") as img2img_demo:
             existing_images = get_input_folder_images()
             image_choices = []
             for name in existing_images:
-                full_path = os.path.join("ai", "ComfyUI", "input", name)
+                full_path = os.path.join(WSL_COMFYUI_PATH, "input", name)
                 try:
                     size_kb = os.path.getsize(full_path) // 1024
                     image_choices.append((f"{name} ({size_kb} KB)", full_path))
@@ -2010,7 +2089,7 @@ with gr.Blocks(title="图生图 - ComfyUI接口") as img2img_demo:
                 new_images = get_input_folder_images()
                 new_choices = []
                 for name in new_images:
-                    full_path = os.path.join("ai", "ComfyUI", "input", name)
+                    full_path = os.path.join(WSL_COMFYUI_PATH, "input", name)
                     try:
                         size_kb = os.path.getsize(full_path) // 1024
                         new_choices.append((f"{name} ({size_kb} KB)", full_path))
@@ -2348,11 +2427,11 @@ def extract_random_three_views_params():
         "lora_04": "None",
         "strength_04": 1,
         "prompt": "",  # 替换为单一提示词参数
-        "unet_name": "FLUX\\flux-dev.safetensors",
-        "clip_name1": "flux\\t5xxl_fp16.safetensors",
-        "clip_name2": "flux\\clip_l.safetensors",
-        "vae_name": "flux\\ae.safetensors",
-        "controlnet_name": "flux\\Shakker-Labs\\diffusion_pytorch_model.safetensors", # 添加ControlNet模型默认路径
+        "unet_name": "FLUX/flux-dev.safetensors",
+        "clip_name1": "flux/t5xxl_fp16.safetensors",
+        "clip_name2": "flux/clip_l.safetensors",
+        "vae_name": "flux/ae.safetensors",
+        "controlnet_name": "flux/Shakker-Labs/diffusion_pytorch_model.safetensors", # 添加ControlNet模型默认路径
         "image_name": "character_sheet_flux",  # 提供正确的默认值
         "pose_image": None  # 添加姿势图参数
     }
@@ -2527,7 +2606,7 @@ def save_random_three_views_workflow(params):
         return workflow_copy
     
     # 确保宽高相等（方形图）且在有效范围内
-    size = max(1280, min(params["width"], 2048))
+    size = max(512, min(params["width"], 2048))
     params["width"] = size
     params["height"] = size
     
@@ -2587,7 +2666,7 @@ def save_random_three_views_workflow(params):
     if "12" in workflow_copy:
         if "inputs" not in workflow_copy["12"]:
             workflow_copy["12"]["inputs"] = {}
-        workflow_copy["12"]["inputs"]["control_net_name"] = params.get("controlnet_name", "flux\\Shakker-Labs\\diffusion_pytorch_model.safetensors")
+        workflow_copy["12"]["inputs"]["control_net_name"] = params.get("controlnet_name", "flux/Shakker-Labs/diffusion_pytorch_model.safetensors")
         print(f"已将ControlNet模型 {params.get('controlnet_name')} 保存到三视图工作流12号节点")
     else:
         print(f"警告：工作流中不存在12号节点，无法保存ControlNet模型")
@@ -2705,7 +2784,7 @@ with gr.Blocks(title="三视图 - ComfyUI接口") as random_three_views_demo:
                     return None, "未上传图片", "图片尺寸: 未知", None
                     
                 # 确保ComfyUI的input文件夹存在
-                comfyui_input_path = os.path.join("ai", "ComfyUI", "input")
+                comfyui_input_path = os.path.join(WSL_COMFYUI_PATH, "input")
                 os.makedirs(comfyui_input_path, exist_ok=True)
                 
                 # 获取当前时间作为文件名
@@ -2748,7 +2827,7 @@ with gr.Blocks(title="三视图 - ComfyUI接口") as random_three_views_demo:
                 new_images = get_input_folder_images()
                 dropdown_choices = []
                 for name in new_images:
-                    full_path = os.path.join("ai", "ComfyUI", "input", name)
+                    full_path = os.path.join(WSL_COMFYUI_PATH, "input", name)
                     try:
                         size_kb = os.path.getsize(full_path) // 1024
                         dropdown_choices.append((f"{name} ({size_kb} KB)", full_path))
@@ -2760,7 +2839,7 @@ with gr.Blocks(title="三视图 - ComfyUI接口") as random_three_views_demo:
             # 打开input文件夹的函数
             def open_pose_input_folder():
                 # 确保ComfyUI的input文件夹存在
-                comfyui_input_path = os.path.join("ai", "ComfyUI", "input")
+                comfyui_input_path = os.path.join(WSL_COMFYUI_PATH, "input")
                 os.makedirs(comfyui_input_path, exist_ok=True)
                 
                 # 获取当前操作系统
@@ -2769,12 +2848,13 @@ with gr.Blocks(title="三视图 - ComfyUI接口") as random_three_views_demo:
                 # 根据操作系统使用不同的命令打开文件夹
                 try:
                     if system == "Windows":
-                        os.system(f'explorer "{os.path.abspath(comfyui_input_path)}"')
+                        # 直接使用WSL路径打开，不转换为本地路径
+                        os.system(f'explorer "{comfyui_input_path}"')
                     elif system == "Darwin":  # macOS
                         os.system(f'open "{os.path.abspath(comfyui_input_path)}"')
                     elif system == "Linux":
                         os.system(f'xdg-open "{os.path.abspath(comfyui_input_path)}"')
-                    return "已打开ComfyUI的input文件夹"
+                    return f"已打开ComfyUI的input文件夹: {comfyui_input_path}"
                 except Exception as e:
                     return f"打开文件夹出错: {str(e)}"
             
@@ -2802,7 +2882,7 @@ with gr.Blocks(title="三视图 - ComfyUI接口") as random_three_views_demo:
             existing_images = get_input_folder_images()
             image_choices = []
             for name in existing_images:
-                full_path = os.path.join("ai", "ComfyUI", "input", name)
+                full_path = os.path.join(WSL_COMFYUI_PATH, "input", name)
                 try:
                     size_kb = os.path.getsize(full_path) // 1024
                     image_choices.append((f"{name} ({size_kb} KB)", full_path))
@@ -2827,7 +2907,7 @@ with gr.Blocks(title="三视图 - ComfyUI接口") as random_three_views_demo:
                 new_images = get_input_folder_images()
                 new_choices = []
                 for name in new_images:
-                    full_path = os.path.join("ai", "ComfyUI", "input", name)
+                    full_path = os.path.join(WSL_COMFYUI_PATH, "input", name)
                     try:
                         size_kb = os.path.getsize(full_path) // 1024
                         new_choices.append((f"{name} ({size_kb} KB)", full_path))
@@ -2887,7 +2967,7 @@ with gr.Blocks(title="三视图 - ComfyUI接口") as random_three_views_demo:
             # ControlNet模型选择
             controlnet_models = models.get("controlnet", [])
             # 确保存在默认的ControlNet模型
-            default_controlnet = "flux\\Shakker-Labs\\diffusion_pytorch_model.safetensors"
+            default_controlnet = "flux/Shakker-Labs/diffusion_pytorch_model.safetensors"
             controlnet_models = ensure_model_in_list(controlnet_models, rtv_params.get("controlnet_name", default_controlnet))
             rtv_controlnet_model = gr.Dropdown(choices=controlnet_models, value=rtv_params.get("controlnet_name", default_controlnet), label="ControlNet模型", allow_custom_value=True)
             
@@ -2930,12 +3010,12 @@ with gr.Blocks(title="三视图 - ComfyUI接口") as random_three_views_demo:
                     # 修改宽高滑动条，实现同步变化
                     def update_dimensions(value):
                         # 确保值在合法范围内且为整数
-                        value = int(max(1280, min(value, 2048)))
+                        value = int(max(512, min(value, 2048)))
                         # 返回同样的值用于同步宽度和高度
                         return value, value
                     
                     # 宽度和高度使用同一个滑动条控制
-                    rtv_size = gr.Slider(minimum=1280, maximum=2048, step=8, value=rtv_params["width"], label="尺寸（宽度=高度）")
+                    rtv_size = gr.Slider(minimum=512, maximum=2048, step=8, value=rtv_params["width"], label="尺寸（宽度=高度）")
                     # 隐藏的宽高输入框，用于保持原有的参数结构
                     rtv_width = gr.Number(value=rtv_params["width"], visible=False)
                     rtv_height = gr.Number(value=rtv_params["height"], visible=False)
@@ -3024,7 +3104,7 @@ with gr.Blocks(title="三视图 - ComfyUI接口") as random_three_views_demo:
         # 现在args[0]是rtv_size，同时设置width和height为相同的值
         size_value = args[0]
         # 确保尺寸在有效范围内
-        size_value = int(max(1280, min(size_value, 2048)))
+        size_value = int(max(512, min(size_value, 2048)))
         updated_params["width"] = size_value
         updated_params["height"] = size_value
         
@@ -3150,10 +3230,10 @@ def extract_magnified_facial_restoration_params():
         "seam_fix_padding": 16,
         "force_uniform_tiles": True,
         "tiled_decode": False,
-        "unet_name": "FLUX\\flux-dev.safetensors",
-        "clip_name1": "flux\\t5xxl_fp16.safetensors",
-        "clip_name2": "flux\\clip_l.safetensors",
-        "vae_name": "flux\\ae.safetensors",
+        "unet_name": "FLUX/flux-dev.safetensors",
+        "clip_name1": "flux/t5xxl_fp16.safetensors",
+        "clip_name2": "flux/clip_l.safetensors",
+        "vae_name": "flux/ae.safetensors",
         "upscale_model": "4x-UltraSharp.pth",
         "positive_prompt": "Character sheet, white background, multiple views, from multiple angles, visible face, portrait, an ethereal silver-haired fox spirit wearing layered pink hanfu with white collar embroidery and intricate floral hairpins, delicate furry ears, serene expression, translucent chiffon skirts, ornate silver waist ornaments with tassels, soft cinematic lighting, simplified pale blue background, traditional Chinese fantasy art masterpiece, photography, sharp focus",
         "negative_prompt": "",
@@ -3267,8 +3347,16 @@ def save_magnified_facial_restoration_workflow(params):
         if params.get("input_image") and "361" in workflow_copy:
             if "inputs" not in workflow_copy["361"]:
                 workflow_copy["361"]["inputs"] = {}
-            workflow_copy["361"]["inputs"]["image"] = params["input_image"]
-            print(f"已将输入图像 {params['input_image']} 保存到放大及面部修复工作流361节点")
+            # ComfyUI期望的格式是直接使用图片名称，它会自动在input目录下查找
+            # 确保只使用文件名，而不是完整路径
+            if params["input_image"] and isinstance(params["input_image"], str):
+                # 如果是路径，只获取文件名部分
+                filename = os.path.basename(params["input_image"])
+                workflow_copy["361"]["inputs"]["image"] = filename
+                print(f"已将输入图像 {filename} 保存到放大及面部修复工作流361节点")
+            else:
+                workflow_copy["361"]["inputs"]["image"] = params["input_image"]
+                print(f"已将输入图像 {params['input_image']} 保存到放大及面部修复工作流361节点")
         
         # 更新157节点参数（正向提示词）
         if "157" in workflow_copy:
@@ -3399,10 +3487,31 @@ with gr.Blocks(title="图片放大 - ComfyUI接口") as magnified_facial_restora
         # 打印使用的输入图像
         print(f"使用输入图像: {input_image_path}")
         
+        # 检查图片是否已经在ComfyUI input文件夹中
+        comfyui_input_path = os.path.join(WSL_COMFYUI_PATH, "input")
+        os.makedirs(comfyui_input_path, exist_ok=True)
+        filename = os.path.basename(input_image_path)
+        comfyui_file_path = os.path.join(comfyui_input_path, filename)
+        
+        # 如果不在ComfyUI input文件夹中，复制过去
+        if not input_image_path.startswith(WSL_COMFYUI_PATH):
+            timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+            ext = os.path.splitext(filename)[1].lower() or ".png"
+            new_filename = f"image_{timestamp}{ext}"
+            comfyui_file_path = os.path.join(comfyui_input_path, new_filename)
+            
+            try:
+                shutil.copy2(input_image_path, comfyui_file_path)
+                print(f"已将图片从 {input_image_path} 复制到 {comfyui_file_path}")
+                filename = new_filename
+            except Exception as e:
+                print(f"复制图片出错: {e}")
+                return None, f"错误：复制图片到ComfyUI失败 - {str(e)}"
+        
         # 将输入参数整合到一个字典中
         updated_params = {
             "image_name": image_name,
-            "input_image": os.path.basename(input_image_path),  # 只保存文件名，不包含路径
+            "input_image": filename,  # 仅使用文件名
             "positive_prompt": positive_prompt,
             "negative_prompt": negative_prompt,
             "unet_name": unet_name,
@@ -3445,7 +3554,8 @@ with gr.Blocks(title="图片放大 - ComfyUI接口") as magnified_facial_restora
         
         # 发送工作流到ComfyUI并获取生成结果
         try:
-            result_image = send_workflow_to_comfyui(saved_workflow, progress_callback)
+            # 将输入图像路径作为额外参数传入
+            result_image = send_workflow_to_comfyui(saved_workflow, progress_callback, input_image_path=input_image_path)
             
             # 如果生成成功，显示成功信息
             if result_image and os.path.exists(result_image):
@@ -3480,7 +3590,7 @@ with gr.Blocks(title="图片放大 - ComfyUI接口") as magnified_facial_restora
                     return None, "未上传图片", "图片尺寸: 未知", None
                     
                 # 确保ComfyUI的input文件夹存在
-                comfyui_input_path = os.path.join("ai", "ComfyUI", "input")
+                comfyui_input_path = os.path.join(WSL_COMFYUI_PATH, "input")
                 os.makedirs(comfyui_input_path, exist_ok=True)
                 
                 # 获取当前时间作为文件名
@@ -3523,7 +3633,7 @@ with gr.Blocks(title="图片放大 - ComfyUI接口") as magnified_facial_restora
                 new_images = get_input_folder_images()
                 dropdown_choices = []
                 for name in new_images:
-                    full_path = os.path.join("ai", "ComfyUI", "input", name)
+                    full_path = os.path.join(WSL_COMFYUI_PATH, "input", name)
                     try:
                         size_kb = os.path.getsize(full_path) // 1024
                         dropdown_choices.append((f"{name} ({size_kb} KB)", full_path))
@@ -3535,7 +3645,7 @@ with gr.Blocks(title="图片放大 - ComfyUI接口") as magnified_facial_restora
             # 打开input文件夹的函数
             def open_mfr_input_folder():
                 # 确保ComfyUI的input文件夹存在
-                comfyui_input_path = os.path.join("ai", "ComfyUI", "input")
+                comfyui_input_path = os.path.join(WSL_COMFYUI_PATH, "input")
                 os.makedirs(comfyui_input_path, exist_ok=True)
                 
                 # 获取当前操作系统
@@ -3544,12 +3654,13 @@ with gr.Blocks(title="图片放大 - ComfyUI接口") as magnified_facial_restora
                 # 根据操作系统使用不同的命令打开文件夹
                 try:
                     if system == "Windows":
-                        os.system(f'explorer "{os.path.abspath(comfyui_input_path)}"')
+                        # 直接使用WSL路径打开，不转换为本地路径
+                        os.system(f'explorer "{comfyui_input_path}"')
                     elif system == "Darwin":  # macOS
                         os.system(f'open "{os.path.abspath(comfyui_input_path)}"')
                     elif system == "Linux":
                         os.system(f'xdg-open "{os.path.abspath(comfyui_input_path)}"')
-                    return "已打开ComfyUI的input文件夹"
+                    return f"已打开ComfyUI的input文件夹: {comfyui_input_path}"
                 except Exception as e:
                     return f"打开文件夹出错: {str(e)}"
             
@@ -3577,7 +3688,7 @@ with gr.Blocks(title="图片放大 - ComfyUI接口") as magnified_facial_restora
             existing_images = get_input_folder_images()
             image_choices = []
             for name in existing_images:
-                full_path = os.path.join("ai", "ComfyUI", "input", name)
+                full_path = os.path.join(WSL_COMFYUI_PATH, "input", name)
                 try:
                     size_kb = os.path.getsize(full_path) // 1024
                     image_choices.append((f"{name} ({size_kb} KB)", full_path))
@@ -3602,7 +3713,7 @@ with gr.Blocks(title="图片放大 - ComfyUI接口") as magnified_facial_restora
                 new_images = get_input_folder_images()
                 new_choices = []
                 for name in new_images:
-                    full_path = os.path.join("ai", "ComfyUI", "input", name)
+                    full_path = os.path.join(WSL_COMFYUI_PATH, "input", name)
                     try:
                         size_kb = os.path.getsize(full_path) // 1024
                         new_choices.append((f"{name} ({size_kb} KB)", full_path))
@@ -3871,40 +3982,7 @@ with gr.Blocks(title="图片放大 - ComfyUI接口") as magnified_facial_restora
         show_progress="full"
     )
 
-# 读取面部修复工作流文件
-def load_facial_restoration_workflow():
-    # 首先尝试当前目录的workflows文件夹
-    try:
-        with open("workflows/Facial_restoration.json", "r", encoding="utf-8") as f:
-            return json.load(f)
-    except FileNotFoundError:
-        # 如果当前目录没有，则尝试相对于exe的目录
-        import sys
-        import os
-        exe_dir = os.path.dirname(sys.executable) if getattr(sys, 'frozen', False) else os.path.dirname(os.path.abspath(__file__))
-        workflow_path = os.path.join(exe_dir, "workflows", "Facial_restoration.json")
-        try:
-            with open(workflow_path, "r", encoding="utf-8") as f:
-                return json.load(f)
-        except FileNotFoundError:
-            print(f"错误：无法找到Facial_restoration.json文件，已尝试路径: workflows/Facial_restoration.json 和 {workflow_path}")
-            raise
-
-# 保存面部修复工作流文件
-def save_facial_restoration_workflow_json(workflow_data):
-    # 首先尝试当前目录的workflows文件夹
-    try:
-        os.makedirs("workflows", exist_ok=True)
-        with open("workflows/Facial_restoration.json", "w", encoding="utf-8") as f:
-            json.dump(workflow_data, f, ensure_ascii=False, indent=2)
-    except FileNotFoundError:
-        # 如果当前目录没有，则尝试相对于exe的目录
-        exe_dir = os.path.dirname(sys.executable) if getattr(sys, 'frozen', False) else os.path.dirname(os.path.abspath(__file__))
-        workflow_path = os.path.join(exe_dir, "workflows", "Facial_restoration.json")
-        os.makedirs(os.path.dirname(workflow_path), exist_ok=True)
-        with open(workflow_path, "w", encoding="utf-8") as f:
-            json.dump(workflow_data, f, ensure_ascii=False, indent=2)
-
+# 保存面部修复调整后的参数
 # 提取面部修复可调节参数
 def extract_facial_restoration_params():
     params = {
@@ -3937,10 +4015,10 @@ def extract_facial_restoration_params():
         "noise_mask_feather": 20,
         "tiled_encode": False,
         "tiled_decode": False,
-        "unet_name": "FLUX\\flux-dev.safetensors",
-        "clip_name1": "flux\\t5xxl_fp16.safetensors",
-        "clip_name2": "flux\\clip_l.safetensors",
-        "vae_name": "flux\\ae.safetensors",
+        "unet_name": "FLUX/flux-dev.safetensors",
+        "clip_name1": "flux/t5xxl_fp16.safetensors",
+        "clip_name2": "flux/clip_l.safetensors",
+        "vae_name": "flux/ae.safetensors",
         "positive_prompt": "Character sheet, white background, multiple views, from multiple angles, visible face, portrait, an ethereal silver-haired fox spirit wearing layered pink hanfu with white collar embroidery and intricate floral hairpins, delicate furry ears, serene expression, translucent chiffon skirts, ornate silver waist ornaments with tassels, soft cinematic lighting, simplified pale blue background, traditional Chinese fantasy art masterpiece, photography, sharp focus",
         "negative_prompt": "",
         "image_name": "character_sheet_flux",
@@ -4028,7 +4106,6 @@ def extract_facial_restoration_params():
     
     return params
 
-# 保存面部修复调整后的参数
 def save_facial_restoration_workflow(params):
     workflow_copy = copy.deepcopy(facial_restoration_workflow)
     
@@ -4049,8 +4126,16 @@ def save_facial_restoration_workflow(params):
         if params.get("input_image") and "361" in workflow_copy:
             if "inputs" not in workflow_copy["361"]:
                 workflow_copy["361"]["inputs"] = {}
-            workflow_copy["361"]["inputs"]["image"] = params["input_image"]
-            print(f"已将输入图像 {params['input_image']} 保存到面部修复工作流361节点")
+            # ComfyUI期望的格式是直接使用图片名称，它会自动在input目录下查找
+            # 确保只使用文件名，而不是完整路径
+            if params["input_image"] and isinstance(params["input_image"], str):
+                # 如果是路径，只获取文件名部分
+                filename = os.path.basename(params["input_image"])
+                workflow_copy["361"]["inputs"]["image"] = filename
+                print(f"已将输入图像 {filename} 保存到面部修复工作流361节点")
+            else:
+                workflow_copy["361"]["inputs"]["image"] = params["input_image"]
+                print(f"已将输入图像 {params['input_image']} 保存到面部修复工作流361节点")
         
         # 更新157节点参数（正向提示词）
         if "157" in workflow_copy:
@@ -4322,40 +4407,69 @@ with gr.Blocks(title="面部修复 - ComfyUI接口") as fr_demo:
                         )
                 
                 with gr.Accordion("高级参数", open=True):
+                    # 获取模型列表
+                    models_dict = get_models_list()
+                    
+                    # 添加刷新模型列表的按钮和函数
+                    def refresh_model_lists():
+                        models = get_models_list()
+                        return (
+                            gr.update(choices=models["ultralytics"], value=facial_restoration_params["bbox_model"]),
+                            gr.update(choices=models["unet"], value=facial_restoration_params["unet_name"]),
+                            gr.update(choices=models["clip"], value=facial_restoration_params["clip_name1"]),
+                            gr.update(choices=models["clip"], value=facial_restoration_params["clip_name2"]),
+                            gr.update(choices=models["vae"], value=facial_restoration_params["vae_name"]),
+                            "模型列表已刷新"
+                        )
+
+                    fr_refresh_models_btn = gr.Button("刷新模型列表")
+                    fr_refresh_status = gr.Textbox(label="状态", value="", visible=False)
+                    
                     with gr.Row():
-                        fr_bbox_model = gr.Textbox(
+                        fr_bbox_model = gr.Dropdown(
                             label="检测模型",
+                            choices=models_dict["ultralytics"],
                             value=facial_restoration_params["bbox_model"],
-                            lines=1
+                            allow_custom_value=True
                         )
                     
                     with gr.Row():
-                        fr_unet_name = gr.Textbox(
+                        fr_unet_name = gr.Dropdown(
                             label="UNET模型",
+                            choices=models_dict["unet"],
                             value=facial_restoration_params["unet_name"],
-                            lines=1
+                            allow_custom_value=True
                         )
                     
                     with gr.Row():
-                        fr_clip_name1 = gr.Textbox(
+                        fr_clip_name1 = gr.Dropdown(
                             label="CLIP模型1",
+                            choices=models_dict["clip"],
                             value=facial_restoration_params["clip_name1"],
-                            lines=1
+                            allow_custom_value=True
                         )
                     
                     with gr.Row():
-                        fr_clip_name2 = gr.Textbox(
+                        fr_clip_name2 = gr.Dropdown(
                             label="CLIP模型2",
+                            choices=models_dict["clip"],
                             value=facial_restoration_params["clip_name2"],
-                            lines=1
+                            allow_custom_value=True
                         )
                     
                     with gr.Row():
-                        fr_vae_name = gr.Textbox(
+                        fr_vae_name = gr.Dropdown(
                             label="VAE模型",
+                            choices=models_dict["vae"],
                             value=facial_restoration_params["vae_name"],
-                            lines=1
+                            allow_custom_value=True
                         )
+                    
+                    fr_refresh_models_btn.click(
+                        fn=refresh_model_lists, 
+                        inputs=[], 
+                        outputs=[fr_bbox_model, fr_unet_name, fr_clip_name1, fr_clip_name2, fr_vae_name, fr_refresh_status]
+                    )
                 
                 with gr.Accordion("提示词", open=True):
                     with gr.Row():
@@ -4410,13 +4524,13 @@ with gr.Blocks(title="面部修复 - ComfyUI接口") as fr_demo:
             return None, "未选择图像", []
         
         # 确保ComfyUI的input文件夹存在
-        os.makedirs(os.path.join("ai", "ComfyUI", "input"), exist_ok=True)
+        os.makedirs(os.path.join(WSL_COMFYUI_PATH, "input"), exist_ok=True)
         
         # 生成随机文件名
         timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
         random_suffix = random.randint(1000, 9999)
         filename = f"fr_input_{timestamp}_{random_suffix}.png"
-        filepath = os.path.join("ai", "ComfyUI", "input", filename)
+        filepath = os.path.join(WSL_COMFYUI_PATH, "input", filename)
         
         # 保存图像
         img.save(filepath)
@@ -4430,20 +4544,19 @@ with gr.Blocks(title="面部修复 - ComfyUI接口") as fr_demo:
     # 打开输入文件夹
     def open_fr_input_folder():
         # 确保ComfyUI的input文件夹存在
-        os.makedirs(os.path.join("ai", "ComfyUI", "input"), exist_ok=True)
-        
-        # 获取绝对路径
-        input_folder = os.path.abspath(os.path.join("ai", "ComfyUI", "input"))
+        comfyui_input_path = os.path.join(WSL_COMFYUI_PATH, "input")
+        os.makedirs(comfyui_input_path, exist_ok=True)
         
         # 根据操作系统打开文件夹
         if platform.system() == "Windows":
-            os.startfile(input_folder)
+            # 直接使用WSL路径打开，不转换为本地路径
+            os.system(f'explorer "{comfyui_input_path}"')
         elif platform.system() == "Darwin":  # macOS
-            subprocess.run(["open", input_folder])
+            subprocess.run(["open", os.path.abspath(comfyui_input_path)])
         else:  # Linux
-            subprocess.run(["xdg-open", input_folder])
+            subprocess.run(["xdg-open", os.path.abspath(comfyui_input_path)])
         
-        return "已打开输入文件夹"
+        return f"已打开输入文件夹: {comfyui_input_path}"
     
     # 选择现有图像
     def select_existing_fr_image(file_path):
@@ -4452,7 +4565,7 @@ with gr.Blocks(title="面部修复 - ComfyUI接口") as fr_demo:
         
         try:
             # 构建完整路径
-            full_path = os.path.join("ai", "ComfyUI", "input", file_path)
+            full_path = os.path.join(WSL_COMFYUI_PATH, "input", file_path)
             
             # 加载图像
             img = Image.open(full_path)
@@ -4469,7 +4582,7 @@ with gr.Blocks(title="面部修复 - ComfyUI接口") as fr_demo:
         new_choices = []
         for name in new_images:
             try:
-                full_path = os.path.join("ai", "ComfyUI", "input", name)
+                full_path = os.path.join(WSL_COMFYUI_PATH, "input", name)
                 new_choices.append(name)
             except Exception as e:
                 print(f"刷新面部修复图片列表时出错: {e}")
@@ -4662,7 +4775,7 @@ with gr.Blocks(title="面部修复 - ComfyUI接口") as fr_demo:
         
         try:
             # 构建完整路径 - file_path现在就是文件名
-            full_path = os.path.join("ai", "ComfyUI", "input", file_path)
+            full_path = os.path.join(WSL_COMFYUI_PATH, "input", file_path)
             
             # 加载图像
             img = Image.open(full_path)
@@ -4862,7 +4975,7 @@ if __name__ == "__main__":
                 server_name="127.0.0.1",  # 仅允许本地访问
                 server_port=5555,
                 share=False,  # 关闭外网访问
-                allowed_paths=["output", "input"]  # 添加input目录到允许路径
+                allowed_paths=["output", "input", WSL_COMFYUI_PATH, os.path.join(WSL_COMFYUI_PATH, "input")]  # 添加WSL路径到允许路径
             )
 
         def run_img2img():
@@ -4872,7 +4985,7 @@ if __name__ == "__main__":
                 server_name="127.0.0.1",  # 仅允许本地访问
                 server_port=5556,
                 share=False,  # 关闭外网访问
-                allowed_paths=["output", "input"]  # 添加input目录到允许路径
+                allowed_paths=["output", "input", WSL_COMFYUI_PATH, os.path.join(WSL_COMFYUI_PATH, "input")]  # 添加WSL路径到允许路径
             )
             
         def run_rtv():
@@ -4882,7 +4995,7 @@ if __name__ == "__main__":
                 server_name="127.0.0.1",  # 仅允许本地访问
                 server_port=5557,
                 share=False,  # 关闭外网访问
-                allowed_paths=["output", "input"]  # 添加input目录到允许路径
+                allowed_paths=["output", "input", WSL_COMFYUI_PATH, os.path.join(WSL_COMFYUI_PATH, "input")]  # 添加WSL路径到允许路径
             )
 
         def run_mfr():
@@ -4892,7 +5005,7 @@ if __name__ == "__main__":
                 server_name="127.0.0.1",  # 仅允许本地访问
                 server_port=5558,
                 share=False,  # 关闭外网访问
-                allowed_paths=["output", "input"]  # 添加input目录到允许路径
+                allowed_paths=["output", "input", WSL_COMFYUI_PATH, os.path.join(WSL_COMFYUI_PATH, "input")]  # 添加WSL路径到允许路径
             )
             
         def run_fr():
@@ -4902,7 +5015,7 @@ if __name__ == "__main__":
                 server_name="127.0.0.1",  # 仅允许本地访问
                 server_port=5559,
                 share=False,  # 关闭外网访问
-                allowed_paths=["output", "input"]  # 添加input目录到允许路径
+                allowed_paths=["output", "input", WSL_COMFYUI_PATH, os.path.join(WSL_COMFYUI_PATH, "input")]  # 添加WSL路径到允许路径
             )
 
         # 创建并启动线程

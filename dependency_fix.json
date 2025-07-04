@@ -162,6 +162,62 @@
       "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI",
       "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI && source comfyui/bin/activate && python -m pip install sacremoses\"",
       "description": "sacremoses"
+    },
+    {
+      "id": "ComfyUI-Translator",
+      "name": "ComfyUI-Translator",
+      "enabled": true,
+      "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes\\ComfyUI-Translator",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI/custom_nodes/ComfyUI-Translator && source ../../comfyui/bin/activate && python -m pip install -r requirements.txt\"",
+      "description": "ComfyUI-Translator"
+    },
+    {
+      "id": "ComfyUI-WanVideoWrapper",
+      "name": "ComfyUI-WanVideoWrapper",
+      "enabled": true,
+      "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes\\ComfyUI-WanVideoWrapper",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI/custom_nodes/ComfyUI-WanVideoWrapper && source ../../comfyui/bin/activate && python -m pip install -r requirements.txt\"",
+      "description": "ComfyUI-WanVideoWrapper"
+    },
+    {
+      "id": "comfyui-logicutils",
+      "name": "comfyui-logicutils",
+      "enabled": true,
+      "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes\\comfyui-logicutils",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI/custom_nodes/comfyui-logicutils && source ../../comfyui/bin/activate && python -m pip install -r requirements.txt\"",
+      "description": "comfyui-logicutils"
+    },
+    {
+      "id": "comfyui_essentials",
+      "name": "comfyui_essentials",
+      "enabled": true,
+      "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes\\comfyui_essentials",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI/custom_nodes/comfyui_essentials && source ../../comfyui/bin/activate && python -m pip install -r requirements.txt\"",
+      "description": "comfyui_essentials"
+    },
+    {
+      "id": "audio-separation-nodes-comfyui",
+      "name": "audio-separation-nodes-comfyui",
+      "enabled": true,
+      "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes\\audio-separation-nodes-comfyui",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI/custom_nodes/audio-separation-nodes-comfyui && source ../../comfyui/bin/activate && python -m pip install -r requirements.txt\"",
+      "description": "audio-separation-nodes-comfyui"
+    },
+    {
+      "id": "comfyui-videohelpersuite",
+      "name": "comfyui-videohelpersuite",
+      "enabled": true,
+      "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes\\comfyui-videohelpersuite",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI/custom_nodes/comfyui-videohelpersuite && source ../../comfyui/bin/activate && python -m pip install -r requirements.txt\"",
+      "description": "comfyui-videohelpersuite"
+    },
+    {
+      "id": "comfy-mtb",
+      "name": "comfy-mtb",
+      "enabled": true,
+      "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes\\comfy-mtb",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI/custom_nodes/comfy-mtb && source ../../comfyui/bin/activate && python -m pip install -r requirements.txt\"",
+      "description": "comfy-mtb"
     }
   ],
   "settings": {

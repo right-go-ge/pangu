@@ -346,6 +346,13 @@
               "description": "ComfyUI-WanVideoWrapper",
               "github_url": "https://github.com/kijai/ComfyUI-WanVideoWrapper.git",
               "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            },
+            {
+              "id": "ComfyUI-LogicUtils",
+              "name": "ComfyUI-LogicUtils",
+              "description": "ComfyUI-LogicUtils",
+              "github_url": "https://github.com/aria1th/ComfyUI-LogicUtils.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
             }
           ],
           "models": [],

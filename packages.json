@@ -300,6 +300,59 @@
           "last_updated": "2025-06-06"
         }
       ]
+    },
+    {
+      "id": "wan2.1",
+      "name": "wan2.1视频套件",
+      "description": "wan2.1视频套件",
+      "packages": [
+        {
+          "id": "music",
+          "name": "数字音乐人",
+          "description": "数字音乐人",
+          "version": "1.0",
+          "nodes": [
+            {
+              "id": "ComfyUI-VideoHelperSuite",
+              "name": "ComfyUI-VideoHelperSuite",
+              "description": "ComfyUI-VideoHelperSuite",
+              "github_url": "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            },
+            {
+              "id": "ComfyUI_essentials",
+              "name": "ComfyUI_essentials",
+              "description": "ComfyUI_essentials",
+              "github_url": "https://github.com/cubiq/ComfyUI_essentials.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            },
+            {
+              "id": "comfy_mtb",
+              "name": "comfy_mtb",
+              "description": "comfy_mtb",
+              "github_url": "https://github.com/melMass/comfy_mtb.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            },
+            {
+              "id": "audio-separation-nodes-comfyui",
+              "name": "audio-separation-nodes-comfyui",
+              "description": "audio-separation-nodes-comfyui",
+              "github_url": "https://github.com/christian-byrne/audio-separation-nodes-comfyui.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            },
+            {
+              "id": "ComfyUI-WanVideoWrapper",
+              "name": "ComfyUI-WanVideoWrapper",
+              "description": "ComfyUI-WanVideoWrapper",
+              "github_url": "https://github.com/kijai/ComfyUI-WanVideoWrapper.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            }
+          ],
+          "models": [],
+          "author": "",
+          "last_updated": "2025-07-04"
+        }
+      ]
     }
   ]
 }

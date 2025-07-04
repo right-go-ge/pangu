@@ -218,6 +218,14 @@
       "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes\\comfy-mtb",
       "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI/custom_nodes/comfy-mtb && source ../../comfyui/bin/activate && python -m pip install -r requirements.txt\"",
       "description": "comfy-mtb"
+    },
+    {
+      "id": "sageattention",
+      "name": "sageattention",
+      "enabled": true,
+      "working_directory": "\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI && source comfyui/bin/activate && pip install sageattention --user\"",
+      "description": "sageattention"
     }
   ],
   "settings": {

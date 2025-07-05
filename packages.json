@@ -269,6 +269,23 @@
           ],
           "models": [],
           "last_updated": "2025-07-05"
+        },
+        {
+          "id": "aiwem",
+          "name": "ai女团",
+          "description": "ai女团",
+          "version": "1.0",
+          "nodes": [
+            {
+              "id": "ComfyUI-Jjk-Nodes",
+              "name": "ComfyUI-Jjk-Nodes",
+              "description": "ComfyUI-Jjk-Nodes",
+              "github_url": "https://github.com/jjkramhoeft/ComfyUI-Jjk-Nodes.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            }
+          ],
+          "models": [],
+          "last_updated": "2025-07-05"
         }
       ]
     },

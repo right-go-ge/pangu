@@ -10,7 +10,8 @@
       "workflow": {
         "id": "text_to_image_workflow",
         "version": "1.0.0"
-      }
+      },
+      "cover": "https://cdn.jsdelivr.net/gh/right-go-ge/auth-system-img_1@main/post_image_1750508449044_9860_2.png"
     },
     {
       "name": "图生图",
@@ -22,7 +23,8 @@
       "workflow": {
         "id": "image_to_image_workflow",
         "version": "1.0.0"
-      }
+      },
+      "cover": "https://cdn.jsdelivr.net/gh/right-go-ge/auth-system-img_1@main/post_image_1750508449044_9860_2.png"
     },
     {
       "name": "随机三视图",
@@ -34,7 +36,8 @@
       "workflow": {
         "id": "Random_three_views",
         "version": "1.0.0"
-      }
+      },
+      "cover": "https://cdn.jsdelivr.net/gh/right-go-ge/auth-system-img_1@main/post_image_1750508449044_9860_2.png"
     },
     {
       "name": "图片放大",
@@ -46,7 +49,8 @@
       "workflow": {
         "id": "Magnified_facial_restoration",
         "version": "1.0.0"
-      }
+      },
+      "cover": "https://cdn.jsdelivr.net/gh/right-go-ge/auth-system-img_1@main/post_image_1750508449044_9860_2.png"
     },
     {
       "name": "面部修复",
@@ -58,7 +62,8 @@
       "workflow": {
         "id": "Facial_restoration",
         "version": "1.0.0"
-      }
+      },
+      "cover": "https://cdn.jsdelivr.net/gh/right-go-ge/auth-system-img_1@main/post_image_1750508449044_9860_2.png"
     },
     {
       "name": "ces",
@@ -70,7 +75,8 @@
       "workflow": {
         "id": "cesf",
         "version": "1.0.0"
-      }
+      },
+      "cover": "https://cdn.jsdelivr.net/gh/right-go-ge/auth-system-img_1@main/post_image_1750508449044_9860_2.png"
     }
   ]
 }

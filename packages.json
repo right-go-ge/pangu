@@ -358,6 +358,51 @@
           "models": [],
           "author": "",
           "last_updated": "2025-07-04"
+        },
+        {
+          "id": "qianyi",
+          "name": "视频转绘",
+          "description": "视频转绘",
+          "version": "1.0",
+          "nodes": [
+            {
+              "id": "comfyui_controlnet_aux.git",
+              "name": "comfyui_controlnet_aux.git",
+              "description": "comfyui_controlnet_aux.git",
+              "github_url": "https://github.com/Fannovel16/comfyui_controlnet_aux.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            },
+            {
+              "id": "ComfyUI-Florence2.git",
+              "name": "ComfyUI-Florence2.git",
+              "description": "ComfyUI-Florence2.git",
+              "github_url": "https://github.com/kijai/ComfyUI-Florence2.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            },
+            {
+              "id": "ComfyUI-DepthAnythingV2.git",
+              "name": "ComfyUI-DepthAnythingV2.git",
+              "description": "ComfyUI-DepthAnythingV2.git",
+              "github_url": "https://github.com/kijai/ComfyUI-DepthAnythingV2.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            },
+            {
+              "id": "comfy-image-saver.git",
+              "name": "comfy-image-saver.git",
+              "description": "comfy-image-saver.git",
+              "github_url": "https://github.com/giriss/comfy-image-saver.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            },
+            {
+              "id": "comfyui-tensorops.git",
+              "name": "comfyui-tensorops.git",
+              "description": "comfyui-tensorops.git",
+              "github_url": "https://github.com/un-seen/comfyui-tensorops.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            }
+          ],
+          "models": [],
+          "last_updated": "2025-07-05"
         }
       ]
     }

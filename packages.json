@@ -224,6 +224,51 @@
           "author": "一人团队",
           "size": "1GB",
           "last_updated": "2025-06-06"
+        },
+        {
+          "id": "aiwanghong",
+          "name": "ai网红",
+          "description": "ai网红",
+          "version": "1.0",
+          "nodes": [
+            {
+              "id": "ComfyUI-Crystools",
+              "name": "ComfyUI-Crystools",
+              "description": "ComfyUI-Crystools",
+              "github_url": "https://github.com/crystian/ComfyUI-Crystools.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            },
+            {
+              "id": "ComfyUI_Comfyroll_CustomNodes",
+              "name": "ComfyUI_Comfyroll_CustomNodes",
+              "description": "ComfyUI_Comfyroll_CustomNodes",
+              "github_url": "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            },
+            {
+              "id": "ComfyUI-Detail-Daemon",
+              "name": "ComfyUI-Detail-Daemon",
+              "description": "ComfyUI-Detail-Daemon",
+              "github_url": "https://github.com/Jonseed/ComfyUI-Detail-Daemon.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            },
+            {
+              "id": "ComfyUI-Redux-Prompt",
+              "name": "ComfyUI-Redux-Prompt",
+              "description": "ComfyUI-Redux-Prompt",
+              "github_url": "https://github.com/CY-CHENYUE/ComfyUI-Redux-Prompt.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            },
+            {
+              "id": "comfy-cliption",
+              "name": "comfy-cliption",
+              "description": "comfy-cliption",
+              "github_url": "https://github.com/pharmapsychotic/comfy-cliption.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            }
+          ],
+          "models": [],
+          "last_updated": "2025-07-05"
         }
       ]
     },

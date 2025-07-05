@@ -226,6 +226,38 @@
       "working_directory": "\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI",
       "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI && source comfyui/bin/activate && pip install sageattention --user\"",
       "description": "sageattention"
+    },
+    {
+      "id": "comfy-image-saver",
+      "name": "comfy-image-saver",
+      "enabled": true,
+      "working_directory": "\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes\\comfy-image-saver",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI/custom_nodes/comfy-image-saver && source ../../comfyui/bin/activate && python -m pip install -r requirements.txt\"",
+      "description": "comfy-image-saver"
+    },
+    {
+      "id": "comfyui-florence2",
+      "name": "comfyui-florence2",
+      "enabled": true,
+      "working_directory": "\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes\\comfyui-florence2",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI/custom_nodes/comfyui-florence2 && source ../../comfyui/bin/activate && python -m pip install -r requirements.txt\"",
+      "description": "comfyui-florence2"
+    },
+    {
+      "id": "comfyui-tensorops",
+      "name": "comfyui-tensorops",
+      "enabled": true,
+      "working_directory": "\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes\\comfyui-tensorops",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI/custom_nodes/comfyui-tensorops && source ../../comfyui/bin/activate && python -m pip install -r requirements.txt\"",
+      "description": "comfyui-tensorops"
+    },
+    {
+      "id": "comfyui-depthanythingv2",
+      "name": "comfyui-depthanythingv2",
+      "enabled": true,
+      "working_directory": "\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes\\comfyui-depthanythingv2",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI/custom_nodes/comfyui-depthanythingv2 && source ../../comfyui/bin/activate && python -m pip install -r requirements.txt\"",
+      "description": "comfyui-depthanythingv2"
     }
   ],
   "settings": {

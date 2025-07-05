@@ -403,6 +403,30 @@
           ],
           "models": [],
           "last_updated": "2025-07-05"
+        },
+        {
+          "id": "kuoda",
+          "name": "扩充视频大小",
+          "description": "扩充视频大小",
+          "version": "1.0",
+          "nodes": [
+            {
+              "id": "ComfyUI_LayerStyle",
+              "name": "ComfyUI_LayerStyle",
+              "description": "ComfyUI_LayerStyle",
+              "github_url": "https://github.com/chflame163/ComfyUI_LayerStyle.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            },
+            {
+              "id": "ComfyUI_MiniCPM-V-2_6-int4",
+              "name": "ComfyUI_MiniCPM-V-2_6-int4",
+              "description": "ComfyUI_MiniCPM-V-2_6-int4",
+              "github_url": "https://github.com/IuvenisSapiens/ComfyUI_MiniCPM-V-2_6-int4.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            }
+          ],
+          "models": [],
+          "last_updated": "2025-07-05"
         }
       ]
     }

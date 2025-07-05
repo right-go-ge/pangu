@@ -403,30 +403,6 @@
           ],
           "models": [],
           "last_updated": "2025-07-05"
-        },
-        {
-          "id": "yuanchuang",
-          "name": "原创歌曲数字人",
-          "description": "原创歌曲数字人",
-          "version": "1.0",
-          "nodes": [
-            {
-              "id": "ComfyUI_ACE-Step",
-              "name": "ComfyUI_ACE-Step",
-              "description": "ComfyUI_ACE-Step",
-              "github_url": "https://github.com/billwuhao/ComfyUI_ACE-Step.git",
-              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
-            },
-            {
-              "id": "ComfyUI-FLOAT",
-              "name": "ComfyUI-FLOAT",
-              "description": "ComfyUI-FLOAT",
-              "github_url": "https://github.com/yuvraj108c/ComfyUI-FLOAT.git",
-              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
-            }
-          ],
-          "models": [],
-          "last_updated": "2025-07-05"
         }
       ]
     }

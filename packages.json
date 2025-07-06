@@ -331,6 +331,37 @@
           ],
           "models": [],
           "last_updated": "2025-07-06"
+        },
+        {
+          "id": "wangwu",
+          "name": "万物迁移",
+          "description": "万物迁移",
+          "version": "1.0",
+          "nodes": [
+            {
+              "id": "ComfyUI-TeaCache",
+              "name": "ComfyUI-TeaCache",
+              "description": "ComfyUI-TeaCache",
+              "github_url": "https://github.com/welltop-cn/ComfyUI-TeaCache.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            },
+            {
+              "id": "ComfyUI-Inpaint-CropAndStitch",
+              "name": "ComfyUI-Inpaint-CropAndStitch",
+              "description": "ComfyUI-Inpaint-CropAndStitch",
+              "github_url": "https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            },
+            {
+              "id": "ComfyUI_AdvancedRefluxControl",
+              "name": "ComfyUI_AdvancedRefluxControl",
+              "description": "ComfyUI_AdvancedRefluxControl",
+              "github_url": "https://github.com/kaibioinfo/ComfyUI_AdvancedRefluxControl.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            }
+          ],
+          "models": [],
+          "last_updated": "2025-07-06"
         }
       ]
     },

@@ -313,6 +313,20 @@
               "description": "was-node-suite-comfyui",
               "github_url": "https://github.com/ltdrdata/was-node-suite-comfyui.git",
               "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            },
+            {
+              "id": "ComfyUI_Custom_Nodes_AlekPet",
+              "name": "ComfyUI_Custom_Nodes_AlekPet",
+              "description": "ComfyUI_Custom_Nodes_AlekPet",
+              "github_url": "https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            },
+            {
+              "id": "ComfyUI-nunchaku",
+              "name": "ComfyUI-nunchaku",
+              "description": "ComfyUI-nunchaku",
+              "github_url": "https://github.com/mit-han-lab/ComfyUI-nunchaku.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
             }
           ],
           "models": [],

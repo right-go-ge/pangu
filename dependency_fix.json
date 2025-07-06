@@ -258,6 +258,14 @@
       "working_directory": "\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\custom_nodes\\comfyui-depthanythingv2",
       "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI/custom_nodes/comfyui-depthanythingv2 && source ../../comfyui/bin/activate && python -m pip install -r requirements.txt\"",
       "description": "comfyui-depthanythingv2"
+    },
+    {
+      "id": "ffmpeg",
+      "name": "ffmpeg",
+      "enabled": true,
+      "working_directory": "\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI && source comfyui/bin/activate && sudo apt install ffmpeg \"",
+      "description": "sudo apt install ffmpeg"
     }
   ],
   "settings": {

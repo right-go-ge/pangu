@@ -286,6 +286,37 @@
           ],
           "models": [],
           "last_updated": "2025-07-05"
+        },
+        {
+          "id": "quchu",
+          "name": "去除ai感",
+          "description": "去除ai感",
+          "version": "1.0",
+          "nodes": [
+            {
+              "id": "ComfyUI-Image-Filters",
+              "name": "ComfyUI-Image-Filters",
+              "description": "ComfyUI-Image-Filters",
+              "github_url": "https://github.com/spacepxl/ComfyUI-Image-Filters.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            },
+            {
+              "id": "ComfyUI-Long-CLIP",
+              "name": "ComfyUI-Long-CLIP",
+              "description": "ComfyUI-Long-CLIP",
+              "github_url": "https://github.com/SeaArtLab/ComfyUI-Long-CLIP.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            },
+            {
+              "id": "was-node-suite-comfyui",
+              "name": "was-node-suite-comfyui",
+              "description": "was-node-suite-comfyui",
+              "github_url": "https://github.com/ltdrdata/was-node-suite-comfyui.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            }
+          ],
+          "models": [],
+          "last_updated": "2025-07-06"
         }
       ]
     },

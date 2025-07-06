@@ -541,6 +541,30 @@
           ],
           "models": [],
           "last_updated": "2025-07-05"
+        },
+        {
+          "id": "kongxing",
+          "name": "对口型表情迁移",
+          "description": "对口型表情迁移",
+          "version": "1.0",
+          "nodes": [
+            {
+              "id": "Derfuu_ComfyUI_ModdedNodes",
+              "name": "Derfuu_ComfyUI_ModdedNodes",
+              "description": "Derfuu_ComfyUI_ModdedNodes",
+              "github_url": "https://github.com/Derfuu/Derfuu_ComfyUI_ModdedNodes.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            },
+            {
+              "id": "ComfyUI-LatentSyncWrapper",
+              "name": "ComfyUI-LatentSyncWrapper",
+              "description": "ComfyUI-LatentSyncWrapper",
+              "github_url": "https://github.com/ShmuelRonen/ComfyUI-LatentSyncWrapper.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            }
+          ],
+          "models": [],
+          "last_updated": "2025-07-06"
         }
       ]
     }

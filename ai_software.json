@@ -1,7 +1,7 @@
 [
   {
     "id": "tts-voice-clone",
-    "name": "TTS语音克隆1",
+    "name": "TTS语音克隆",
     "icon": "https://modelscope.cn/models/leisongde/ComfyUI/resolve/master/TTS.png",
     "folderName": "TTS",
     "port": 65030,

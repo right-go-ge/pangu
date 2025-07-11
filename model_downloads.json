@@ -1,7 +1,7 @@
 [
   {
     "url": "https://modelscope.cn/models/leisongde/comfyui_workflows/resolve/master/workflows/workflows.json",
-    "save_path": "json/workflows1.json"
+    "save_path": "json/workflows.json"
   },
   {
     "url": "https://modelscope.cn/models/leisongde/comfyui_workflows/resolve/master/workflows_app/app.py",

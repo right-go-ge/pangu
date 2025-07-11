@@ -8,19 +8,19 @@
     "save_path": "app.py"
   },
   {
-    "url": "https://raw.githubusercontent.com/right-go-ge/pangu/main/ai_software.json",
+    "url": "https://modelscope.cn/models/leisongde/pangu_data/resolve/master/ai_software.json",
     "save_path": "json/ai_software.json"
   },
   {
-    "url": "https://raw.githubusercontent.com/right-go-ge/pangu/main/gzl.json",
+    "url": "https://modelscope.cn/models/leisongde/pangu_data/resolve/master/gzl.json",
     "save_path": "json/gzl.json"
   },
   {
-    "url": "https://raw.githubusercontent.com/right-go-ge/pangu/main/ai_web.json",
+    "url": "https://modelscope.cn/models/leisongde/pangu_data/resolve/master/ai_web.json",
     "save_path": "json/ai_web.json"
   },
   {
-    "url": "https://raw.githubusercontent.com/right-go-ge/pangu/main/agents.json",
+    "url": "https://modelscope.cn/models/leisongde/pangu_data/resolve/master/agents.json",
     "save_path": "resources/data/agents.json"
   },
   {
@@ -40,15 +40,15 @@
     "save_path": "workflows/Facial_restoration.json"
   },
   {
-    "url": "https://raw.githubusercontent.com/right-go-ge/pangu/main/lora.json",
+    "url": "https://modelscope.cn/models/leisongde/pangu_data/resolve/master/lora.json",
     "save_path": "json/lora.json"
   },
   {
-    "url": "https://raw.githubusercontent.com/right-go-ge/pangu/main/comfyui_commands.json",
+    "url": "https://modelscope.cn/models/leisongde/pangu_data/resolve/master/comfyui_commands.json",
     "save_path": "json/comfyui_commands.json"
   },
   {
-    "url": "https://raw.githubusercontent.com/right-go-ge/pangu/main/dependency_fix.json",
+    "url": "https://modelscope.cn/models/leisongde/pangu_data/resolve/master/dependency_fix.json",
     "save_path": "json/dependency_fix.json"
   }
 ]

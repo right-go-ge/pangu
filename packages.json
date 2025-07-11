@@ -561,6 +561,13 @@
               "description": "ComfyUI-LatentSyncWrapper",
               "github_url": "https://github.com/ShmuelRonen/ComfyUI-LatentSyncWrapper.git",
               "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
+            },
+            {
+              "id": "cesgi",
+              "name": "测试",
+              "description": "测试",
+              "github_url": "https://github.com/right-go-ge/pangu.git",
+              "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"
             }
           ],
           "models": [],

@@ -564,7 +564,7 @@
             },
             {
               "id": "cesgi",
-              "name": "测试16",
+              "name": "测试17",
               "description": "测试",
               "github_url": "https://github.com/right-go-ge/pangu.git",
               "install_path": "\\\\wsl$\\\\ComfyUI-Ubuntu\\\\home\\\\ComfyUI\\\\custom_nodes"

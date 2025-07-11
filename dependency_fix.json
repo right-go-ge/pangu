@@ -5,7 +5,7 @@
   "commands": [
     {
       "id": "install_diffusers",
-      "name": "Install Diffusers",
+      "name": "Install Diffusers1",
       "enabled": true,
       "working_directory": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI",
       "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI && source comfyui/bin/activate && python -m pip install diffusers --user\"",

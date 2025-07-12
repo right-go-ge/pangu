@@ -266,6 +266,30 @@
       "working_directory": "\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI",
       "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI && source comfyui/bin/activate && sudo apt install ffmpeg \"",
       "description": "sudo apt install ffmpeg"
+    },
+    {
+      "id": "xformers",
+      "name": "xformers",
+      "enabled": true,
+      "working_directory": "\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI && source comfyui/bin/activate && pip install xformers\"",
+      "description": "pip install xformers"
+    },
+    {
+      "id": "apex",
+      "name": "apex",
+      "enabled": true,
+      "working_directory": "\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI && source comfyui/bin/activate && pip install apex \"",
+      "description": "pip install apex"
+    },
+    {
+      "id": "av --upgrade",
+      "name": "av --upgrade",
+      "enabled": true,
+      "working_directory": "\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI",
+      "command": "wsl -d ComfyUI-Ubuntu bash -c \"cd /home/ComfyUI && source comfyui/bin/activate && pip install av --upgrade \"",
+      "description": "av --upgrade"
     }
   ],
   "settings": {

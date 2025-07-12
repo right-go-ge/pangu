@@ -284,7 +284,7 @@
       "description": "pip install apex"
     },
     {
-      "id": "av --upgrade1",
+      "id": "av --upgrade",
       "name": "av --upgrade",
       "enabled": true,
       "working_directory": "\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI",

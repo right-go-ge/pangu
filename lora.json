@@ -1890,5 +1890,221 @@
     "description": "从ModelScope批量导入 - 穿越大唐 汉服美人（一丹一世界）",
     "saveLocation": "\\\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\18.safetensors",
     "createdAt": "2025-06-21T18:36:04.553Z"
+  },
+  {
+    "name": "御姐07",
+    "fullName": "yhz179186/yujie07",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/abb5579f-24d3-4c20-b0d0-37bcd571fa9d.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/yhz179186/yujie07/resolve/master/40.safetensors",
+    "pageUrl": "https://modelscope.cn/models/yhz179186/yujie07",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/abb5579f-24d3-4c20-b0d0-37bcd571fa9d.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
+    ],
+    "description": "从ModelScope批量导入 - 御姐07",
+    "saveLocation": "\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\御姐07.safetensors",
+    "createdAt": "2025-07-26T13:55:35.161Z"
+  },
+  {
+    "name": "御姐08",
+    "fullName": "yhz179186/yujie08",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/3bd52490-9cbb-4a06-88ea-1038b3398cfb.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/yhz179186/yujie08/resolve/master/25.safetensors",
+    "pageUrl": "https://modelscope.cn/models/yhz179186/yujie08",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/3bd52490-9cbb-4a06-88ea-1038b3398cfb.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
+    ],
+    "description": "从ModelScope批量导入 - 御姐08",
+    "saveLocation": "\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\御姐08.safetensors",
+    "createdAt": "2025-07-26T13:55:35.168Z"
+  },
+  {
+    "name": "御姐06",
+    "fullName": "yhz179186/yujie06",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/0f77f582-2d31-4b37-b130-cd6c641e4316.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/yhz179186/yujie06/resolve/master/40.safetensors",
+    "pageUrl": "https://modelscope.cn/models/yhz179186/yujie06",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/0f77f582-2d31-4b37-b130-cd6c641e4316.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
+    ],
+    "description": "从ModelScope批量导入 - 御姐06",
+    "saveLocation": "\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\御姐06.safetensors",
+    "createdAt": "2025-07-26T13:55:35.168Z"
+  },
+  {
+    "name": "御姐05",
+    "fullName": "yhz179186/yujie05",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/5817cc39-7a7b-4bf9-86ab-733266168401.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/yhz179186/yujie05/resolve/master/41.safetensors",
+    "pageUrl": "https://modelscope.cn/models/yhz179186/yujie05",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/5817cc39-7a7b-4bf9-86ab-733266168401.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
+    ],
+    "description": "从ModelScope批量导入 - 御姐05",
+    "saveLocation": "\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\御姐05.safetensors",
+    "createdAt": "2025-07-26T13:55:35.168Z"
+  },
+  {
+    "name": "御姐01",
+    "fullName": "yhz179186/yujie04",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/e89fd450-456a-4caa-8b31-a44c8c78a638.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/yhz179186/yujie04/resolve/master/30.safetensors",
+    "pageUrl": "https://modelscope.cn/models/yhz179186/yujie04",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/e89fd450-456a-4caa-8b31-a44c8c78a638.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
+    ],
+    "description": "从ModelScope批量导入 - 御姐01",
+    "saveLocation": "\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\御姐01.safetensors",
+    "createdAt": "2025-07-26T13:55:35.168Z"
+  },
+  {
+    "name": "御姐03",
+    "fullName": "yhz179186/yujie03",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/22c32398-4c6d-4b2a-8eef-5dbc5f0f99e4.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/yhz179186/yujie03/resolve/master/35.safetensors",
+    "pageUrl": "https://modelscope.cn/models/yhz179186/yujie03",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/22c32398-4c6d-4b2a-8eef-5dbc5f0f99e4.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
+    ],
+    "description": "从ModelScope批量导入 - 御姐03",
+    "saveLocation": "\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\御姐03.safetensors",
+    "createdAt": "2025-07-26T13:55:35.168Z"
+  },
+  {
+    "name": "御姐02",
+    "fullName": "yhz179186/yujie02",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/6a445099-e75c-4c22-80de-12292213eea9.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/yhz179186/yujie02/resolve/master/35.safetensors",
+    "pageUrl": "https://modelscope.cn/models/yhz179186/yujie02",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/6a445099-e75c-4c22-80de-12292213eea9.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
+    ],
+    "description": "从ModelScope批量导入 - 御姐02",
+    "saveLocation": "\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\御姐02.safetensors",
+    "createdAt": "2025-07-26T13:55:35.168Z"
+  },
+  {
+    "name": "御姐01",
+    "fullName": "yhz179186/yujie01",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/1ebad047-8e1c-48bb-927e-bd74a37584af.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/yhz179186/yujie01/resolve/master/18.safetensors",
+    "pageUrl": "https://modelscope.cn/models/yhz179186/yujie01",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/1ebad047-8e1c-48bb-927e-bd74a37584af.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
+    ],
+    "description": "从ModelScope批量导入 - 御姐01",
+    "saveLocation": "\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\御姐01.safetensors",
+    "createdAt": "2025-07-26T13:55:35.168Z"
+  },
+  {
+    "name": "朦胧感",
+    "fullName": "yhz179186/mohufeng",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/95b1b928-9695-44a1-b92e-c7c6ddfce3b5.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/yhz179186/mohufeng/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/yhz179186/mohufeng",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/95b1b928-9695-44a1-b92e-c7c6ddfce3b5.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
+    ],
+    "description": "从ModelScope批量导入 - 朦胧感",
+    "saveLocation": "\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\朦胧感.safetensors",
+    "createdAt": "2025-07-26T13:55:35.168Z"
+  },
+  {
+    "name": "敦煌飞天",
+    "fullName": "yhz179186/dunhuang",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/b173d3f5-6864-4866-b5aa-4777366c0ebf.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/yhz179186/dunhuang/resolve/master/15.safetensors",
+    "pageUrl": "https://modelscope.cn/models/yhz179186/dunhuang",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/b173d3f5-6864-4866-b5aa-4777366c0ebf.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
+    ],
+    "description": "从ModelScope批量导入 - 敦煌飞天",
+    "saveLocation": "\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\敦煌飞天.safetensors",
+    "createdAt": "2025-07-26T13:55:35.168Z"
+  },
+  {
+    "name": "女模特07",
+    "fullName": "yhz179186/nvnote",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/afbc8e40-6596-4550-97fe-adb515cb255e.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/yhz179186/nvnote/resolve/master/50.safetensors",
+    "pageUrl": "https://modelscope.cn/models/yhz179186/nvnote",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/afbc8e40-6596-4550-97fe-adb515cb255e.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
+    ],
+    "description": "从ModelScope批量导入 - 女模特07",
+    "saveLocation": "\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\女模特07.safetensors",
+    "createdAt": "2025-07-26T13:55:35.168Z"
+  },
+  {
+    "name": "二次元风格02",
+    "fullName": "yhz179186/erciyuan02",
+    "coverImage": "https://resouces.modelscope.cn/cover-images/c843d78c-f4a5-42ff-acd4-226aa9486738.png?x-oss-process=image/resize,w_1000/format,webp",
+    "downloadUrl": "https://modelscope.cn/models/yhz179186/erciyuan02/resolve/master/20.safetensors",
+    "pageUrl": "https://modelscope.cn/models/yhz179186/erciyuan02",
+    "categories": [
+      "FLUX",
+      "人物"
+    ],
+    "effectImages": [
+      "https://resouces.modelscope.cn/cover-images/c843d78c-f4a5-42ff-acd4-226aa9486738.png?x-oss-process=image/resize,w_1000/format,webp",
+      "https://img.alicdn.com/imgextra/i1/O1CN01yhHrHg1Pdl3UKPhGc_!!6000000001864-2-tps-88-88.png"
+    ],
+    "description": "从ModelScope批量导入 - 二次元风格02",
+    "saveLocation": "\\wsl$\\ComfyUI-Ubuntu\\home\\ComfyUI\\models\\loras\\二次元风格02.safetensors",
+    "createdAt": "2025-07-26T13:55:35.168Z"
   }
 ]
